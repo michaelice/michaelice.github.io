@@ -1,0 +1,18 @@
+sudo: required
+language: python
+services:
+  - docker
+branches:
+  only:
+    - master
+before_install:
+  - sudo docker build -t texlive docker
+install:
+  - pip install ghp-import
+script:
+  - make clean
+  - make build
+  - make github
+env:
+  global:
+    - secure: "WYuWrmr5YEME3yhqa1nSmEjFBCZF9grSYL2zQ3Ep6jqWWQQ/0aYzpkaHtiwlNmr17PrhHvkiWh4/bVpfBzoxIa6KRbNQCVtrvhzgrvJksY5PJdJmQ9q5F4UWa2WaMmTh7fw/u2IiFQQHYqx+rY7RdvFiCZIJTSj7hsKrTswQhuBaP/ErOZ2H3XE3F1Al646VsovCljTSfAl5rNK1IASNJoGm1jcTvSYj4j2F5negZ1CzjWk1dU9urIMX/ZudUBvWlbgNYb57JSog+NjT+1gc0I7E9mFHoR0SPA8RwboF9bUUXVP9gstSYFIksQC4uQO7c3hM2SQ8LW7UoRy7cxA1Wlr6npzGn1lY9qkGrHTf/OjCWvyhh155q7E4ZrWLkrP6TX440fOkEnRD+56AEb95ehSEzyTPPacWjvJiR+1aZ5oIhNwdY2Tq8uVp74iUlR21ImZXllByooZHP1sX11UOYG/6j0I9ev9AMurvD3ncO13CFyGK4SGQz/I9+h3LyZdAJDe8ut9LEk0Gd+UDlWse5VR1IL1LJiWp+dJMXc8RpmlUE4tJDPx2hXEE7diN5RL2msPHd+PRKWWYWgJ5gxuXM7y30z9Fq3EwNJE3ox0K5I7/3Gm0F5Fu8BVWRDha+uco9Sxj0yVJDAA6xy/B2aSogjHPC+8r4k9VRSp133Qp5xE="
