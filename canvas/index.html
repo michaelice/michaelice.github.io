@@ -28,7 +28,7 @@
 	PDFJS.getDocument('../youzhiqiang_cv.pdf').then(pdf=>{
 		var numPages = pdf.numPages;
 		var start = 1;
-		renderPageAsync(pdf, numPages, start);
+		renderPage(pdf, numPages, start);
 	});
 
   PDFJS.cMapUrl = '../cmaps/';

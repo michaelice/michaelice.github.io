@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Show PDF</title>
+	<title>尤志强的简历</title>
 	<meta charset="utf-8" />
 	<meta name="keywords" content="尤志强,数据挖掘,机器学习,复杂网络,社交网络,深度学习" />
 	<meta name="description" content="尤志强的简历" />
-	<script type="text/javascript" src='pdfobject.min.js'></script>
+	<!--<script type="text/javascript" src='pdfobject.min.js'></script>-->
 	<style type="text/css">
 		html,body,#pdf_viewer{
 			width: 100%;
@@ -21,8 +21,10 @@
 <script type="text/javascript">
 	if(PDFObject.supportsPDFs){
 		PDFObject.embed("youzhiqiang_cv.pdf", "#pdf_viewer" );
-	} else {
-		location.href = "/canvas";
+	} 
+	else {
+
+		location.href = "/normal";
 	}
 </script>
 </html>
