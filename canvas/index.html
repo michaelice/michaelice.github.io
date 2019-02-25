@@ -28,6 +28,9 @@
 		var start = 1;
 		renderPageAsync(pdf, numPages, start);
 	});
+
+  PDFJS.cMapUrl = '../cmaps/';
+  PDFJS.cMapPacked = true;
 	
 	function renderPage(pdf, numPages, current){
 		console.log("renderPage");
