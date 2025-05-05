@@ -1,591 +1,401 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
-  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<!DOCTYPE html>
+<html lang="zh-CN">
 <head>
-<meta name="generator" content="jemdoc, see http://jemdoc.jaboc.net/" />
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
-<meta name="keywords" content="尤志强, Zhi-Qiang You, youzhiqiang, 杭州, 上海, 智谱, 富数科技, 挖财, 贝贝, 腾讯, 滴滴, 有赞, CSDN-源泉的小广场, 源泉的小广场, youzhiqiang(大模型), youzhiqiang(隐私计算), 源泉, 源泉的小广场, yuanquan.tech, 计算机科学, 大模型, 自然语言处理, 隐私计算, 联邦学习, 复杂网络, 网络科学, 多方安全计算, 机器学习, 深度学习, 图计算, 数据分析" />
-<meta name="description" content="尤志强, Zhi-Qiang You, youzhiqiang是计算机科学领域的专家，研究经历包括大模型、自然语言处理、隐私计算、联邦学习、复杂网络、网络科学、多方安全计算、机器学习、深度学习、图计算和数据分析。" />
-<link rel="stylesheet" href="jemdoc.css" type="text/css" />
-<title>尤志强 (Zhi-Qiang You)</title>
-<style>
-        table {
-            width: 100%;
-            border-collapse: collapse;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>尤志强 (Zhi-Qiang You) 个人主页</title>
+    <link rel="stylesheet" href="jemdoc.css" type="text/css" />
+    <style>
+        body {
+            font-family: "Segoe UI", "Helvetica Neue", Arial, "Liberation Sans", "Nimbus Sans", "system-ui", sans-serif;
+            color: #222;
+            background: #fff;
+            font-size: 14px;
+            line-height: 1.6;
         }
-        table, th, td {
-            border: 1px solid black;
+        h1, h2, h3 {
+            font-family: inherit;
+            font-weight: 600;
+            color: #222;
         }
-        th, td {
-            padding: 10px;
-            text-align: left;
+        p, ul, li, div, section {
+            font-family: inherit;
+            font-size: 1em;
+            color: #222;
         }
-        th {
-            background-color: #f2f2f2;
+        .navbar {
+            position: fixed;
+            top: 0; left: 0; right: 0;
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            z-index: 1000;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 60px;
         }
-
-        .red-underline {
-            text-decoration: underline;
-            text-decoration-color: red;
+        .navbar ul {
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            gap: 32px;
         }
-
-        .dashed-border {
-            border: 2px dashed #000; /* 2px虚线边框，颜色为黑色 */
-            padding: 10px; /* 内边距 */
+        .navbar li {
+            display: inline-block;
         }
-</style>
+        .navbar a {
+            color: #222;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 1.1em;
+            padding: 8px 12px;
+            border-radius: 6px;
+            transition: background 0.2s, color 0.2s;
+        }
+        .navbar a:hover {
+            background: #f2f2f2;
+            color: #527bbd;
+        }
+        .banner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background: #fff;
+            padding: 20px 0 20px 0 !important;
+            margin-top: 40px !important;
+        }
+        .banner-photo {
+            flex: 0 0 140px;
+            margin-right: 20px !important;
+        }
+        .banner-photo img {
+            width: 140px;
+            height: 180px;
+            object-fit: cover;
+            border-radius: 16px;
+            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        .banner-info {
+            flex: 1;
+            font-size: 0.88em;
+        }
+        .banner-info h1 {
+            font-size: 2.2em;
+            margin: 0 0 8px 0;
+            color: #222;
+        }
+        .banner-info .subtitle,
+        .banner-info .meta,
+        .banner-info .tags span,
+        .banner-info .contact {
+            font-size: 0.88em;
+        }
+        .banner-info .subtitle {
+            font-size: 1.2em;
+            color: #527bbd;
+            margin-bottom: 6px;
+        }
+        .banner-info .meta {
+            font-size: 1em;
+            color: #666;
+            margin-bottom: 6px;
+        }
+        .banner-info .tags {
+            margin-bottom: 6px;
+        }
+        .banner-info .tags span {
+            display: inline-block;
+            background: #f2f6fa;
+            color: #527bbd;
+            border-radius: 4px;
+            padding: 2px 8px;
+            margin-right: 6px;
+            font-size: 0.95em;
+        }
+        .banner-info .contact {
+            margin-top: 6px;
+            font-size: 1em;
+        }
+        section {
+            margin-bottom: 1px !important;
+            padding-top: 1px !important;
+            padding-bottom: 1px !important;
+        }
+        h2 {
+            font-size: 1.2em;
+            margin: 12px 0 6px 0 !important;
+            padding-bottom: 2px;
+            border-bottom: 1px solid #eee;
+        }
+        h3 {
+            font-size: 1.05em;
+            margin: 8px 0 4px 0 !important;
+        }
+        p {
+            margin: 3px 0 3px 0 !important;
+        }
+        ul {
+            margin: 3px 0 3px 18px !important;
+            padding: 0;
+        }
+        ul li {
+            margin: 2px 0 2px 0 !important;
+            padding: 0;
+        }
+        @media (max-width: 700px) {
+            .banner {
+                flex-direction: column;
+                align-items: flex-start;
+                padding: 40px 10px 15px 10px !important;
+            }
+            .banner-photo {
+                margin-right: 0 !important;
+                margin-bottom: 12px !important;
+            }
+        }
+        .banner-tabs {
+            margin-top: 18px;
+        }
+        .tab-header {
+            display: flex;
+            gap: 8px;
+        }
+        .tab-btn {
+            padding: 4px 16px;
+            border: none;
+            background: #f2f2f2;
+            border-radius: 6px 6px 0 0;
+            font-weight: 500;
+            cursor: pointer;
+        }
+        .tab-btn.active {
+            background: #fff !important;
+            color: #527bbd;
+            border-bottom: 2px solid #527bbd;
+        }
+        .tab-content {
+            background: #f9f9f9;
+            padding: 12px 18px 10px 18px;
+            border-radius: 0 0 8px 8px;
+        }
+    </style>
 </head>
 <body>
-<div id="layout-content">
-<div id="toptitle">
-<h1>尤志强 (Zhi-Qiang You)</h1>
-</div>
-<table class="imgtable">
-<tr>
-<td align="left">
-<img src="picture/youzhiqiang-0.jpeg" alt="Zhi-Qiang You" style="width:110px;height:140px;float:left;margin-right:15px;" />
-<p>杭州市人工智能学会会员。现于大模型独角兽企业"智谱AI"从事大模型算法商业化工作。<br />
-<p>曾获2021年度上海市重点产业领域人才专项奖励。<br />
-<p>曾任上海富数科技有限公司算法负责人，挖财网络技术有限公司算法专家，杭州贝贝集团有限公司算法专家，腾讯算法研究员。<br />
-<p>从事方向主要为隐私计算与自然语言处理，并有分布式机器学习、搜索推荐、复杂网络与图计算等深厚算法背景。申请专利47项, 已授权算法领域发明专利25项。发表学术论文9篇，其中SCI4篇(JCR 1区、2区)、EI3篇、北大核心2篇。2015年获得中国优秀硕士学位论文(top10%)。<br />
-<p>参与设计并主导实现隐私计算行业首创的全匿踪系列算法，包括全匿踪联邦学习算法、全匿踪混淆求交营销算法、全匿踪集团并表统计技术。入选2022年信通院“星河”最高级别十大标杆案例及中国信通院隐私计算白皮书。23年全匿踪算法在金融场景应用项目获得首届数商大赛金融数据创新应用赛道的全国一等奖。2023年国泰君安联合富数科技完成的课题《基于全匿踪联邦学习的财富管理客群挖掘研究》荣获评证券期货业金融科技研究发展中心（深圳）优秀课题二等奖。全匿踪联邦学习体系于2024年获密码科学技术奖励提名(市唯二)。所主导实施的多方安全计算算子库平台，在2021年与腾讯、蚂蚁一同成为当年首批通过中国信通院多方安全计算性能评测的厂商， 与微众、蚂蚁成为第一批通过多方安全计算金融应用技术测评(BCTC)的业内厂商。2021年面向深度学习的安全生物特征识别服务，实现最快的多方安全生物识别算法，性能竞标第一，并于2022年在中国银联成功应用。以此实现的信创竞赛项目《基于海光平台硬件加速的隐私计算人脸识别应用技术》获得2023年第二届光合组织AI解决方案大赛奖项。2018年主责技术的项目《基于深度学习及知识图谱的智能政务咨询服务平台》入库杭州市重大科技创新项目。<br />
-<p>先后获得信息管理系学士学位、计算机应用技术硕士学位，研究方向为复杂网络及机器学习。师从电子科技大学尚明生教授(现中科院博士生导师)，指导老师包括韩筱璞教授(现杭师大阿里巴巴商学院智能商务与技术系副系主任)、张子柯教授(现浙江大学博士生导师)、吕琳媛教授(现中科大博士生导师)。<br />
-</td>
-</tr>
-</table>
-
-<h2>Introduction</h2>
-<p>
-My name is Zhi-Qiang You, the Algorithm Lead at Fudata, where I specialize in the intricate worlds of machine learning, deep learning, and privacy-preserving computation. My passion lies in developing sophisticated algorithms that not only push the boundaries of artificial intelligence but also ensure the utmost in data security and privacy.</p>
-<p>With a solid foundation in computer science and a keen interest in data-driven technologies, I've spent years refining my craft, from crafting neural networks that can learn and adapt to new challenges, to implementing advanced privacy-preserving techniques that safeguard user data.</p>
-<p>As the Algorithm Lead, I oversee the creation and deployment of cutting-edge algorithms that power our AI systems. My role is a blend of technical expertise and strategic vision, ensuring that our algorithms are not only state-of-the-art but also aligned with the latest ethical standards and privacy regulations.</p>
-<p>I thrive on the challenge of turning theoretical concepts into practical, real-world solutions that can transform industries and improve lives. Whether it's mentoring a team of talented engineers, collaborating with cross-functional teams to integrate AI solutions, or staying ahead of the curve with the latest research, I'm dedicated to driving innovation and excellence in the field of AI.</p>
-<p>Joining Fudata has been an exhilarating journey, and I'm excited to contribute to our mission of harnessing the power of AI for good, while upholding the highest standards of privacy and security.  
-</p>
-
-<!--
-<h2>职业经历</h2>
-<table>
-    <tr>
-        <th width="50">起止时间</th>
-        <th width="160">公司及说明</th>
-        <th width="120">业务领域</th>
-        <th width="260">部门职位</th>
-    </tr>
-    <tr>
-        <td>2024.11-至今</td>
-        <td>智谱AI</br>(大模型独角兽)</td>
-        <td>大模型llm</td>
-        <td>大模型算法商业化</td>
-    </tr>
-    <tr>
-        <td>2020.9-2024.11</td>
-        <td>富数科技</br>(中国top3隐私计算团队)</br>(隐私安全计算独角兽)</td>
-        <td>隐私计算</td>
-        <td>产研中心算法部</br>算法负责人</br>领导团队研发多方安全计算、联邦学习等算法引擎，攻坚隐私保护大模型。</td>
-    </tr>
-    <tr>
-        <td>2020.3-2020.9</td>
-        <td>贝贝</br>(电商独角兽)</br>(曾与拼多多等平台合称为电商四小龙)</td>
-        <td>移动电商</td>
-        <td>研发中心大数据搜索推荐团队</br>算法专家</br>负责移动电商平台用户增长算法业务。</td>
-    </tr>
-    <tr>
-        <td>2015.6 - 2020.3</td>
-        <td>挖财</br>(互金独角兽)</br>(中国最早的个人记账理财平台)</td>
-        <td>互联网金融</td>
-        <td>数据智能部&集团风控部</br>算法专家</br>负责自然语言处理、对话系统、风控算法等业务。</td>
-    </tr>
-    <tr>
-        <td>2015.2-2015.6</td>
-        <td>腾讯</br>(上市公司)</br>(中国最大社交网络平台)</td>
-        <td>社交网络</td>
-        <td>社交网络事业部数据中心知识发现组</br>（intern）算法研究员</br>参与基于社交网络的推荐算法研究。</td>
-    </tr>
-    <tr>
-        <td>2012.2-2012.8</td>
-        <td>信雅达</br>(上市公司)</br>(首家浙江省上市高科技软件企业)</td>
-        <td>金融软件</td>
-        <td>研发中心</br>（intern）研发工程师</br>金融科技上市公司，参与金融科技终端设备研发创新工作。</td>
-    </tr>
-    <tr>
-        注：此外曾获滴滴出行、中国有赞、京东等企业算法岗offer。
-    </tr>
-</table>
-
-
-<h2>工作经历</h2>
-<ul>
-<li><p><b style="color: red;">富数科技-产研中心</b><p>算法专家TL<br />
-<p>2020-至今, 算法部：领导8名算法同学</p>
-<p>(1)设计并实施行业首创的全匿踪联邦学习算法方案，旨在解决行业合规痛点，并通过全流程保护隐私数据集合求交的交集和非交集，引领行业技术发展。</p>
-<p class="dashed-border"><b style="color: red;">详述:</b>全匿踪安全求交是数据安全的重要组成部分，解决多方数据求交集的任务，在风控黑名单、广告投放、用户属性查询等领域得到广泛应用。该方案的成功实施支撑中信证券成为2022年信通院最高级别“星河”标杆案例中首个全匿踪隐私计算案例的入选项目。我们不断优化方案，推出了基于MPC的高带宽算法版本以及基于Opprf的低带宽算法版本，以满足不同算法运行环境的需求，并提供最优解决方案。基于全匿踪隐私求交技术，我们进一步推出了全新的全匿踪混淆求交营销方案，解决了银行在使用安全求交技术时存在的安全合规问题。该方案在真实业务场景中展现出可观的营销效果，为行业提供了可靠的解决方案。</p>
-<p>(2)带领团队研发落地基于tensorflow2.x版本的多方安全计算系统，该系统功能可以类比为具有数据安全保护能力的python标准库。</p>
-<p class="dashed-border"><b style="color: red;">详述:</b>算法遵循秘密共享机制，引入行业创新的明密文混合计算框架和异步化的弱网计算稳定性方案，实现两方、三方、多方的150+规模的MPC协议算子，可支持亿级数据的高效计算，在加法、乘法、比较、逻辑运算、中位数、最大最小值、百分位数等基础算子及统计算子性能上位于业内第一梯队。进一步地，将MPC应用于纵向联邦学习、全匿踪联邦学习、深度学习生物识别、混淆求交营销算法、风控决策引擎等场景，为公司在中信证券、中银金科、中移金科、国网电力等ToB领域的交付实施提供有力的技术支撑。研发的MPC系统，在2021年，与腾讯、蚂蚁一同成为当年首批通过信通院多方安全计算性能评测的厂商， 与微众、蚂蚁成为第一批通过多方安全计算金融应用技术测评(BCTC)的业内厂商。</p>
-<p>(3)推动完善和提升纵向联邦学习平台，该平台可以理解为具备数据安全保护能力的sklearn机器学习算法库，支持类似阿里pai的低代码拖拽式的联邦学习平台。
-功能覆盖主流算法，包括特征预处理、特征衍生、二分类、多分类和回归等。</p>
-<p class="dashed-border"><b style="color: red;">详述:</b>特征预处理算法包括缺失值、异常值、特征转换、采样、标准化和归一化等联邦分布式技术。特征衍生部分涵盖了OneHot编码、Label Encoding、Target Encoding、IV&WOE以及特征筛选等分布式安全计算方法。特征分析方面实现了Pearson相关系数、Spearman系数和VIF方差膨胀系数等联邦学习指标。学习算法方面涵盖了逻辑回归(BGD/Nesterov/Adam/Nadam)、决策树、LightGBM、XGBoost（二分类、多分类、回归）、随机森林、线性回归、softmax多分类(lbfgs)、KMeans和DNN等算法。针对分类任务评估指标包括模型稳定性PSI、特征影响显著性P-value、AUC、KS值、lift曲线、F1-score、Precision、Accuracy和Recall。多分类任务评估指标包括Micro-F1、Macro-F1和Weighted-F1。回归任务评估指标包括MSE、RMSE、MAE、R-squared和SSE。支持批量预测和API预测功能。算法可面向两方、三方（包括无数据发起方场景）和多方场景。建立相对完备的大规模数据分批预测、API预测等serving服务。进一步地，我们针对联合营销场景，推出基于集成树模型的人群包和匿踪评估营销算法能力。针对联邦算法的性能提升方面，针对高带宽和低带宽场景分别做了优化，采用了基于MPC和同态加密算法的纵向联邦算法，提出并落地全新的明密文混合的最小化MPC创新技术方案，引入量化压缩方案和低带宽友好的OU加密算法，联邦学习二分类、多分类、回归等算法性能在业内处于第一梯队。算法底层基于MPC（秘密共享）、半同态（Paillier、ZPaillier、OU）和全同态（CKKS）加密算法，以及密文打包和密文量化技术。针对联邦算法服务能力及稳定性方面，具备基于Ray的分布式计算能力，同时针对生产环境的弱网和机器性能，推动开发了断点续算、低配置适配等能力。对于提升模型效果，引入基于k-fold交叉验证的联邦模型权重初始值预训练方案加速模型学习指标提升。</p>
-<p>(4)带领团队在隐私集合求交算法面向生产环境下低带宽亿级甚至百亿级安全求交需求满足。</p>
-<p class="dashed-border"><b style="color: red;">详述:</b>率先在业内引入基于vole&okvs版本的安全求交算法，通信量级降低到187n bit规模，是目前开源领域最快的版本。统计安全参数40的条件下，相对于已有的cm20版本求交算法，性能最大提升3倍，整体能力处于业内的前列。同时引入一种基于BufferingSocket的协程通信模式，算法底层只是发送/接收数据到缓冲区, 不用处理网络层的任何事情，封装的python接口只需要提供从缓冲区获取数据, 以及写数据到缓冲区的方法，所有的网络传输的事情都是由python框架层实现，通过额外的接口 getOutbound 获取一轮通信的全部信息，通过该模式，较好地与现有框架实现共存，快速实现算法的落地应用。进一步地，针对10w/100w/1000w与百亿数据的求交，提出基于Hbase方案，整体性能提升100% ～ 500%。 百万对百亿批量匿踪查询，提出去除OT的方案，算法性能提升600%+。</p>
-<p>(5)参与相关研究课题申请及交付工作</p>
-<p class="dashed-border">详述: 参与上海密码局课题奖项申报、上海科委2024年区块链技术攻关专项项目课题申请及现场答辩工作、中国移动IT公司课题申请、广东科技厅多方安全计算开源项目交付、银联基于多方安全计算的生物识别课题申请及交付。</p>
-</li>
-<li><p><b style="color: red;">贝贝集团-数据平台推荐算法组</b><p>算法专家<br />
-<p>2020-2020, 研发中心大数据团队: 虚线带1名算法同事</p>
-<p>负责社群电商独角兽贝店业务：基于DAU用户增长的个性化Push2.0系统。</p>
-<p>结果：优化后相对于1.0阶段，DAU均值提升约 290%，引导gmv提升140%，个推引导DAU占全站5.33%。</p>
-<p>a. 负责面向用户生命周期个性化 push2.0 技术方案设计，涵盖推送文案、内容、时间、敏感度等个性化。</p>
-<p>b. 推动完成项目离线个性化推送&基于IFTTT概念的实时推送系统开发及上线应用。</p>
-<p class="dashed-border"><b style="color: red;">详述:</b>产品化思维&全链路漏斗分析&线上服务指标监控。开发Multi-armed bandits(Exp3/ε-greedy/topk
-softmax/UCB 等)个性化文案优选算法（<a href="https://blog.csdn.net/weixin_65514978/article/details/142455928">《基于Multi-Armed Bandits的个性化push文案自动优选算法实践》</a>）、基于Bert的文本相似性度量智能文案元生成。上线基于用户行为
-Retarget、u2i2i、Embedding元推荐、Wide&Deep Learning个性化选品模块。探索DNN个性化时
-间模型及频控等个性化策略对uv提升影响。针对用户反馈数据及服务监控指标，及时提出改进方案。</p>
-</li>
-<li><p><b style="color: red;">挖财-数据智能部</b><p>算法专家<br />
-<p>2015-2020, 数据智能部&集团风控部:带4名实习生</p>
-
-<p><b>(1) 自然语言处理算法业务：针对社保事业部、记账事业部、社区事业部等部门提供算法支持</b></p>
-
-<p>a.建立政务知识库及问答系统。结果：建立知识萃取链路，解决政务知识低质量。开发自有对话机器人，自助解决率 90%+，用户满意率超过人
-工，缓解客服人力&提升用户满意度。问答系统在社保掌上通、闪电公积金、掌上社小保等多产品上线。实现社保知识库体系化，提升完备度及城市覆盖度。主导设计完整的爬虫知识萃取链路，提出基于社保地图
-的知识完善思路，从源数据到问答对入库。 开发语义相似度匹配的重复问题过滤算法及Q2Q相似问法扩展。完成 IR-based 多轮对话机器人架构设计开发(工程策略&知识图谱&匹配算法召回排序多条解决路径)，
-使用 QP-召回-排序框架思路，其中工程策略包含 ES，AIML 等功能。基于 fasttext 混合意图识别算法；基于 slot-filling&知识图谱意图完整性检测算法；推动设计构建 neo4j 知识图谱；开发“融合句法结构模
-式识别的注意力定位机制短文本问题匹配算法”；上线短文本语义匹配的召回排序API。横向扩展，丰富应用场景以及纵向迭代预研。对话系统推广到公积金场景，处理冷启动适配工作。开发
-CNN 表征学习聚类算法的热门问题识别功能，支持调整首页&针对性完善知识。迭代基于 Bert&向量召回解决方案。该项目《基于深度学习及知识图谱的智能政务咨询服务平台》入库2018年杭州市重大科技创新项目。</p>
-<p class="dashed-border"><b style="color: red;">总结</b>:从0到1为社保公积金事业部搭建政务问题咨询平台，缓解客服人力不足。设计开发基于知识图谱的多轮对话机器人、基于句法结构的意图识别算法及基于注意力机制的短文本问题匹配算法，开发出基于CNN+Kmeans聚类算法支持热点问题功能。系统上线后, 算法自助解决率90%+，用户满意率46%+,超过人工30%的满意度，在政务问题咨询环节，完全替代人工。目前已在掌上社小保、闪电公积金、便民通等产品上线使用。</p>
-
-<p>b. 智能记账，实现用户语音快速记账，缩短记一笔耗时。挖财记账app和微记账app上线使用
-主导设计解决方案，涉及类目体系化、分类&金额提取自动化、用户反馈利用。开发上线基于Gated
-TextCNN 的账目文本多分类算法，分类准确率可达95%+; 基于NER的金额提取算法; 基于boosted bagging filter
-的用户主动标注数据利用算法，采用的多层标注数据萃取系统可以有效对抗噪音，提取到用户标注的有效数据，自动定期更新分类模型，在噪音率为10%，模型识别准确度为98%，在噪音率为80%，模型的准确率也可达86%，在钱管家app上线使用。</p>
-<p class="dashed-border"><b style="color: red;">详述</b>: 为记账事业部设计开发全新的基于TextCNN的账目类别分类算法及基于CRF及rule-based混合命名实体识别算法，与研发一起落地上线。实现用户语音输入记账文本，自动提取出时间、金额、机构，并自动分类，明显提升了用户记账的效率，从初始繁冗的记账链路简化到只需要一步记账，用户的记账体验得到很大的提升。目前已在挖财记账app和微记账app上线使用。</p>
-<p>c. 记账端流量变现，提升理财、贷款、办卡、保险4类变现渠道的转化效率，模型排序top30%用户对
-目标用户召回率为 70%-87%，转化率相比运营选择人群包提升近5倍。整合 BI、数仓、研发，推进多数据源的特征开发，模型选型实验(FM,GBDT&LR,XGBOOST), 多轮A/B线
-上测试，完成最优效果模型上线使用。迭代Wide&Deep，DeepFM 等CTR模型。</p>
-<p class="dashed-border"><b style="color: red;">详述</b>: 为记账事业部搭建用户商转意愿度预估模型系统。作为项目负责人，推动数仓、BI、算法、研发、运营协作，完成从数据获取清洗、特征构建、模型设计开发、测试上线一整套流程。从个人资料、手机设备信息、记账消费类数据、出行活动、资产负债、银行卡流水、理财行为构建187个特征，模型可以预测用户在理财、贷款、办卡、保险4类变现商转渠道上的点击/转化概率。为运营同学精准性营销，以及在有限的banner等广告位展现提供数据支持。该项目主要使用xgboost模型。</p>
-<p>d. 为加强金融社区的资讯内容高效分发，提升用户活跃度以及用户留存，从0到1，带领团队开发面向社区的资讯推荐系统。通过资讯个性化推送，唤醒用户，相比运营精选帖子推送，在线打开率提升约25%。</p>
-<p class="dashed-border"><b style="color: red;">详述</b>:设计推荐算法整体框架(包括数据维度、存储结构、模型组件、应用层(召回排序)、策略)。引入基于用户类目偏好、协同过滤、操作行为、相似扩展等召回手段（涉及 ALS矩阵分解协同过滤算法、FP-Growth关联推荐算法、基于用户记账行为相似度的lookalike算法、基于doc2vec以及word2vec的帖子相似度推荐
-、基于tag的推荐等技术），结合
-文章质量分、时间衰减及业务规则过滤，通过GBDT/BPR等模型排序得到最终推送资讯。</p>
-<p><b>(2) 金融风控算法业务：针对信贷风控、清结算、理财等部门提供算法支持</b></p>
-<p>a. 贷前拒绝推断(内部代号：朱日和红蓝军项目)&风险识别&贷后催收。结果：扩大信贷业务放贷量，提出并落地半监督算法, 捞回率可观，超过预定捞回率目标约83%。主导半监督算法的实施，设计开发融合 label spreading、variational auto-encoder、outlier detection的半监督算法。结合业务实际思考，提出新的模型评估指标及训练目标，有效降低入催率。提升放贷资产质量，优化用户信用风险排序模型，放款用户坏账率得到改善，多期逾期率增速降低。设计开发“面向topK优化的adaptive风险评估模型”，排序靠前用户的坏账率降低。分析还款行为类型的多期转移概率，发现贷后用户在主动还款意识上的差异。实施“融合还款意愿识别的 stacking 模型”，放款用户主动还款比例明显提升。贷后催收, 基于贷后用户还款意愿度分层，制定不同催收策略，提升回款率,提出并完成还款序列模式与逾期行为的关系，挖掘有效行为模式。探索开发“结合还款序列信息的逾
-期风险识别模型”, 对贷后用户进行分层。</p>
-<p class="dashed-border"><b style="color: red;">详述</b>: 区别于以风控策略为主的红军，作为蓝军,团队在40天内完成搭建上线独立的全流程以模型为主的信贷审批系统,从当前审批模型拒绝的用户中捞回更多好用户,捞回率30-50%, 首逾dpd10+低于break even的坏账红线,并优于红军。前期数据特征来自基础信息、身份证相关信息、通讯录/运营商、中互金、设备指纹、关系网络、催收相关、电商数据等三方数据等。后续去除通讯录等敏感信息。特征筛选主要基于iv,psi,缺失度,模型特征重要性。算法采用半监督学习算法框架(监督算法融入无监督学习的信息，如vae+gbdt&lr, label spreading+xgboost, outlier detection+lightgbm)，以及adaptive xgboost。同时基于场景分析，先后采用dpd10+，dpd3+，基于还款意愿度的用户多分类分层等不同的训练目标。另外，尝试了DNN、Mixed Lr等。模型ks最高可达0.4+，同时首贷dpd10+优于红军。基于红蓝军对抗的结果及多变的环境，生产场景上线蓝军的模型为主&简单反欺诈策略过滤兜底的方法论，取代了红军复杂且不易迭代扩展的策略为主的方法论。 </p>
-<p>b. 社交亲密度识别:以应对风险为目的，主导开发基于通话行为的亲密号码识别算法。从不同视角，深入
-挖掘通话行为模式，提取有效特征，落地多层次分类器，有效识别亲密号码。业务部门多场景上线应用。</p>
-<p class="dashed-border"><b style="color: red;">详述</b>: 为风控部门及子公司开发基于通话记录的亲密号码识别算法，从不同时间粒度的通话回复模式、主被动行为、周末/工作日模式、工作时间/私人时间、通话爆发性、周期性及沉默时长等方面设计了40个特征，并设计了层次分类器，第一层分类器首先区分是否为重要号码，第二层分类器则对重要号码再次进行细分，区分是否为直系亲属号码，最后结合重要性与直系亲属的概率，进行融合得到最终的预测分值。亲密朋友与直系亲属在行为上比较相近，测试结果表明模型可以判断出亲人密友的号码，而远房亲戚与一般陌生人的通话行为类似。目前该算法在风控部门及子公司上线使用。</p>
-<p>c. 设备指纹:推动建立集团自有的设备指纹体系，以应对渠道刷单、多头借贷、精准营销、支付安全等多
-需求。从无到有进行摸索，制定信息采集方案，推动完成 Android、iOS必要设备信息落库。并设计开发
-设备指纹匹配系统，包含精准匹配、模糊匹配、级联贝叶斯匹配算法，具备较高的设备识别唯一性和稳定
-性。相关成果在风控反欺诈、信用评估、竞品分析、关系网络等场景得到应用。</p>
-<p class="dashed-border"><b style="color: red;">详述:</b>推动构建集团自有的设备指纹体系，以应对渠道刷单、多头借贷、精准营销、支付安全等多需求。从无到有进行摸索，提出针对安卓、iOS设备所需要采集的信息字段，包括设备型号、applist、bssid等65个字段，并基于采集到的设备信息，设计开发设备指纹匹配系统，包含精准匹配、模糊匹配、级联分类匹配算法，在设备指纹识别场景可以达到较高的唯一性(99.92%)和稳定性(97.96%)，作为imei、idfa、idfv之外新的用户设备id数据。目前设备指纹数据在产品推荐、风控反欺诈、信用评估、市场投放、竞品分析、用户追踪识别、关系网络等都得到了应用。</p>
-<p>d. 资金流出预测:应清结算部门评估头寸需要，有效预测每日资金流出(用户提现)，设计开发基于主因及波
-动因子的层次残差拟合算法来预测每日用户提现额。真实数据显示该算法预测值相比于之前用的移动平均
-模型，误差平均缩小58.4%，在超过亿元的真实提现额规模预测上，误差稳定在3%以内。</p>
-<p class="dashed-border"><b style="color: red;">详述:</b>早期为清结算部门开发模型预测每日资金流出(用户提现)。设计开发基于主因及波动因子的多维层次拟合算法来预测每日用户提现额。主因子为用户的到期金额以及账上余额，波动因子为到期人数、是否有营销活动、是否为节假日、股市行情等。先基于到期金额与账户余额线性回归初步预测值，计算真实值与初步预测值之间的差值，再利用波动因子作为对残差进行拟合，最后将初步预测值与残差预测值进行叠加，作为最终的预测结果。真实数据结果显示我们提出的算法预测值相比于清结算之前用的移动平均模型，误差平均缩小58.4%， 在超过亿元的真实提现额的预测上，模型的预测误差稳定在3%以内。</p>
-<p>e. 基于 LBS 的高净值用户挖掘：为理财运营团队挖掘集团内高净值客群。基于记账GPS经纬度轨迹数据，
-结合 POI 信息，设计开发用户家庭&工作地址识别算法，并采集家庭所在小区房价、地段、工作地办公性
-质等价值评估信息，来推测用户是否是潜在高收入人群，为理财团队持续提供价值人群进行营销。</p>
-<p class="dashed-border"><b style="color: red;">详述:</b>为理财运营团队挖掘记账端高净值用户。基于记账数据的挖掘，对用户资产及用户投资风险偏好进行画像。该项目主要利用两类GPS经纬度数据及记账文本数据。首先通过用户记账产生的经纬度数据，设计用户家庭、工作地址的识别算法，并采集家庭所在小区的房价、地段等价值评估信息以及工作地的办公性质，来推测用户是否是潜在高收入人群。验证阶段，收集公司内部同事的信息以及采集部分绑定白金信用卡的记账用户信息来验证模型有效性。该模型从“不同时间背景下地址对用户的重要性指数”、“用户自身的轨迹稳定性”、 “地址对转移概率及距离交叉验证”等多角度进行刻画。用户投资风险偏好使用1-10分进行刻画。首先从记账数据挖掘与投资负债相关的渠道，如p2p、重金属、股票基金、期货、理财、房贷等近70种，分别标记风险值。利用投资记账笔数、金额成本、投资行为置信度、偏好权重系数与金额、笔数之间的关系修正，设计风险指数。对于多类目投资用户，使用加权平均指数刻画，而对于单投资类目用户，采用相对于均值的有偏差值来刻画。该投资风险指数的验证，通过在记账app的问卷调查获得用户的真实投资偏好与基于这批用户的记账数据计算得到的风险指数，总体层面呈现出一致的正偏态分布，个体层面分值偏差<=2的比例占比90% 。挖掘出的高投资风险偏好的高净值人群提供给理财高净值用户进行电销。</p>
-</li>
-<li><p><b style="color: red;">腾讯-社交网络事业部</b><p>访问学生研究员<br />
-<p>2015.2-2015.5， 数据中心知识发现组</p>
-<p>(1)腾讯应用宝：基于社交网络的推荐算法研究</p>
-<p class="dashed-border"><b style="color: red;">详述:</b>提出一种基于三部图网络结构(物质扩散/热传导)的面向社交关注关系的APP推荐算法，即给定目标用户，通过算法确定展示合适的亲密好友下载的潜在兴趣的APP的提示信息，能够明显提升点击率。该算法在腾讯内部数据已验证有效性，提供给内部开发团队实现。另外，2017-2018年，微信朋友圈上线了类似的功能，在展现的广告下方展示你的好友点赞状态，能够提升关注和转化，也间接验证了社交信息对于点击率提升的增强效果。</p>
-</li>
-<li><p><b style="color: red;">阿里巴巴复杂科学研究中心</b><p>研究助理<br />
-<p>2012.9-2015.6， 复杂网络与机器学习</p>         
-<p class="dashed-border"><b style="color: red;">详述:</b>【文本增强链路预测】为提升潜在兴趣用户推荐的关注率，提出创新性的思想:Neighbors tell more。利用微博及推特网络结构和文本数据，设计一种结合文本内容数据和社交网络信息的链路预测方法，提高用户关注关系预测的准确性。用户兴趣相似性和网络结构对关注边的形成有重要影响。新算法通过预训练模型文本向量化技术最大化兴趣相似性，结合网络桥接节点作用，显著优于传统链路预测算法，实验结果在AUC、precision、recall等指标上均表现出色，验证了算法的有效性。</p>
-</li>
-</ul>
--->
-
-<h2>已授权发明专利</h2>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/全匿踪混淆求交数据的共享方法.pdf">全匿踪混淆求交数据的共享方法、系统、设备及介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 赵东, 陈立峰<br />
-国家发明专利, CN118590236B, 公告日2024.11.01</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/一种随机分组的方法及装置、计算机程序产品、电子设备.pdf">一种随机分组的方法及装置、计算机程序产品、电子设备</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳, 涂志鹏, 张伟奇<br />
-国家发明专利, CN116319084B, 公告日2023.09.29</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/使用联邦学习模型进行人群包统计的方法及装置.pdf">使用联邦学习模型进行人群包统计的方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 王兆凯<br />
-国家发明专利, CN116521952B, 公告日2023.09.05</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/多方安全计算方法、装置、系统、电子设备和存储介质.pdf">多方安全计算方法、装置、系统、电子设备和存储介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳, 赵东<br />
-国家发明专利, CN116055049B, 公告日2023.07.04</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/多方安全的数据重排方法、装置、电子设备及存储介质.pdf">多方安全的数据重排方法、装置、电子设备及存储介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b><br />
-国家发明专利, CN115982785B, 公告日2023.06.30</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/短文本问题语义匹配方法和系统.pdf">短文本问题语义匹配方法和系统</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 潘琪<br />
-国家发明专利, CN109597994B, 公告日2023.06.06</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/一种信息推荐方法及装置.pdf">一种信息推荐方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳, 王兆凯<br />
-国家发明专利, CN115795174B, 公告日2022.04.25</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/全密态数据处理方法、装置、设备、介质.pdf">全密态数据处理方法、装置、设备、介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳, 赵东 <br />
-国家发明专利, CN115587382B, 公告日2023.04.11</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/隐私计算进程的安全监控方法、装置、设备、介质.pdf">隐私计算进程的安全监控方法、装置、设备、介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳 <br />
-国家发明专利, CN115664839B, 公告日2023.04.11</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/基于异构联邦学习的预测方法、模型生成方法及装置.pdf">基于异构联邦学习的预测方法、模型生成方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳 <br />
-国家发明专利, CN114611712B, 公告日2022.08.26</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/一种数据中位数确定方法及装置.pdf">一种数据中位数确定方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳, 赵东, 朱崇炳<br />
-国家发明专利, CN114595479B, 公告日2022.08.26</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/多方安全计算方法、电子设备及可读存储介质.pdf">多方安全计算方法、电子设备及可读存储介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 赵东, 陈立峰, 卞阳 <br />
-国家发明专利, CN114615282B, 公告日2022.08.23</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/一种纵向联邦学习模型的训练方法及系统.pdf">一种纵向联邦学习模型的训练方法及系统</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳<br />
-国家发明专利, CN114330759B, 公告日2022.08.02</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/信贷申请的逾期风险预测方法及装置.pdf">信贷申请的逾期风险预测方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 车曦, 潘琪<br />
-国家发明专利, CN108389125B, 公告日2022.06.07</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/用户关系的识别方法、对象关系的识别方法及装置.pdf">用户关系的识别方法、对象关系的识别方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 潘琪, 车曦<br />
-国家发明专利, CN107392781B, 公告日2021.11.02</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/短文本分类方法及装置.pdf">短文本分类方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 车曦, 潘琪<br />
-国家发明专利, CN107301225B, 公告日2021.01.26</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/联邦学习代码生成方法、装置、电子设备及存储介质.pdf">联邦学习代码生成方法、装置、电子设备及存储介质</a><br />
-卞阳, <b style="background-color:rgb(255,255,0)">尤志强</b>, 赵东, 朱崇炳<br />
-国家发明专利, CN114282257B, 公告日2022.07.15</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/一种智能语义处理方法.pdf">一种智能语义处理方法</a><br />
-康洪雨, <b style="background-color:rgb(255,255,0)">尤志强</b>, 车曦, 潘琪<br />
-国家发明专利, CN109062895B, 公告日2022.06.24</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/基于移动端日志行为数据的用户流失预测方法及装置.pdf">基于移动端日志行为数据的用户流失预测方法及装置</a><br />
-车曦, <b style="background-color:rgb(255,255,0)">尤志强</b>, 潘琪<br />
-国家发明专利, CN109034861B, 公告日2022.06.07</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/用于评估联邦学习模型的方法及装置.pdf">用于评估联邦学习模型的方法及装置</a><br />
-王兆凯, 卞阳, <b style="background-color:rgb(255,255,0)">尤志强</b><br />
-国家发明专利, CN116541870B, 公告日2023.09.05</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/一种计算引擎与平台解耦的方法及系统.pdf">一种计算引擎与平台解耦的方法及系统</a><br />
-朱崇炳,赵东,<b style="background-color:rgb(255,255,0)">尤志强</b><br />
-国家发明专利, CN114444136B, 公告日2024.08.30</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/一种数据匿名化方法、装置、电子设备及存储介质.pdf">一种数据匿名化方法、装置、电子设备及存储介质</a><br />
-赵东, 卞阳, <b style="background-color:rgb(255,255,0)">尤志强</b><br />
-国家发明专利, CN115982779B, 公告日2023.05.23</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/一种融合网络结构和文本信息的社交关系预测方法.pdf">一种融合网络结构和文本信息的社交关系预测方法</a><br />
-张子柯, 许帅帅, <b style="background-color:rgb(255,255,0)">尤志强</b>, 周鸽, 刘闯<br />
-国家发明专利, CN107729569B, 公告日2020.01.17</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/一种安全多方计算方法、装置、电子设备及存储介质.pdf">一种安全多方计算方法、装置、电子设备及存储介质</a><br />
-孙小超, 陈立峰, 卞阳, <b style="background-color:rgb(255,255,0)">尤志强</b><br />
-国家发明专利, CN114595483B, 公告日2022.08.02</p>
-</li>
-</ul>
-<ul>
-<li><p>【授权发明专利】<a href="pdf/特征分箱方法、装置、电子设备和计算机可读存储介质.pdf">特征分箱方法、装置、电子设备和计算机可读存储介质</a><br />
-陈立峰,李腾飞,卞阳,杨云波,<b style="background-color:rgb(255,255,0)">尤志强</b><br />
-国家发明专利, CN116244650B, 公告日2023.10.03</p>
-</li>
-</ul>
-<h2>申请中发明专利</h2>
-<ul>
-<li><p>【已受理】<a href="pdf/第一方联合第二方挖掘目标对象的方法及装置.pdf">第一方联合第二方挖掘目标对象的方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 陈立峰, 赵东<br />
-国家发明专利, CN118014641A, 申请日2024.01.23</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/第一方对第二方进行非法数据识别的方法及装置.pdf">第一方对第二方进行非法数据识别的方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 赵东, 陈立峰<br />
-国家发明专利, CN117688589A, 申请日2023.12.25</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/在相互连接的多个子网中发现目标资源的 方法及装置.pdf">在相互连接的多个子网中发现目标资源的方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 赵东<br />
-国家发明专利, CN117829993A, 申请日2023.12.15</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/用于在多个节点中进行资源推荐的方法.pdf">用于在多个节点中进行资源推荐的方法</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 赵东<br />
-国家发明专利, CN117609621A, 申请日2023.11.30</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/从多个数据集节点中筛选数据集的方法.pdf">从多个数据集节点中筛选数据集的方法</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 王兆凯, 赵东<br />
-国家发明专利, CN117493630A, 申请日2023.11.27</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/数据访问方法、装置、计算机设备和介质.pdf">数据访问方法、装置、计算机设备和介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 王兆凯, 赵华宇<br />
-国家发明专利, CN117573827A, 申请日2023.11.21</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/对目标节点进行数据质量评估的方法及装置.pdf">对目标节点进行数据质量评估的方法及装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 陈立峰, 赵东<br />
-国家发明专利, CN117574105A, 申请日2023.11.14</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/用于数联网的算力撮合方法.pdf">用于数联网的算力撮合方法</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳, 王兆凯<br />
-国家发明专利, CN117579629A, 申请日2023.10.31</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/利用数联网中的分布式算力执行计算业务的方法.pdf">利用数联网中的分布式算力执行计算业务的方法</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳, 赵东<br />
-国家发明专利, CN117579310A, 申请日2023.10.31</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/用于XGBoost联邦学习模型训练的数据处理方法和装置.pdf">用于XGBoost联邦学习模型训练的数据处理方法和装置</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 卞阳, 王兆凯<br />
-国家发明专利, CN117648992A, 申请日2023.10.31</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/多方安全计算、学习模型的训练方法、系统、设备及介质.pdf">多方安全计算、学习模型的训练方法、系统、设备及介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 王兆凯, 赵东<br />
-国家发明专利, CN116305195A, 申请日2023.02.15</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/纵向联邦学习模型的训练方法、装置、电子设备、介质.pdf">纵向联邦学习模型的训练方法、装置、电子设备、介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 赵东, 朱崇炳<br />
-国家发明专利, CN117332872A, 申请日2022.09.08</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/安全求交、联邦学习模型的训练方法及系统、设备及介质.pdf">安全求交、联邦学习模型的训练方法及系统、设备及介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 陈立峰<br />
-国家发明专利, CN115392480A, 申请日2022.08.05</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/基于MPC的联邦学习模型训练和预测方法、系统、设备及介质.pdf">基于MPC的联邦学习模型训练和预测方法、系统、设备及介质</a><br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 赵东, 卞阳<br />
-国家发明专利, CN115525921A, 申请日2022.01.18</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/数据要素可信流通网络系统及方法.pdf">数据要素可信流通网络系统及方法</a><br />
-杨天雅, <b style="background-color:rgb(255,255,0)">尤志强</b>, 赵华宇, 卫骞, 杜浩, 赵东, 王兆凯, 卞阳, 张伟奇<br />
-国家发明专利, CN117811772A, 申请日2023.12.01</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/数据混合处理方法、系统、设备、介质及数据处理系统.pdf">数据混合处理方法、系统、设备、介质及数据处理系统</a><br />
-朱崇炳, 赵东, <b style="background-color:rgb(255,255,0)">尤志强</b> <br />
-国家发明专利, CN115604010A, 申请日2022.10.18</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/全匿联邦学习模型的训练方法、设备和存储介质.pdf">全匿联邦学习模型的训练方法、设备和存储介质</a><br />
-陈立峰, 卞阳, <b style="background-color:rgb(255,255,0)">尤志强</b>, 王兆凯<br />
-国家发明专利, CN115438370A, 申请日2022.08.05</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/一种生物特征提取方法及装置.pdf">一种生物特征提取方法及装置</a><br />
-王琪, 杨燕明, 高鹏飞, 周雍恺, 张高磊, 孙小超, 赵东, <b style="background-color:rgb(255,255,0)">尤志强</b>, 张饶波<br />
-国家发明专利, CN115439903A, 申请日2022.08.16</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/WO2024036809A1.pdf">BIOLOGICAL FEATURE EXTRACTION METHOD AND APPARATUS</a><br />
-Wang,Qi; ...; <b style="background-color:rgb(255,255,0)">YOU, Zhiqiang</b>; Zhang, Raobo<br />
-世界知识产权组织专利, WO2024036809A1, 国际申请日2022.11.30</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/针对多方联合生成的衍生数据的访问控制方法及装置.pdf">针对多方联合生成的衍生数据的访问控制方法及装置</a><br />
-孙小超, 陈立峰, 李腾飞, 赵华宇, 卫骞, 杜浩, <b style="background-color:rgb(255,255,0)">尤志强</b>, 张伟奇<br />
-国家发明专利, CN117411642A, 申请日2023.11.22</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/基于图计算的数据搜索方法、装置、设备和存储介质.pdf">基于图计算的数据搜索方法、装置、设备和存储介质</a><br />
-杜浩, 张洪锋, 佘亚丽, 孙小超, 陈立峰, 赵华宇, 卫骞, <b style="background-color:rgb(255,255,0)">尤志强</b>, 张伟奇<br />
-国家发明专利, CN117520610A, 申请日2023.11.24</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/相关随机性的生成方法及装置.pdf">相关随机性的生成方法及装置</a><br />
-孙小超, 陈立峰, 李腾飞, 赵华宇, 卫骞, 杜浩, <b style="background-color:rgb(255,255,0)">尤志强</b>, 张伟奇<br />
-国家发明专利, CN117688588A, 申请日2023.12.20</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/多维度数据资产分类方法、装置、计算机设备和介质.pdf">多维度数据资产分类方法、装置、计算机设备和介质</a><br />
-李腾飞, 陈立峰, 孙小超, 赵华宇, 卫骞, 杜浩, <b style="background-color:rgb(255,255,0)">尤志强</b>, 张伟奇<br />
-国家发明专利, CN117688428A, 申请日2023.12.28</p>
-</li>
-</ul>
-<ul>
-<li><p>【已受理】<a href="pdf/基于大语言模型的交易对象推荐方法、装置、设备和介质.pdf">基于大语言模型的交易对象推荐方法、装置、设备和介质</a><br />
-李腾飞, 陈立峰, 孙小超, 赵华宇, 卫骞, 杜浩, <b style="background-color:rgb(255,255,0)">尤志强</b>, 张伟奇<br />
-国家发明专利, CN117688245A, 申请日2023.12.28</p>
-</li>
-</ul>
-
-
-<h2>学术论文</h2>
-<ul>
-<li><p><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130538">Empirical studies on the network of social groups: the case of Tencent QQ</a> <br />
-<b style="background-color:rgb(255,255,0)">Zhi-Qiang You</b>, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung <br />
-<i>PloS one 10 (7), e0130538.<a href="pdf/ESQQ15.pdf">[PDF]</a><b style="background-color:rgb(255,255,0)">JCR 一区</b></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0375960115010580">The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model</a> <br />
-<b style="background-color:rgb(255,255,0)">Zhi-Qiang You</b>, Xiao-Pu Han, Tarik Hadzibeganovic <br />
-<i>Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.<a href="pdf/REESPI16.pdf">[PDF]</a><b style="background-color:rgb(255,255,0)">JCR 二区</b></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0378437116304514">Reconstruction of social group networks from friendship networks using a tag-based model</a> <br />
-Yuan-Pan Guan, <b style="background-color:rgb(255,255,0)">Zhi-Qiang You</b>, Xiao-Pu Han<br />
-<i>Physica A, Volume 463, 1 December 2016, Pages 485-492.<a href="pdf/RSGN16.pdf">[PDF]</a><b style="background-color:rgb(255,255,0)">JCR 二区</b></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="https://www.sciencedirect.com/science/article/abs/pii/S0378437113011540">Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering</a> <br />
-Zi-Ke Zhang, Lu Yu, Kuan Fang, <b style="background-color:rgb(255,255,0)">Zhi-Qiang You</b>, Chuang Liu, Hao Liu, Xiao-Yong Yan <br />
-<i>Physica A, Volume 399, 1 April 2014, Pages 82-88.<a href="pdf/WRHT13.pdf">[PDF]</a><b style="background-color:rgb(255,255,0)">JCR 二区</b></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="https://ieeexplore.ieee.org/document/7259829">Modelling temporal patterns of news report</a> <br />
-<b style="background-color:rgb(255,255,0)">You Zhi-Qiang</b>, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan<br />
-<i>Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.<a href="pdf/MTPNR15.pdf">[PDF]</a><b style="background-color:rgb(255,255,0)">EI</b></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="http://www.juestc.uestc.edu.cn/article/id/231">基于任务队列的新闻报道模型</a> <br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 朱燕燕, 韩筱璞, 吕琳媛 <br />
-<i>电子科技大学学报, 2016, 45(2): 295-300.<a href="pdf/QMNR16.pdf">[PDF]</a><b style="background-color:rgb(255,255,0)">EI</b></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="https://linyuanlab.com/media/fileStroge/%E5%9F%BA%E4%BA%8E%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E7%9A%84%E7%A4%BE%E7%BE%A4%E7%94%9F%E9%95%BF%E6%A8%A1%E5%9E%8B-%E5%A4%8D%E6%9D%82%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%A4%8D%E6%9D%82%E6%80%A7%E7%A7%91%E5%AD%A6.pdf">基于社交网络的社群生长模型</a> <br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 管远盼, 韩筱璞, 邓小方, 吕琳媛<br />
-<i>复杂系统与复杂性科学, 2015, 12(2): 72-77.<a href="pdf/MSGG15.pdf">[PDF]</a><b style="background-color:rgb(255,255,0)">EI</b></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="http://www.sicris.cn/CN/Y2024/V10/I6/506">一种安全高效的全匿踪纵向联邦学习方法</a> <br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 李月, 姜玮, 方竞, 陈立峰, 卞阳 <br />
-<i>信息安全研究, 2024, 10(6): 506-512.<a href="pdf/FAVFL.pdf">[PDF]</a><b style="background-color:rgb(255,255,0)">北大核心</b></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="https://www.baidu.com/link?url=nCXPmQ_e0F94hxMAdQrOmeTFCShfTtUEsRTOswavQFMligvPr07Mr3QWquasAxW23z4mOYzamOjCJZuhinLlPbPn5hJAew7vpOz3ykwpjTfKMGjvGdS-eSgw8WrC-1taJYXV3FD-92tdTGjsuaaqPq&wd=&eqid=d06b7879000d20620000000462f8c57a">基于相关性的上海世界博览会行人流分析</a> <br />
-<b style="background-color:rgb(255,255,0)">尤志强</b>, 韩筱璞<br />
-<i>上海理工大学学报, 2013, 35(4), 313-320.<a href="pdf/CAPF13.pdf">[PDF]</a><b style="background-color:rgb(255,255,0)">北大核心</b></i></p>
-</li>
-</ul>
-<ul>
-<li><p><a href="https://cdmd.cnki.com.cn/Article/CDMD-10346-1015442498.htm">在线社交网络的结构分析, 建模及预测</a> <br />
-<b style="background-color:rgb(255,255,0)">尤志强</b><br />
-<i>2017年第七期<b style="background-color:rgb(255,255,0)">中国优秀硕士学位论文全文数据库</b>(信息科技辑)出版<a href="pdf/PGT15.pdf">[PDF]</a></i></p>
-</li>
-</ul>
-
-
-<h2>技术专栏</h2>
-<ul>
-<li>
-<b>大模型算法专栏系列文章集合: <a href="https://blog.csdn.net/weixin_65514978/article/details/143043450">《全方位解读大模型系列》</a></b></br>
-</li>
-<li>
-<b>隐私计算专栏系列文章集合: <a href="https://blog.csdn.net/weixin_65514978/article/details/143838767">《全方位解读隐私计算技术》</a></b></br>
-</li>
-<li>
-<b>多次入选CSDN领域内容榜热门文章</b>
-</br><a href="picture/Python领域内容榜.png">入选Python领域内容榜</a>
-</br><a href="picture/人工智能领域内容榜3.png">入选人工智能领域内容榜(1)</a>
-</br><a href="picture/人工智能领域内容榜2.png">入选人工智能领域内容榜(2)</a>
-</br><a href="picture/人工智能领域内容榜.png">入选人工智能领域内容榜(3)</a>
-</br><a href="picture/前沿技术领域榜.png">入选前沿技术领域榜</a>
-</br><a href="picture/隐私计算热门文章1.jpeg">入选全站综合内容榜</a>
-</br><a href="picture/区块链内容榜.png">入选区块链领域内容榜</a>
-</li>
-</ul>
-
-<div id="footer">
-<div id="footer-text">
-<br>Page updated 2024-11-01, by <a href="https://yuanquan.tech/">Zhi-Qiang You</a>
-</div>
-</div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li><a href="#patents">patents</a></li>
+            <li><a href="#papers">papers</a></li>
+            <li><a href="#honor">honor</a></li>
+        </ul>
+    </nav>
+    <section class="banner" id="home">
+        <div class="banner-photo">
+            <img src="picture/youzhiqiang-0.jpeg" alt="尤志强照片" />
+        </div>
+        <div class="banner-info">
+            <h1>Zhi-Qiang You</h1>
+            <div class="banner-tabs">
+                <div class="tab-header">
+                    <button class="tab-btn active" onclick="showTab('profile')" style="padding:4px 16px;border:none;background:#f2f2f2;border-radius:6px 6px 0 0;font-weight:500;cursor:pointer;">Profile</button>
+                    <button class="tab-btn" onclick="showTab('tech')" style="padding:4px 16px;border:none;background:#f2f2f2;border-radius:6px 6px 0 0;font-weight:500;cursor:pointer;">Tech Column</button>
+                </div>
+                <div class="tab-content" id="profile-tab" style="display:block;background:#f9f9f9;padding:12px 18px 10px 18px;border-radius:0 0 8px 8px;">
+                    <div>
+                        <div class="subtitle">Large Language Model Algorithm Expert @Zhipu AI </div>
+                        <div class="subtitle"> Head of Agent Algorithm Business of Broad-Internet Division</div>
+                        <div class="meta">Member of Hangzhou Artificial Intelligence Society | Former Head of Algorithms at Fushu Technology</div>
+                        <div class="tags">
+                            <span>Large Language Models</span><span>Privacy Computing</span><span>Federated Learning</span><span>Machine Learning</span><span>Deep Learning</span><span>Graph Computing</span>
+                        </div>
+                        <div class="contact">
+                            E-mail：<a href="mailto:youzhiqg@gmail.com">youzhiqg@gmail.com</a> &nbsp;|&nbsp;
+                            Tech-web：<a href="https://armstrong.blog.csdn.net/" target="_blank">yuanquan's square</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="tab-content" id="tech-tab" style="display:none;background:#f9f9f9;padding:12px 18px 10px 18px;border-radius:0 0 8px 8px;">
+                    <div style="font-size:0.98em;line-height:1.7;">
+                        <b>CSDN Tech Column</b><br>
+                        Visits: <b>340,000+</b><br>
+                        Followers: <b>~20,000</b><br>
+                        Articles: <b>148</b><br>
+                        <div style="margin-top:6px;">Selected as popular post in:</div>
+                        <ul style="margin:6px 0 0 18px;">
+                            <li>Python Content Board</li>
+                            <li>AI Content Board (1)</li>
+                            <li>AI Content Board (2)</li>
+                            <li>AI Content Board (3)</li>
+                            <li>Frontier Technology Board</li>
+                            <li>Comprehensive Content Board</li>
+                            <li>Blockchain Content Board</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <script>
+                function showTab(tab) {
+                    document.getElementById('profile-tab').style.display = tab === 'profile' ? 'block' : 'none';
+                    document.getElementById('tech-tab').style.display = tab === 'tech' ? 'block' : 'none';
+                    var btns = document.querySelectorAll('.tab-btn');
+                    btns.forEach(btn => btn.classList.toggle('active', btn.textContent === tab));
+                }
+            </script>
+        </div>
+    </section>
+    <section id="about" style="padding:60px 0 30px 0;max-width:900px;margin:auto;">
+        <h2>About</h2>
+        <div style="line-height:1.8;font-size:0.95em;">
+            <ul>
+            <li>Currently, I am a member of the Hangzhou Artificial Intelligence Society and serve as a Large Language Model (LLM) Algorithm Expert at Zhipu Huazhang, where I lead the Intelligent Agent Algorithm team in the Broad-Internet Division, focusing on AI Agents, Retrieval-Augmented Generation (RAG), and multimodal technologies.</li> 
+            <li>Previously, I was the Algorithm Director at Fushu Technology, Algorithm Expert at Wacai, Beibei Group, and Tencent, as well as an R&D Engineer at Sunyard and a core contributor to the Yitao R&D promotion system. I have also received algorithm expert offers from top companies such as Didi Chuxing, Youzan, and JD.com.</li>
+            <li>I have pioneered privacy-computing algorithms and platforms that have won industry awards and achieved real-world deployments. My research interests include reinforcement learning, privacy computing, natural language processing (NLP), distributed machine learning, and graph computing.</li>
+            <li>Educational background in computer science, supervised by Professor Mingsheng Shang at UESTC, and also guided by Professors Xiaopu Han, Zike Zhang, and Linyuan Lü, who are now PhD supervisors at Zhejiang University and University of Science and Technology of China.</li>
+            </ul>
+        </div>
+    </section>
+    <section id="patents" style="padding:60px 0 30px 0;max-width:900px;margin:auto;">
+        <h2>Invention Patents <span id="patent-count" style="font-size:0.85em;color:#888;"></span></h2>
+        <ul id="patent-list">
+            <li>[Granted Invention Patent] <a href="pdf/全匿踪混淆求交数据的共享方法.pdf">Method, System, Device and Medium for Sharing Fully Anonymous Obfuscated Intersection Data</a> <br>Zhi-Qiang You, Dong Zhao, Lifeng Chen<br>China Invention Patent, CN118590236B, Publication Date: 2024.11.01</li>
+            <li>[Granted Invention Patent] <a href="pdf/使用联邦学习模型进行人群包统计的方法及装置.pdf">Method and Device for Population Package Statistics Using Federated Learning Model</a> <br>Zhi-Qiang You, Zhaokai Wang<br>China Invention Patent, CN116521952B, Publication Date: 2023.09.05</li>
+            <li>[Granted Invention Patent] <a href="pdf/短文本问题语义匹配方法和系统.pdf">Short Text Semantic Matching Method and System</a> <br>Zhi-Qiang You, Qi Pan<br>China Invention Patent, CN109597994B, Publication Date: 2023.06.06</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/多方安全计算方法、装置、系统、电子设备和存储介质.pdf">Multi-party Secure Computing Method, Device, System, Electronic Equipment and Storage Medium</a> <br>Zhi-Qiang You, Yang Bian, Dong Zhao<br>China Invention Patent, CN116055049B, Publication Date: 2023.07.04</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/多方安全的数据重排方法、装置、电子设备及存储介质.pdf">Multi-party Secure Data Reordering Method, Device, Electronic Equipment and Storage Medium</a> <br>Zhi-Qiang You<br>China Invention Patent, CN115982785B, Publication Date: 2023.06.30</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/一种随机分组的方法及装置、计算机程序产品、电子设备.pdf">Random Grouping Method and Device, Computer Program Product, Electronic Equipment</a> <br>Zhi-Qiang You, Yang Bian, Zhipeng Tu, Weiqi Zhang<br>China Invention Patent, CN116319084B, Publication Date: 2023.09.29</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/一种信息推荐方法及装置.pdf">Information Recommendation Method and Device</a> <br>Zhi-Qiang You, Yang Bian, Zhaokai Wang<br>China Invention Patent, CN115795174B, Publication Date: 2022.04.25</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/全密态数据处理方法、装置、设备、介质.pdf">Fully Encrypted Data Processing Method, Device, Equipment, and Medium</a> <br>Zhi-Qiang You, Yang Bian, Dong Zhao<br>China Invention Patent, CN115587382B, Publication Date: 2023.04.11</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/隐私计算进程的安全监控方法、装置、设备、介质.pdf">Security Monitoring Method, Device, Equipment, and Medium for Privacy Computing Process</a> <br>Zhi-Qiang You, Yang Bian<br>China Invention Patent, CN115664839B, Publication Date: 2023.04.11</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/基于异构联邦学习的预测方法、模型生成方法及装置.pdf">Prediction Method, Model Generation Method and Device Based on Heterogeneous Federated Learning</a> <br>Zhi-Qiang You, Yang Bian<br>China Invention Patent, CN114611712B, Publication Date: 2022.08.26</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/一种数据中位数确定方法及装置.pdf">Data Median Determination Method and Device</a> <br>Zhi-Qiang You, Yang Bian, Dong Zhao, Chongbing Zhu<br>China Invention Patent, CN114595479B, Publication Date: 2022.08.26</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/多方安全计算方法、电子设备及可读存储介质.pdf">Multi-party Secure Computing Method, Electronic Equipment and Readable Storage Medium</a> <br>Zhi-Qiang You, Dong Zhao, Lifeng Chen, Yang Bian<br>China Invention Patent, CN114615282B, Publication Date: 2022.08.23</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/一种纵向联邦学习模型的训练方法及系统.pdf">Vertical Federated Learning Model Training Method and System</a> <br>Zhi-Qiang You, Yang Bian<br>China Invention Patent, CN114330759B, Publication Date: 2022.08.02</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/信贷申请的逾期风险预测方法及装置.pdf">Overdue Risk Prediction Method and Device for Credit Application</a> <br>Zhi-Qiang You, Xi Che, Qi Pan<br>China Invention Patent, CN108389125B, Publication Date: 2022.06.07</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/用户关系的识别方法、对象关系的识别方法及装置.pdf">User Relationship Identification Method, Object Relationship Identification Method and Device</a> <br>Zhi-Qiang You, Qi Pan, Xi Che<br>China Invention Patent, CN107392781B, Publication Date: 2021.11.02</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/短文本分类方法及装置.pdf">Short Text Classification Method and Device</a> <br>Zhi-Qiang You, Xi Che, Qi Pan<br>China Invention Patent, CN107301225B, Publication Date: 2021.01.26</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/联邦学习代码生成方法、装置、电子设备及存储介质.pdf">Federated Learning Code Generation Method, Device, Electronic Equipment and Storage Medium</a> <br>Yang Bian, Zhi-Qiang You, Dong Zhao, Chongbing Zhu<br>China Invention Patent, CN114282257B, Publication Date: 2022.07.15</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/一种智能语义处理方法.pdf">Intelligent Semantic Processing Method</a> <br>Hongyu Kang, Zhi-Qiang You, Xi Che, Qi Pan<br>China Invention Patent, CN109062895B, Publication Date: 2022.06.24</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/基于移动端日志行为数据的用户流失预测方法及装置.pdf">User Churn Prediction Method and Device Based on Mobile Log Behavior Data</a> <br>Xi Che, Zhi-Qiang You, Qi Pan<br>China Invention Patent, CN109034861B, Publication Date: 2022.06.07</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/用于评估联邦学习模型的方法及装置.pdf">Method and Device for Evaluating Federated Learning Model</a> <br>Zhaokai Wang, Yang Bian, Zhi-Qiang You<br>China Invention Patent, CN116541870B, Publication Date: 2023.09.05</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/一种计算引擎与平台解耦的方法及系统.pdf">Method and System for Decoupling Computing Engine and Platform</a> <br>Chongbing Zhu, Dong Zhao, Zhi-Qiang You<br>China Invention Patent, CN114444136B, Publication Date: 2024.08.30</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/一种数据匿名化方法、装置、电子设备及存储介质.pdf">Data Anonymization Method, Device, Electronic Equipment and Storage Medium</a> <br>Dong Zhao, Yang Bian, Zhi-Qiang You<br>China Invention Patent, CN115982779B, Publication Date: 2023.05.23</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/一种融合网络结构和文本信息的社交关系预测方法.pdf">Social Relationship Prediction Method Integrating Network Structure and Text Information</a> <br>Zike Zhang, Shuaishuai Xu, Zhi-Qiang You, Ge Zhou, Chuang Liu<br>China Invention Patent, CN107729569B, Publication Date: 2020.01.17</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/一种安全多方计算方法、装置、电子设备及存储介质.pdf">Secure Multi-party Computing Method, Device, Electronic Equipment and Storage Medium</a> <br>Xiaochao Sun, Lifeng Chen, Yang Bian, Zhi-Qiang You<br>China Invention Patent, CN114595483B, Publication Date: 2022.08.02</li>
+            <li class="more-item" style="display:none;">[Granted Invention Patent] <a href="pdf/特征分箱方法、装置、电子设备和计算机可读存储介质.pdf">Feature Binning Method, Device, Electronic Equipment and Computer-readable Storage Medium</a> <br>Lifeng Chen, Tengfei Li, Yang Bian, Yunbo Yang, Zhi-Qiang You<br>China Invention Patent, CN116244650B, Publication Date: 2023.10.03</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/第一方联合第二方挖掘目标对象的方法及装置.pdf">First Party Jointly Mining Target Object Method and Device</a> <br>Zhi-Qiang You, Lifeng Chen, Dong Zhao<br>China Invention Patent, CN118014641A, Application Date: 2024.01.23</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/第一方对第二方进行非法数据识别的方法及装置.pdf">First Party Illegal Data Recognition Method and Device</a> <br>Zhi-Qiang You, Dong Zhao, Lifeng Chen<br>China Invention Patent, CN117688589A, Application Date: 2023.12.25</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/在相互连接的多个子网中发现目标资源的 方法及装置.pdf">Target Resource Discovery Method and Device in Multiple Subnetworks</a> <br>Zhi-Qiang You, Dong Zhao<br>China Invention Patent, CN117829993A, Application Date: 2023.12.15</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/用于在多个节点中进行资源推荐的方法.pdf">Resource Recommendation Method in Multiple Nodes</a> <br>Zhi-Qiang You, Dong Zhao<br>China Invention Patent, CN117609621A, Application Date: 2023.11.30</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/从多个数据集节点中筛选数据集的方法.pdf">Data Set Screening Method from Multiple Data Set Nodes</a> <br>Zhi-Qiang You, Zhaokai Wang, Dong Zhao<br>China Invention Patent, CN117493630A, Application Date: 2023.11.27</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/数据访问方法、装置、计算机设备和介质.pdf">Data Access Method, Device, Computer Equipment and Medium</a> <br>Zhi-Qiang You, Zhaokai Wang, Huayu Zhao<br>China Invention Patent, CN117573827A, Application Date: 2023.11.21</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/对目标节点进行数据质量评估的方法及装置.pdf">Target Node Data Quality Assessment Method and Device</a> <br>Zhi-Qiang You, Lifeng Chen, Dong Zhao<br>China Invention Patent, CN117574105A, Application Date: 2023.11.14</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/用于数联网的算力撮合方法.pdf">Power Matching Method for Data Network</a> <br>Zhi-Qiang You, Yang Bian, Zhaokai Wang<br>China Invention Patent, CN117579629A, Application Date: 2023.10.31</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/利用数联网中的分布式算力执行计算业务的方法.pdf">Distributed Computing Execution Method Using Distributed Computing in Data Network</a> <br>Zhi-Qiang You, Yang Bian, Dong Zhao<br>China Invention Patent, CN117579310A, Application Date: 2023.10.31</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/用于XGBoost联邦学习模型训练的数据处理方法和装置.pdf">Data Processing Method and Device for Training XGBoost Federated Learning Model</a> <br>Zhi-Qiang You, Yang Bian, Zhaokai Wang<br>China Invention Patent, CN117648992A, Application Date: 2023.10.31</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/多方安全计算、学习模型的训练方法、系统、设备及介质.pdf">Multi-party Secure Computing, Learning Model Training Method, System, Device and Medium</a> <br>Zhi-Qiang You, Zhaokai Wang, Dong Zhao<br>China Invention Patent, CN116305195A, Application Date: 2023.02.15</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/纵向联邦学习模型的训练方法、装置、电子设备、介质.pdf">Vertical Federated Learning Model Training Method, Device, Electronic Equipment, and Medium</a> <br>Zhi-Qiang You, Dong Zhao, Chongbing Zhu<br>China Invention Patent, CN117332872A, Application Date: 2022.09.08</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/安全求交、联邦学习模型的训练方法及系统、设备及介质.pdf">Secure Intersection, Learning Model Training Method and System, Device and Medium</a> <br>Zhi-Qiang You, Lifeng Chen<br>China Invention Patent, CN115392480A, Application Date: 2022.08.05</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/基于MPC的联邦学习模型训练和预测方法、系统、设备及介质.pdf">MPC-based Federated Learning Model Training and Prediction Method, System, Device and Medium</a> <br>Zhi-Qiang You, Dong Zhao, Yang Bian<br>China Invention Patent, CN115525921A, Application Date: 2022.01.18</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/数据要素可信流通网络系统及方法.pdf">Data Element Trusted Circulation Network System and Method</a> <br>Tianya Yang, Zhi-Qiang You, Huayu Zhao, Qian Wei, Hao Du, Dong Zhao, Zhaokai Wang, Yang Bian, Zike Zhang<br>China Invention Patent, CN117811772A, Application Date: 2023.12.01</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/数据混合处理方法、系统、设备、介质及数据处理系统.pdf">Data Mixed Processing Method, System, Device, Medium and Data Processing System</a> <br>Chongbing Zhu, Dong Zhao, Zhi-Qiang You<br>China Invention Patent, CN115604010A, Application Date: 2022.10.18</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/全匿联邦学习模型的训练方法、设备和存储介质.pdf">Fully Anonymous Federated Learning Model Training Method, Device and Storage Medium</a> <br>Lifeng Chen, Yang Bian, Zhi-Qiang You, Zhaokai Wang<br>China Invention Patent, CN115438370A, Application Date: 2022.08.05</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/一种生物特征提取方法及装置.pdf">Biological Feature Extraction Method and Device</a> <br>Qi Wang, Yanming Yang, Pengfei Gao, Yongkai Zhou, Gaolei Zhang, Xiaochao Sun, Dong Zhao, Zhi-Qiang You, Raobo Zhang<br>China Invention Patent, CN115439903A, Application Date: 2022.08.16</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/WO2024036809A1.pdf">BIOLOGICAL FEATURE EXTRACTION METHOD AND APPARATUS</a> <br>Wang,Qi; ...; YOU, Zhiqiang; Zhang, Raobo<br>World Intellectual Property Organization Patent, WO2024036809A1, International Application Date: 2022.11.30</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/针对多方联合生成的衍生数据的访问控制方法及装置.pdf">Access Control Method and Device for Derived Data from Multiple Parties</a> <br>Xiaochao Sun, Lifeng Chen, Tengfei Li, Huayu Zhao, Qian Wei, Hao Du, Zhi-Qiang You, Zike Zhang<br>China Invention Patent, CN117411642A, Application Date: 2023.11.22</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/基于图计算的数据搜索方法、装置、设备和存储介质.pdf">Data Search Method and Device Based on Graph Computing</a> <br>Du Hao, Hongfeng Zhang, Ya Li, Xiaochao Sun, Lifeng Chen, Huayu Zhao, Qian Wei, Zhi-Qiang You, Zike Zhang<br>China Invention Patent, CN117520610A, Application Date: 2023.11.24</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/相关随机性的生成方法及装置.pdf">Related Randomness Generation Method and Device</a> <br>Xiaochao Sun, Lifeng Chen, Tengfei Li, Huayu Zhao, Qian Wei, Hao Du, Zhi-Qiang You, Zike Zhang<br>China Invention Patent, CN117688588A, Application Date: 2023.12.20</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/多维度数据资产分类方法、装置、计算机设备和介质.pdf">Multi-dimensional Data Asset Classification Method, Device, Computer Equipment and Medium</a> <br>Tengfei Li, Lifeng Chen, Xiaochao Sun, Huayu Zhao, Qian Wei, Hao Du, Zhi-Qiang You, Zike Zhang<br>China Invention Patent, CN117688428A, Application Date: 2023.12.28</li>
+            <li class="more-item" style="display:none;">[Granting Invention Patent] <a href="pdf/基于大语言模型的交易对象推荐方法、装置、设备和介质.pdf">Transaction Object Recommendation Method, Device, Equipment and Medium Based on Large Language Model</a> <br>Tengfei Li, Lifeng Chen, Xiaochao Sun, Huayu Zhao, Qian Wei, Hao Du, Zhi-Qiang You, Zike Zhang<br>China Invention Patent, CN117688245A, Application Date: 2023.12.28</li>
+        </ul>
+        <button id="patent-toggle" onclick="togglePatentList()" style="margin:8px 0 0 0;padding:2px 16px;border-radius:6px;border:1px solid #eee;background:#fafbfc;cursor:pointer;">More</button>
+    </section>
+    <section id="papers" style="padding:60px 0 30px 0;max-width:900px;margin:auto;">
+        <h2>Academic Papers <span id="paper-count" style="font-size:0.85em;color:#888;"></span></h2>
+        <ul id="paper-list">
+            <li><a href="https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0130538">Empirical studies on the network of social groups: the case of Tencent QQ</a> <br>Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung<br><i>PloS one 10 (7), e0130538.<a href="pdf/ESQQ15.pdf">[PDF]</a> JCR Quartile 1</i></li>
+            <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0375960115010580">The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model</a> <br>Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic<br><i>Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.<a href="pdf/REESPI16.pdf">[PDF]</a> JCR Quartile 2</i></li>
+            <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0378437116304514">Reconstruction of social group networks from friendship networks using a tag-based model</a> <br>Yuan-Pan Guan, Zhi-Qiang You, Xiao-Pu Han<br><i>Physica A, Volume 463, 1 December 2016, Pages 485-492.<a href="pdf/RSGN16.pdf">[PDF]</a> JCR Quartile 2</i></li>
+            <li><a href="https://www.sciencedirect.com/science/article/abs/pii/S0378437113011540">Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering</a> <br>Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan<br><i>Physica A, Volume 399, 1 April 2014, Pages 82-88.<a href="pdf/WRHT13.pdf">[PDF]</a> JCR Quartile 2</i></li>
+            <li><a href="http://www.sicris.cn/CN/Y2024/V10/I6/506">A Secure and Efficient Method of Fully Anonymous Vertical Federated Learning</a> <br>Zhi-Qiang You, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian<br><i>Information Security Research, 2024, 10(6): 506-512.<a href="pdf/FAVFL.pdf">[PDF]</a> PKU Core</i></li>
+            <li class="more-item" style="display:none;"><a href="https://www.cnki.com.cn/Article/CJFDTotal-HDGY201304002.htm">Correlation Analysis onclick Pedestrian Flow at Shanghai World Expo</a> <br>Zhi-Qiang You, Han Xiao-Pu<br><i>Journal of Shanghai University of Technology, 2013, 35(4), 313-320.<a href="pdf/CAPF13.pdf">[PDF]</a> PKU Core</i></li>
+            <li class="more-item" style="display:none;"><a href="https://ieeexplore.ieee.org/document/7259829">Modelling temporal patterns of news report</a> <br>Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan<br><i>Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.<a href="pdf/MTPNR15.pdf">[PDF]</a> EI</i></li>
+            <li class="more-item" style="display:none;"><a href="http://www.juestc.uestc.edu.cn/article/id/231">Queuing Model for News Reports</a> <br>Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan<br><i>Journal of University of Electronic Science and Technology of China, 2016, 45(2): 295-300.<a href="pdf/QMNR16.pdf">[PDF]</a> EI</i></li>
+            <li class="more-item" style="display:none;"><a href="https://linyuanlab.com/media/fileStroge/%E5%9F%BA%E4%BA%8E%E7%A4%BE%E4%BA%A4%E7%BD%91%E7%BB%9C%E7%9A%84%E7%A4%BE%E7%BE%A4%E7%94%9F%E9%95%BF%E6%A8%A1%E5%9E%8B-%E5%A4%8D%E6%9D%82%E7%B3%BB%E7%BB%9F%E4%B8%8E%E5%A4%8D%E6%9D%82%E6%80%A7%E7%A7%91%E5%AD%A6.pdf">Modeling of social group growth based on social networks</a> <br>Zhi-Qiang You, Yuan-Pan Guan, Han Xiao-Pu, Xiao Fang, Lü Lin-Yuan<br><i>Complex Systems and Complexity Science, 2015, 12(2): 72-77.<a href="pdf/MSGG15.pdf">[PDF]</a> EI</i></li>
+            <li class="more-item" style="display:none;"><a href="https://cdmd.cnki.com.cn/Article/CDMD-10346-1015442498.htm">The Analysis, Modeling and PredictionforThe Structure of Online Social Network</a> <br>Zhi-Qiang You<br><i>2017 No.7 Full Text Database of Chinese Excellent Master's Thesis (Information Technology Edition) Published<a href="pdf/PGT15.pdf">[PDF]</a></i></li>
+        </ul>
+        <button id="paper-toggle" onclick="togglePaperList()" style="margin:8px 0 0 0;padding:2px 16px;border-radius:6px;border:1px solid #eee;background:#fafbfc;cursor:pointer;">More</button>
+    </section>
+    <section id="honor" style="padding:60px 0 30px 0;max-width:900px;margin:auto;">
+        <h2>Honors and Awards</h2>
+        <ul style="list-style: disc; margin-left: 22px;">
+            <li><b>Privacy Computing & Federated Learning</b>
+                <ul>
+                    <li>2024: Nominated for Cryptography Science and Technology Award (one of only two in the city)</li>
+                    <li>2023: First Prize (National) in the Financial Data Innovation Application Track, 1st Data Commerce Competition (Application of Fully Anonymous Algorithm in Financial Scenarios)</li>
+                    <li>2023: Second Prize for Excellent Project, Securities and Futures Industry Financial Technology R&D Center (Shenzhen) ("Wealth Management Customer Group Mining Based on Fully Anonymous Federated Learning", by Guotai Junan & Fushu Technology)</li>
+                    <li>2022: Selected as one of the "Top 10 Benchmark Cases" in CAICT's "Galaxy" program (Fully Anonymous Federated Learning Algorithm)</li>
+                    <li>2022: Technical solution included in CAICT's "White Paper on Privacy Computing"</li>
+                    <li>2021: Led the multi-party secure computing operator library platform to become one of the first to pass CAICT performance evaluation (together with Tencent and Ant Group)</li>
+                    <li>2021: Passed BCTC Financial Application Technology Evaluation (among the first batch in China, together with WeBank and Ant Group)</li>
+                </ul>
+            </li>
+            <li><b>Secure Computation & Biometrics</b>
+                <ul>
+                    <li>2023: Award at the 2nd Guanghe Organization AI Solution Competition ("Privacy Computing Face Recognition Application Technology Based on Hygon Platform Hardware Acceleration")</li>
+                    <li>2022: Successfully applied in China UnionPay (world's fastest multi-party secure biometric recognition algorithm, ranked first in performance)</li>
+                </ul>
+            </li>
+            <li><b>Industry & Competitions</b>
+                <ul>
+                    <li>2018: Major Scientific and Technological Innovation Project of Hangzhou ("Intelligent Government Consultation Service Platform Based on Deep Learning and Knowledge Graph")</li>
+                    <li>2014: Top 10 Problems at the 10th National Conference on Complex Networks ("Information Propagation Problem Based on Real Data", awarded by Prof. Guanrong Chen, Conference Chair)</li>
+                    <li>2014: CCF-Tencent Rhino-Bird Fund Excellent Award (Top 10%) ("Mining High-Influence Users in Large-Scale Online Social Networks")</li>
+                    <li>2012: First Prize (National) in the 1st China Internet Data Platform Data Mining Competition, hosted by CNNIC (Core member of SIMPLE team)</li>
+                </ul>
+            </li>
+            <li><b>Education awards</b>
+                <ul>
+                    <li>2015: China Excellent Master's Thesis (Top 10%)</li>
+                    <li>2015: University-level Outstanding Graduate</li>
+                    <li>Multiple First-class Scholarships</li>
+                    <li>Outstanding Research Award</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <div id="footer" style="text-align:center;color:#aaa;padding:30px 0 10px 0;font-size:0.95em;">
+        Page updated 2025-05-05, by Zhi-Qiang You</a>
+    </div>
+    <script>
+        function togglePatentList() {
+            var moreItems = document.querySelectorAll('#patent-list .more-item');
+            var btn = document.getElementById('patent-toggle');
+            var isHidden = moreItems[0] && moreItems[0].style.display === 'none';
+            moreItems.forEach(function(item) {
+                item.style.display = isHidden ? '' : 'none';
+            });
+            btn.textContent = isHidden ? 'Less' : 'More';
+        }
+        function togglePaperList() {
+            var moreItems = document.querySelectorAll('#paper-list .more-item');
+            var btn = document.getElementById('paper-toggle');
+            var isHidden = moreItems[0] && moreItems[0].style.display === 'none';
+            moreItems.forEach(function(item) {
+                item.style.display = isHidden ? '' : 'none';
+            });
+            btn.textContent = isHidden ? 'Less' : 'More';
+        }
+        // 统计专利和论文数量
+        function updateCounts() {
+            var patentCount = document.querySelectorAll('#patent-list li').length;
+            var paperCount = document.querySelectorAll('#paper-list li').length;
+            document.getElementById('patent-count').textContent = '(' + patentCount + ' items)';
+            document.getElementById('paper-count').textContent = '(' + paperCount + ' papers)';
+        }
+        updateCounts();
+    </script>
 </div>
 </body>
 </html>
