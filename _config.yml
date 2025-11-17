@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "尤志强 (Zhi-Qiang You) 个人主页"
-description              : "尤志强, Zhi-Qiang You, youzhiqiang是计算机科学领域的专家，研究经历包括大模型、自然语言处理、隐私计算、联邦学习、复杂网络、网络科学、多方安全计算、机器学习、深度学习、图计算和数据分析。"
+description              : "人工智能交叉领域，目前专注于大模型智能体及多模态大模型的应用探索。"
 repository               : "michaelice/michaelice.github.io"
 url                      : "https://yuanquan.online"  # 主域名
 baseurl                  : ""  # 子路径（通常为空）
