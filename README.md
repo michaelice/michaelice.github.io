@@ -1,20 +1,6 @@
-# 尤志强 (Zhi-Qiang You) 个人主页
+# 个人主页
 
 这是基于Jekyll构建的个人学术主页，使用了现代化的响应式设计。
-
-## 🌐 在线访问
-
-- 主站: [https://yuanquan.online](https://yuanquan.online)
-- GitHub Pages: [https://michaelice.github.io](https://michaelice.github.io)
-
-## 📝 关于
-
-尤志强，计算机科学专家，目前担任AI大模型应用创新公司的算法总监，负责智能体架构和强化学习工作。研究领域包括：
-- 大语言模型（LLM）智能体
-- 强化学习
-- 隐私计算与联邦学习
-- 复杂网络与网络科学
-- 机器学习与深度学习
 
 ## 🛠️ 技术栈
 
@@ -151,12 +137,6 @@ Jekyll 支持实时重载，修改文件后浏览器会自动刷新。
 - 灵感来源于 [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes)
 - 图标使用 [Font Awesome](https://fontawesome.com/)
 
-## 📧 联系方式
-
-- Email: zhiqiang.you@yuanquan.tech
-- CSDN: [yuanquan's square](https://armstrong.blog.csdn.net/)
-- GitHub: [michaelice](https://github.com/michaelice)
-
 ---
 
-最后更新：2025年1月
+最后更新：2025年11月
