@@ -144,6 +144,10 @@ permalink: /:categories/:title/
 timezone: Asia/Shanghai # http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
+# Theme (explicitly set to null to use custom layouts)
+theme: null
+remote_theme: null
+
 # Plugins
 plugins:
   - jekyll-paginate
