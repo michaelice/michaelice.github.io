@@ -10,42 +10,92 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-我目前担任某AI大模型应用创新公司的算法总监，负责智能体架构和强化学习工作。同时，我也是杭州人工智能学会的会员。
+我目前担任某AI大模型应用创新公司的大模型算法总监，负责多模态大模型应用研发、大模型智能体架构和强化学习工作。重点推进智能体架构、工具使用和规划策略以及评估框架，以提高可靠性、自主性和任务成功率。
 
-此前，我曾担任智谱华章（智谱AI）广域互联网事业部的智能体算法负责人，从事大模型Agent的相关工作；在富数科技担任算法总监；在挖财、贝贝集团担任算法专家；在腾讯担任访问学者；在新中大担任研发工程师，并是易淘研发晋升体系的核心贡献者。我还曾获得滴滴出行、有赞、京东等顶级公司的算法专家offer。
+此前，我曾担任智谱华章（智谱AI）泛互联网事业部智能体业务算法负责人，从事大模型Agent的相关工作；在富数科技担任算法负责人；在挖财集团、贝贝集团担任算法专家；在腾讯担任访问学者；在信雅达从事底层技术研发工作。曾参与由电子科技大学与阿里巴巴“一淘”团队合作的广告算法系统研发项目。此前我还曾获得滴滴出行、有赞、京东等国内优秀互联网公司的算法专家等offer。
 
-我当前的研究重点是大语言模型（LLM）智能体和强化学习。我设计智能体架构、工具使用和规划策略以及评估框架，以提高可靠性、自主性和任务成功率。此前，我开创了隐私计算算法和平台，获得行业奖项并部署到生产环境。我更广泛的兴趣包括多模态智能体、检索增强生成（RAG）以及LLM应用的可扩展训练/评估系统。
+丰富的算法工作经历，让我拥有涵盖推荐系统、自然语言处理、分布式机器学习、隐私计算及大模型等领域的多元化技术交叉背景，这使我善于从不同角度分析问题，并能融合跨领域思路，构建创新性的解决方案。目前已发表SCI一区/二区等论文9篇，并有1篇大模型方向高水平会议论文在途（ICASSP 2026二作）。作为核心发明人（第一发明人38项）申请发明专利58项，已授权25项。研发成果获中国信通院权威认可，入选白皮书及“星河十大标杆案例”，并获2024党政机关密码科学技术奖提名（上海市唯二）。研究一直是我的热爱所在。
 
-我的教育背景是计算机科学专业，主要导师是电子科技大学的商明晟教授，同时还得到了韩筱璞教授、张子柯教授和吕琳媛教授的指导——他们现在都是浙江大学和中国科学技术大学的博士生导师。2014年，我作为访问学生参加了北京师范大学的研究，在王文旭教授的指导下，专注于复杂网络和网络重建。我在浙江省金华一中完成了中学教育，理科方向，高考分数超过了国家重点大学的录取分数线。
+硕士阶段我主修计算机技术应用，专注于复杂系统与机器学习/人工智能的交叉领域，主要导师是电子科技大学的尚明生教授，杭州师范大学阿里巴巴复杂科学研究中心的韩筱璞教授，以及现浙江大学张子柯教授和中国科学技术大学吕琳媛教授。非常幸运能得到如此众多优秀导师的指导和培养。作为访问学生去往北京师范大学系统科学学院学习，在王文旭教授的指导下，研究复杂网络和网络重建。2015年《在线社交网络的结构分析、建模及预测》获中国优秀硕士学位论文。
 
 # 🔥 近期动态
-- *2025.09*: &nbsp;🎉🎉 5项发明专利申请中！
-- *2024.11*: &nbsp;🎉🎉 1项发明专利授权！
-- *2024.08*: &nbsp;🎉🎉 1项发明专利授权！
-- *2023.10*: &nbsp;🎉🎉 1项发明专利授权！
-- *2023.09*: &nbsp;🎉🎉 3项发明专利授权！
+- *2025*: &nbsp;🎉🎉 6项发明专利受理实审！
+- *2024*: &nbsp;🎉🎉 1篇隐私计算论文发表！
+- *2024*: &nbsp;🎉🎉 2项发明专利授权！
+- *2023*: &nbsp;🎉🎉 10项发明专利授权！
+- *2022*: &nbsp;🎉🎉 10项发明专利授权！
+- *2021*: &nbsp;🎉🎉 2项发明专利授权！
+- *2020*: &nbsp;🎉🎉 1项发明专利授权！
+
+
+# 📝 学术论文
+
+- **Empirical studies on the network of social groups: the case of Tencent QQ**  
+Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung  
+*PloS one 10 (7), e0130538.* [[PDF]](pdf/ESQQ15.pdf) JCR Quartile 1
+
+- **The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model**  
+Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic  
+*Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.* [[PDF]](pdf/REESPI16.pdf) JCR Quartile 2
+
+- **Reconstruction of social group networks from friendship networks using a tag-based model**  
+Yuan-Pan Guan, Zhi-Qiang You, Xiao-Pu Han  
+*Physica A, Volume 463, 1 December 2016, Pages 485-492.* [[PDF]](pdf/RSGN16.pdf) JCR Quartile 2
+
+- **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**  
+Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu  
+*ICASSP2026[Under Review].* [[PDF]](pdf/icassp26.pdf) CCF-B
+
+- **Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering**  
+Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan  
+*Physica A, Volume 399, 1 April 2014, Pages 82-88.* [[PDF]](pdf/WRHT13.pdf) JCR Quartile 2
+
+- **Modelling temporal patterns of news report**  
+Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan  
+*Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.* [[PDF]](pdf/MTPNR15.pdf) EI
+
+- **Queuing Model for News Reports**  
+Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan  
+*Journal of University of Electronic Science and Technology of China, 2016, 45(2): 295-300.* [[PDF]](pdf/QMNR16.pdf) EI
+
+- **Modeling of social group growth based on social networks**  
+Zhi-Qiang You, Yuan-Pan Guan, Han Xiao-Pu, Xiao Fang, Lü Lin-Yuan  
+*Complex Systems and Complexity Science, 2015, 12(2): 72-77.* [[PDF]](pdf/MSGG15.pdf) EI
+
+- **A Secure and Efficient Method of Fully Anonymous Vertical Federated Learning**  
+Zhi-Qiang You, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian  
+*Information Security Research, 2024, 10(6): 506-512.* [[PDF]](pdf/FAVFL.pdf) PKU Core
+
+- **Correlation Analysis on Pedestrian Flow at Shanghai World Expo**  
+Zhi-Qiang You, Han Xiao-Pu  
+*Journal of Shanghai University of Technology, 2013, 35(4), 313-320.* [[PDF]](pdf/CAPF13.pdf) PKU Core
+
+- **The Analysis, Modeling and Prediction for The Structure of Online Social Network**  
+Zhi-Qiang You  
+*2017 No.7 Full Text Database of Chinese Excellent Master's Thesis (Information Technology Edition) Published* [[PDF]](pdf/PGT15.pdf)
+
 
 # 📝 发明专利 <span id="patent-count" style="font-size:0.85em;color:#888;"></span>
 
 ## 已授权发明专利
 
 - [已授权] **全匿踪混淆求交数据的共享方法**  
-尤志强, 赵栋, 陈立峰  
+尤志强, 赵东, 陈立峰  
 中国发明专利, CN118590236B, 公告日期: 2024.11.01  
 [[PDF]](pdf/全匿踪混淆求交数据的共享方法.pdf)
 
 - [已授权] **使用联邦学习模型进行人群包统计的方法及装置**  
-尤志强, 王昭凯  
+尤志强, 王兆凯  
 中国发明专利, CN116521952B, 公告日期: 2023.09.05  
 [[PDF]](pdf/使用联邦学习模型进行人群包统计的方法及装置.pdf)
 
 - [已授权] **短文本问题语义匹配方法和系统**  
-尤志强, 潘奇  
+尤志强, 潘淇 
 中国发明专利, CN109597994B, 公告日期: 2023.06.06  
 [[PDF]](pdf/短文本问题语义匹配方法和系统.pdf)
 
 - [已授权] **多方安全计算方法、装置、系统、电子设备和存储介质**  
-尤志强, 边阳, 赵栋  
+尤志强, 卞阳, 赵东  
 中国发明专利, CN116055049B, 公告日期: 2023.07.04  
 [[PDF]](pdf/多方安全计算方法、装置、系统、电子设备和存储介质.pdf)
 
@@ -55,77 +105,77 @@ redirect_from:
 [[PDF]](pdf/多方安全的数据重排方法、装置、电子设备及存储介质.pdf)
 
 - [已授权] **一种随机分组的方法及装置、计算机程序产品、电子设备**  
-尤志强, 边阳, 涂志鹏, 张伟琦  
+尤志强, 卞阳, 涂志鹏, 张伟奇  
 中国发明专利, CN116319084B, 公告日期: 2023.09.29  
 [[PDF]](pdf/一种随机分组的方法及装置、计算机程序产品、电子设备.pdf)
 
 - [已授权] **一种信息推荐方法及装置**  
-尤志强, 边阳, 王昭凯  
+尤志强, 卞阳, 王兆凯  
 中国发明专利, CN115795174B, 公告日期: 2022.04.25  
 [[PDF]](pdf/一种信息推荐方法及装置.pdf)
 
 - [已授权] **全密态数据处理方法、装置、设备、介质**  
-尤志强, 边阳, 赵栋  
+尤志强, 卞阳, 赵东  
 中国发明专利, CN115587382B, 公告日期: 2023.04.11  
 [[PDF]](pdf/全密态数据处理方法、装置、设备、介质.pdf)
 
 - [已授权] **隐私计算进程的安全监控方法、装置、设备、介质**  
-尤志强, 边阳  
+尤志强, 卞阳 
 中国发明专利, CN115664839B, 公告日期: 2023.04.11  
 [[PDF]](pdf/隐私计算进程的安全监控方法、装置、设备、介质.pdf)
 
 - [已授权] **基于异构联邦学习的预测方法、模型生成方法及装置**  
-尤志强, 边阳  
+尤志强, 卞阳 
 中国发明专利, CN114611712B, 公告日期: 2022.08.26  
 [[PDF]](pdf/基于异构联邦学习的预测方法、模型生成方法及装置.pdf)
 
 - [已授权] **一种数据中位数确定方法及装置**  
-尤志强, 边阳, 赵栋, 朱崇冰  
+尤志强, 卞阳, 赵栋  
 中国发明专利, CN114595479B, 公告日期: 2022.08.26  
 [[PDF]](pdf/一种数据中位数确定方法及装置.pdf)
 
 - [已授权] **多方安全计算方法、电子设备及可读存储介质**  
-尤志强, 赵栋, 陈立峰, 边阳  
+尤志强, 赵东, 陈立峰, 卞阳  
 中国发明专利, CN114615282B, 公告日期: 2022.08.23  
 [[PDF]](pdf/多方安全计算方法、电子设备及可读存储介质.pdf)
 
 - [已授权] **一种纵向联邦学习模型的训练方法及系统**  
-尤志强, 边阳  
+尤志强, 卞阳  
 中国发明专利, CN114330759B, 公告日期: 2022.08.02  
 [[PDF]](pdf/一种纵向联邦学习模型的训练方法及系统.pdf)
 
 - [已授权] **信贷申请的逾期风险预测方法及装置**  
-尤志强, 车曦, 潘奇  
+尤志强, 车曦, 潘琪  
 中国发明专利, CN108389125B, 公告日期: 2022.06.07  
 [[PDF]](pdf/信贷申请的逾期风险预测方法及装置.pdf)
 
 - [已授权] **用户关系的识别方法、对象关系的识别方法及装置**  
-尤志强, 潘奇, 车曦  
+尤志强, 潘琪, 车曦  
 中国发明专利, CN107392781B, 公告日期: 2021.11.02  
 [[PDF]](pdf/用户关系的识别方法、对象关系的识别方法及装置.pdf)
 
 - [已授权] **短文本分类方法及装置**  
-尤志强, 车曦, 潘奇  
+尤志强, 车曦, 潘琪  
 中国发明专利, CN107301225B, 公告日期: 2021.01.26  
 [[PDF]](pdf/短文本分类方法及装置.pdf)
 
 - [已授权] **联邦学习代码生成方法、装置、电子设备及存储介质**  
-边阳, 尤志强, 赵栋, 朱崇冰  
+卞阳, 尤志强, 赵东 
 中国发明专利, CN114282257B, 公告日期: 2022.07.15  
 [[PDF]](pdf/联邦学习代码生成方法、装置、电子设备及存储介质.pdf)
 
 - [已授权] **一种智能语义处理方法**  
-康宏宇, 尤志强, 车曦, 潘奇  
+康洪雨, 尤志强, 车曦, 潘琪  
 中国发明专利, CN109062895B, 公告日期: 2022.06.24  
 [[PDF]](pdf/一种智能语义处理方法.pdf)
 
 - [已授权] **基于移动端日志行为数据的用户流失预测方法及装置**  
-车曦, 尤志强, 潘奇  
+车曦, 尤志强, 潘琪  
 中国发明专利, CN109034861B, 公告日期: 2022.06.07  
 [[PDF]](pdf/基于移动端日志行为数据的用户流失预测方法及装置.pdf)
 
 - [已授权] **用于评估联邦学习模型的方法及装置**  
-王昭凯, 边阳, 尤志强  
+王兆凯, 卞阳, 尤志强  
 中国发明专利, CN116541870B, 公告日期: 2023.09.05  
 [[PDF]](pdf/用于评估联邦学习模型的方法及装置.pdf)
 
@@ -301,110 +351,53 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 中国发明专利, CN117688245A, 申请日期: 2023.12.28  
 [[PDF]](pdf/基于大语言模型的交易对象推荐方法、装置、设备和介质.pdf)
 
-# 📝 学术论文
 
-- **Empirical studies on the network of social groups: the case of Tencent QQ**  
-Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung  
-*PloS one 10 (7), e0130538.* [[PDF]](pdf/ESQQ15.pdf) JCR Quartile 1
-
-- **The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model**  
-Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic  
-*Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.* [[PDF]](pdf/REESPI16.pdf) JCR Quartile 2
-
-- **Reconstruction of social group networks from friendship networks using a tag-based model**  
-Yuan-Pan Guan, Zhi-Qiang You, Xiao-Pu Han  
-*Physica A, Volume 463, 1 December 2016, Pages 485-492.* [[PDF]](pdf/RSGN16.pdf) JCR Quartile 2
-
-- **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**  
-Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu  
-*ICASSP2026[Under Review].* [[PDF]](pdf/icassp26.pdf) CCF-B
-
-- **Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering**  
-Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan  
-*Physica A, Volume 399, 1 April 2014, Pages 82-88.* [[PDF]](pdf/WRHT13.pdf) JCR Quartile 2
-
-- **A Secure and Efficient Method of Fully Anonymous Vertical Federated Learning**  
-Zhi-Qiang You, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian  
-*Information Security Research, 2024, 10(6): 506-512.* [[PDF]](pdf/FAVFL.pdf) PKU Core
-
-- **Correlation Analysis on Pedestrian Flow at Shanghai World Expo**  
-Zhi-Qiang You, Han Xiao-Pu  
-*Journal of Shanghai University of Technology, 2013, 35(4), 313-320.* [[PDF]](pdf/CAPF13.pdf) PKU Core
-
-- **Modelling temporal patterns of news report**  
-Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan  
-*Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.* [[PDF]](pdf/MTPNR15.pdf) EI
-
-- **Queuing Model for News Reports**  
-Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan  
-*Journal of University of Electronic Science and Technology of China, 2016, 45(2): 295-300.* [[PDF]](pdf/QMNR16.pdf) EI
-
-- **Modeling of social group growth based on social networks**  
-Zhi-Qiang You, Yuan-Pan Guan, Han Xiao-Pu, Xiao Fang, Lü Lin-Yuan  
-*Complex Systems and Complexity Science, 2015, 12(2): 72-77.* [[PDF]](pdf/MSGG15.pdf) EI
-
-- **The Analysis, Modeling and Prediction for The Structure of Online Social Network**  
-Zhi-Qiang You  
-*2017 No.7 Full Text Database of Chinese Excellent Master's Thesis (Information Technology Edition) Published* [[PDF]](pdf/PGT15.pdf)
 
 # 🎖 荣誉与获奖
 
-## 隐私计算与联邦学习
-- 2024年：密码科学技术奖提名（全市仅两名之一）
-- 2023年：第1届数商大赛金融数据创新应用赛道一等奖（全国）（全匿算法在金融场景应用）
+## 主要荣誉
+
+- 2024年：《全匿踪联邦学习技术体系》获党政机要密码科学技术奖提名（上海市唯二）
+- 2023年：首届全国数商大赛金融数据创新应用赛道一等奖（全匿踪算法在金融场景应用）
 - 2023年：证券期货业金融科技研发中心（深圳）优秀项目二等奖（"基于全匿联邦学习的财富管理客群挖掘"，国泰君安&富数科技）
-- 2022年：入选中国信通院"银河"计划"十大标杆案例"（全匿联邦学习算法）
-- 2022年：技术方案收录于中国信通院《隐私计算白皮书》
-- 2021年：主导的多方安全计算算子库平台成为首批通过中国信通院性能评测（与腾讯、蚂蚁并列）
-- 2021年：通过BCTC金融应用技术评估（国内首批，与微众银行、蚂蚁并列）
-
-## 安全计算与生物识别
-- 2023年：第2届广和组织AI解决方案大赛奖项（"基于海光平台硬件加速的隐私计算人脸识别应用技术"）
-- 2022年：成功应用于中国银联（全球最快的多方安全生物识别算法，性能排名第一）
-
-## 行业与竞赛
+- 2023年：第二届光合组织AI解决方案大赛奖项（"基于海光平台硬件加速的隐私计算人脸识别应用技术"）
+- 2022年：《全匿踪隐私计算技术在证券领域应用》入选中国信通院“星河”十大标杆案例
+- 2022年：《基于全匿踪联邦学习的反电信欺诈解决方案》被收录信通院《隐私计算白皮书》
+- 2022年：成功应用于中国银联（最快的多方安全生物识别算法，性能排名第一）
 - 2021年：获上海市经济和信息化委员会颁发的2021年度上海市重点行业人才专项奖励
-- 2018年：杭州市重大科技创新项目（"基于深度学习和知识图谱的智能政务咨询服务平台"）
-- 2014年：第十届全国复杂网络会议十大问题（"基于真实数据的信息传播问题"，会议主席陈关荣教授颁发）
-- 2014年：CCF-腾讯犀牛鸟基金优秀奖（前10%）（"大规模在线社交网络中高影响力用户挖掘"）
-- 2014年："王淘直通车广告系统"，电子科技大学、一淘（阿里巴巴）、杭州酷云网络合作项目。参与需求分析、关键词库构建和竞价算法设计
-- 2012年：首届中国互联网数据平台数据挖掘竞赛一等奖（全国），中国互联网信息中心主办（SIMPLE团队核心成员）
+- 2021年：主导的多方安全计算算子库平台成为首批通过中国信通院性能评测（与腾讯、蚂蚁并列）
+- 2021年：多方安全计算算子库平台通过BCTC金融应用技术评估（国内首批，与微众银行、蚂蚁并列）
+- 2018年：《基于深度学习及知识图谱的智能政务咨询服务平台》入库杭州市重大科技创新项目
+- 2015年：《在线社交网络的结构分析、建模及预测》获中国优秀硕士学位论文（前10%）
+- 2014年：《基于真实数据的信息传播问题》入选第十届全国复杂网络大会复杂网络TOP10科学问题（会议主席陈关荣教授颁发）
+- 2014年：主持并结题浙江省大学生科技创新活动计划《基于社交网络的价值流失预警模型的研究与应用》
+- 2014年：《大规模在线社交网络中高影响力用户挖掘》获CCF-腾讯犀牛鸟基金优秀奖
+- 2013年：《空气中 PM2.5 的时空分布规律、预测及控制研究》获第十届“华为杯”全国研究生数学建模竞赛获全国三等奖
+- 2013年：参与编写《杭州互联网经济发展报告（2012-2013）》，浙江大学出版社出版，杭州市经济和信息化委员会主导
+- 2012年：《基于随机游走和机器学习技术的个性化网站推荐》首届中国互联网数据平台数据挖掘大赛全国一等奖（SIMPLE团队核心成员）
+- 2012年：杭州电子科技大学校级优秀毕业生
+- 2011年：学院创新实验班核心成员。获得多项编程和设计竞赛奖项，包括计算机科学学院首页设计竞赛
+- 2010年：大学生科技创新项目《绿团网——基于团购和评论的生态农场旅游平台》核心团队成员
+
+## 其他荣誉
+- 2024年："隐私计算训练营"（第二期）优秀学员认证，SecretFlow开源社区主办
 - 2015-2023年：公司评定持续最高绩效等级（3.75）。荣获多项公司奖项包括：极客精神奖、创新突破奖、顶梁柱奖、优秀团队贡献奖
-- 认证中级网络工程师（国家计算机技术与软件专业资格）
-- "隐私计算训练营"（第二期）优秀学员认证，SecretFlow开源社区主办
-
-## 教育奖项
-- 2015年：中国优秀硕士论文（前10%）
-- 2015年：大学级优秀毕业生
-- 2013年：第十届华为杯全国研究生数学建模竞赛三等奖（No.10346003）
-- 多次获得一等奖学金
-- 优秀科研奖
-- 学院创新实验班核心成员。获得多项编程和设计竞赛奖项，包括计算机科学学院旗舰设计竞赛
-- 《杭州互联网经济发展报告（2012-2013）》，浙江大学出版社出版，杭州市经济和信息化委员会主导
-- 所有标准化考试成绩：A等级
-
-## 科研与创新项目
-- 2013年：第十届华为杯全国研究生数学建模竞赛三等奖
-- 2012年：浙江省大学生创新计划项目负责人"社交网络中价值流失预警模型"
-- 2010年：2010年学生创新项目核心团队成员，"绿团网——基于团购和评论的生态农场旅游平台"，提出团购农产品和生态旅游的概念，早于拼多多（2015）数年
-- 多次获得一等奖学金
-- 优秀科研奖
-- 学院创新实验班核心成员。获得多项编程和设计竞赛奖项，包括计算机科学学院旗舰设计竞赛
+- 2008-2015：本科、研究生阶段连续获得一等奖学金、优秀科研奖
 
 ## 学术会议
-- IEEE第34届中国控制会议（CCC 2015）演讲者
-- 2014年：第十届全国复杂网络会议演讲者，主题：复杂网络在跨学科领域的应用
+- 2015年：IEEE第34届中国控制会议（CCC 2015）演讲者
+- 2014年：第十届全国复杂网络会议演讲者
 
 ## 核心资质
 - CET-4：579分；CET-6：572分；上海中级口译证书
-- 国家认证网络工程师（中级）（由中华人民共和国人力资源和社会保障部颁发）
+- 国家认证网络工程师（由中华人民共和国人力资源和社会保障部颁发）
 
 # 💬 技术专栏
 
 **CSDN技术专栏**  
-- 访问量：**440,000+**
-- 粉丝数：**~28,000**
-- 文章数：**155篇**
+- 访问量：**480,000+**
+- 粉丝数：**~30,000**
+- 文章数：**166篇**
 
 入选以下版块精选文章：
 - Python内容板块
@@ -417,23 +410,9 @@ Zhi-Qiang You
 
 技术博客：[yuanquan's square](https://armstrong.blog.csdn.net/)
 
-# 💼 工作经历
-- *2024.至今* - AI大模型应用创新公司，算法总监，负责智能体架构和强化学习
-- *2023-2024* - 智谱华章（智谱AI），广域互联网事业部，智能体算法负责人
-- *2021-2023* - 富数科技，算法总监
-- *2018-2021* - 挖财、贝贝集团，算法专家
-- *2017-2018* - 腾讯，访问学者
-- *2015-2017* - 新中大，研发工程师
-
-# 📖 教育经历
-- *2012-2015* - 电子科技大学，计算机科学与技术，硕士研究生
-- *2014* - 北京师范大学，访问学生，复杂网络研究
-- *2008-2012* - 计算机科学与技术，本科
-- *2005-2008* - 浙江省金华一中，高中
-
 ---
 
 <div style="text-align:center;color:#aaa;padding:30px 0 10px 0;font-size:0.95em;">
-页面更新于 2025年1月，尤志强
+页面更新于 2025年11月
 </div>
 
