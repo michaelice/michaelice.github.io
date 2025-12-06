@@ -8,7 +8,6 @@
 # Site Settings
 title                    : "尤志强 (Zhi-Qiang You) 个人主页"
 description              : "人工智能交叉领域，目前专注于大模型智能体及多模态大模型的应用探索。"
-repository               : "michaelice/michaelice.github.io"
 url                      : "https://yuanquan.online"  # 主域名
 baseurl                  : ""  # 子路径（通常为空）
 google_scholar_stats_use_cdn : false
@@ -25,7 +24,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "尤志强 (Zhi-Qiang You)"
   avatar           : "images/profile.png"
-  bio              : "Director of LLM Algorithms @AI Startup"
+  bio              : "高级工程师, 大模型算法总监"
   location         : "杭州, 中国"
   employer         : "AI Startup"
   pubmed           : 
