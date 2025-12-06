@@ -66,11 +66,34 @@
 }
 
 /*
-   Author profile and links
+   Author profile and links - Golden Theme
    ========================================================================== */
-.profile_box{
+
+$accent-gold: #FFCB00;
+$accent-gold-dark: #D4A900;
+$accent-gold-light: #FFE066;
+
+.profile_box {
   @include breakpoint($large) {
     display: block;
+    position: relative;
+    padding: 20px 15px;
+    background: linear-gradient(180deg, #fefefe 0%, #f8f8f8 100%);
+    border-radius: 16px;
+    border: 1px solid rgba(0,0,0,0.05);
+    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
+    
+    &::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 50px;
+      height: 3px;
+      background: linear-gradient(90deg, $accent-gold-light, $accent-gold, $accent-gold-dark);
+      border-radius: 0 0 3px 3px;
+    }
   }
   display: flex;
   justify-content: flex-start;
@@ -78,27 +101,64 @@
   align-items: center;
 }
 
+/* Avatar golden ring */
+.avatar-ring {
+  position: relative;
+  display: inline-block;
+  
+  &::before {
+    content: '';
+    position: absolute;
+    top: -4px;
+    left: -4px;
+    right: -4px;
+    bottom: -4px;
+    background: linear-gradient(135deg, $accent-gold-light, $accent-gold, $accent-gold-dark);
+    border-radius: 50%;
+    z-index: 0;
+  }
+  
+  &::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #fff;
+    border-radius: 50%;
+    z-index: 1;
+  }
+  
+  img {
+    position: relative;
+    z-index: 2;
+  }
+}
+
 .author__avatar {
   display: table-cell;
   vertical-align: top;
   width: 75px;
-  // set width only, for non-square avatars
-  // height: 36px;
 
   @include breakpoint($large) {
     display: block;
     width: auto;
     height: auto;
+    text-align: center;
+    margin-bottom: 5px;
   }
 
   img {
-    max-width: 175px;
+    max-width: 150px;
     min-width: 75px;
     border-radius: 50%;
+    border: 3px solid #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    transition: transform 0.4s ease;
 
-    @include breakpoint($large) {
-      padding: 5px;
-      border: 1px solid $border-color;
+    &:hover {
+      transform: scale(1.05);
     }
   }
 }
@@ -108,7 +168,6 @@
   vertical-align: top;
   padding-left: 10px;
   min-width: 120px;
-  // padding-right: 25px;
   line-height: 1;
 
   @include breakpoint($large) {
@@ -116,15 +175,19 @@
     width: 100%;
     padding-left: 0;
     padding-right: 0;
+    text-align: center;
   }
 }
 
 .author__name {
   margin: 0;
+  font-weight: 700;
+  color: #1a1a1a;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 12px;
+    margin-bottom: 4px;
+    font-size: 1.5em;
   }
 }
 
@@ -136,12 +199,52 @@
   font-size: $type-size-4;
 }
 
-.author__bio {
+.author__ename {
   margin: 0;
+  font-size: 0.9em;
+  color: #888;
+  font-weight: 300;
+  letter-spacing: 0.5px;
 
   @include breakpoint($large) {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
+  }
+}
+
+/* Title badge - golden style */
+.author__title-badge {
+  display: inline-block;
+  padding: 5px 14px;
+  margin: 8px 0;
+  font-size: 0.75em;
+  font-weight: 600;
+  color: #1a1a1a;
+  background: linear-gradient(135deg, $accent-gold-light 0%, $accent-gold 100%);
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(255,203,0,0.35);
+  transition: all 0.3s ease;
+  letter-spacing: 0.5px;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255,203,0,0.5);
+  }
+}
+
+.author__bio {
+  margin: 0;
+  color: #555;
+  font-size: 0.92em;
+  line-height: 1.6;
+
+  @include breakpoint($large) {
+    margin-top: 12px;
+    margin-bottom: 18px;
+    padding: 10px 12px;
+    background: rgba(255,203,0,0.08);
+    border-radius: 10px;
+    border-left: 3px solid $accent-gold;
+    text-align: left;
   }
 }
 
@@ -239,16 +342,26 @@
 
   a {
     display: block;
-    margin-bottom: 5px;
-    padding-right: 5px;
-    padding-top: 2px;
-    padding-bottom: 2px;
-    color: inherit;
+    margin-bottom: 4px;
+    padding: 5px 8px;
+    border-radius: 6px;
+    color: #555;
     font-size: $type-size-5;
     text-decoration: none;
+    transition: all 0.25s ease;
 
     &:hover {
-      text-decoration: underline;
+      background: rgba(255,203,0,0.12);
+      color: #1a1a1a;
+      transform: translateX(3px);
+    }
+    
+    i {
+      transition: color 0.25s ease;
+    }
+    
+    &:hover i {
+      color: #D4A900;
     }
   }
 }
