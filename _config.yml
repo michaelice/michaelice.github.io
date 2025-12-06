@@ -22,9 +22,11 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "尤志强 (Zhi-Qiang You)"
+  name             : "尤志强"
+  e_name           : "Zhi-Qiang You"  
   avatar           : "images/profile.png"
-  bio              : "高级工程师, 大模型算法总监"
+  title            : "高级工程师"
+  bio              : "大模型算法总监"
   location         : "杭州, 中国"
   employer         : "AI Startup"
   pubmed           : 
