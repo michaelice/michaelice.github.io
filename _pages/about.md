@@ -10,17 +10,18 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-我目前担任某AI大模型应用创新公司的大模型算法总监，负责多模态大模型应用研发、大模型智能体架构和强化学习工作。研究兴趣为智能体架构、工具使用和规划策略以及评估框架，以提高可靠性、自主性和任务成功率。
+我目前担任某AI大模型应用创新公司的大模型算法总监，某AI业务线产研负责人，负责多模态大模型应用研发、大模型智能体架构和强化学习工作。研究兴趣为智能体架构、工具使用和规划策略以及评估框架，以提高可靠性、自主性和任务成功率。
 
 此前，我曾担任智谱华章（智谱AI）泛互联网事业部智能体业务算法负责人，从事大模型Agent的相关算法研发及应用工作；在上海富数科技担任算法负责人，负责隐私保护计算、可信分布式机器学习技术研发，公司业务实现全国份额前三，细分领域份额运营商第一，电力第一；早期在腾讯(深圳)、挖财集团、贝贝集团等担任算法专家、访问学者等职位；在信雅达从事金融算法研发工作。曾参与由电子科技大学与阿里巴巴“一淘”团队合作的广告算法系统研发项目。此前我还曾获得滴滴出行、有赞、京东等国内优秀互联网公司包括算法专家在内等offer。
 
-丰富的算法工作经历，让我拥有涵盖推荐系统、自然语言处理、分布式机器学习、隐私计算及大模型等领域的多元化技术交叉背景，这使我善于从不同角度分析问题，并能融合跨领域思路，构建创新性的解决方案。曾发表SCI一区/二区等论文9篇，近期团队发表1篇大模型推理方向论文。作为核心发明人（第一发明人41项）申请发明专利62项，已授权25项，37项正在实审。研发成果曾获中国信通院权威认可，入选白皮书及“星河十大标杆案例”，并获2024国家级密码科学技术奖提名（上海市唯二）。研究一直是我的热爱所在。
+丰富的算法工作经历，让我拥有涵盖推荐系统、自然语言处理、分布式机器学习、隐私计算及大模型等领域的多元化技术交叉背景，这使我善于从不同角度分析问题，并能融合跨领域思路，构建创新性的解决方案。曾发表SCI一区/二区等论文9篇，近期团队公开2篇大模型方向论文。作为核心发明人（第一发明人41项）申请发明专利62项，已授权25项，37项正在实审。研发成果曾获中国信通院权威认可，入选白皮书及“星河十大标杆案例”，并获2024国家级密码科学技术奖提名（上海市唯二）。研究一直是我的热爱所在。
 
 硕士阶段我主修计算机技术应用，方向为复杂系统与机器学习/人工智能的交叉领域，主要导师是原电子科技大学的尚明生教授(现中科院)，杭州师范大学阿里巴巴复杂科学研究中心的韩筱璞教授，以及现浙江大学张子柯教授和中国科学技术大学吕琳媛教授。曾作为访问学生去往北京师范大学系统科学学院学习，在王文旭教授的指导下，研究复杂网络和网络重建。非常幸运能得到如此众多优秀老师的指导和培养。2015年《在线社交网络的结构分析、建模及预测》获中国优秀硕士学位论文。本科师承张树人副教授(现浙江省现代互联网研究院副院长兼普创金融研究中心主任)。高中就读浙江金华第一中学理科班。
 
 # 🔥 近期动态
-- *2025*: &nbsp;🎉🎉 1篇大模型推理论文提交ICASSP2026！
-- *2025*: &nbsp;🎉🎉 7项发明专利受理实审！
+- *2026*: &nbsp;🎉🎉 1篇大模型强化学习论文在审！
+- *2025*: &nbsp;🎉🎉 1篇大模型推理论文在审！
+- *2025*: &nbsp;🎉🎉 8项发明专利受理实审！
 - *2024*: &nbsp;🎉🎉 1篇隐私计算核心论文发表！
 - *2024*: &nbsp;🎉🎉 2项发明专利授权！
 - *2023*: &nbsp;🎉🎉 10项发明专利授权！
@@ -36,7 +37,7 @@ redirect_from:
 - *2014*: &nbsp;🎉🎉 1篇SCI二区论文发表！
 - *2013*: &nbsp;🎉🎉 1篇中文核心论文发表！
 
-# 📝 学术论文
+# 📝 学术论文（已发表）
 
 - **Empirical studies on the network of social groups: the case of Tencent QQ**  
 Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung  
@@ -49,10 +50,6 @@ Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic
 - **Reconstruction of social group networks from friendship networks using a tag-based model**  
 Yuan-Pan Guan, Zhi-Qiang You, Xiao-Pu Han  
 *Physica A, Volume 463, 1 December 2016, Pages 485-492.* [[PDF]](pdf/RSGN16.pdf) JCR Quartile 2
-
-- **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**  
-Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu  
-*ICASSP2026[Under Review].* [[PDF]](pdf/icassp26.pdf) CCF-B
 
 - **Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering**  
 Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan  
@@ -81,6 +78,12 @@ Zhi-Qiang You, Han Xiao-Pu
 - **The Analysis, Modeling and Prediction for The Structure of Online Social Network**  
 Zhi-Qiang You  
 *2017 No.7 Full Text Database of Chinese Excellent Master's Thesis (Information Technology Edition) Published* [[PDF]](pdf/PGT15.pdf)
+
+# 📝 学术论文（在审）
+
+- Jing-Yi Xu, Xing-Yu Ren, Zhi-Qiang You(**corresponding author**), Yu-Meng Zhang, Zhou-Peng Shou. **"Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization."** arXiv:submit/7191479 (24 Jan 2026).
+
+- Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, and Hai-Bo Liu. **"CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning."** arXiv preprint arXiv:2509.06641 (2025).[[PDF]](pdf/icassp26.pdf) 
 
 
 # 📝 发明专利 <span id="patent-count" style="font-size:0.85em;color:#888;"></span>
@@ -401,7 +404,8 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 
 
 # 📝 软著（主导）
-
+- 2025-11-21: **某基于大模型的智能用户营销内容生成平台**  已提交申请
+- 2025-10-30: **某AI驱动的客服会话处理系统**  已提交申请
 - 2024-04-26：**纵向Xgboost_NPZ多分类建模软件**  登记号：2024SR0569180 
 - 2023-08-24：**Avatar安全计算平台软件**  登记号：2023SR0975884
 - 2022-11-23：**多方安全计算并行计算引擎与算子软件**  登记号：2022SR1561493
@@ -453,8 +457,8 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 # 💬 技术专栏
 
 **CSDN技术专栏**  
-- 访问量：**490,000+**
-- 粉丝数：**30,000+**
+- 访问量：**510,000+**
+- 粉丝数：**31,000+**
 - 文章数：**166篇**
 
 入选以下版块精选文章：
@@ -471,6 +475,6 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 ---
 
 <div style="text-align:center;color:#aaa;padding:30px 0 10px 0;font-size:0.95em;">
-页面更新于 2025年11月
+页面更新于 2026年1月
 </div>
 
