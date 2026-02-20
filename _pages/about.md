@@ -20,7 +20,7 @@ redirect_from:
 
 # 🔥 近期动态
 - *2026*: &nbsp;🎉🎉 1篇大模型强化学习论文在审！
-- *2026*: &nbsp;🎉🎉 1项发明专利受理实审！
+- *2026*: &nbsp;🎉🎉 1项发明专利授权！
 - *2025*: &nbsp;🎉🎉 1篇大模型推理论文在审！
 - *2025*: &nbsp;🎉🎉 7项发明专利受理实审！
 - *2024*: &nbsp;🎉🎉 1篇隐私计算核心论文发表！
@@ -82,7 +82,7 @@ Zhi-Qiang You
 
 # 📝 学术论文（在审）
 
-- Jing-Yi Xu, Xing-Yu Ren, Zhi-Qiang You(**corresponding author**), Yu-Meng Zhang, Zhou-Peng Shou. **"Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization."** arXiv:submit/7191479 (24 Jan 2026).
+- Jing-Yi Xu, Xing-Yu Ren, Zhi-Qiang You(**corresponding author**), Yu-Meng Zhang, Zhou-Peng Shou. **"Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization."** 
 
 - Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, and Hai-Bo Liu. **"CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning."** arXiv preprint arXiv:2509.06641 (2025).[[PDF]](pdf/icassp26.pdf) 
 
@@ -406,7 +406,7 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 
 # 📝 软著（主导）
 - 2025-11-21：**某基于大模型的智能用户营销内容生成平台**  已提交申请
-- 2025-10-30：**某AI驱动的客服会话处理系统**  已提交申请
+- 2025-10-30：**某AI驱动的客服会话处理系统**  登记号：2025SR2531067
 - 2024-04-26：**纵向Xgboost_NPZ多分类建模软件**  登记号：2024SR0569180 
 - 2023-08-24：**Avatar安全计算平台软件**  登记号：2023SR0975884
 - 2022-11-23：**多方安全计算并行计算引擎与算子软件**  登记号：2022SR1561493
@@ -476,6 +476,6 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 ---
 
 <div style="text-align:center;color:#aaa;padding:30px 0 10px 0;font-size:0.95em;">
-页面更新于 2026年1月
+页面更新于 2026年
 </div>
 

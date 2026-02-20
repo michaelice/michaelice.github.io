@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "尤志强 (Zhi-Qiang You) 个人主页"
+title                    : "Zhi-Qiang You 个人主页"
 description              : "人工智能交叉领域，目前专注于大模型智能体及多模态大模型的应用探索。"
 url                      : "https://yuanquan.online"  # 主域名
 baseurl                  : ""  # 子路径（通常为空）
@@ -22,7 +22,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 
 # Site Author
 author:
-  name             : "尤志强"
+  name             : "源泉"
   e_name           : "Zhi-Qiang You"  
   avatar           : "images/profile.png"
   title            : "高级工程师"
