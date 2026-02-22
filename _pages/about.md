@@ -14,26 +14,8 @@ redirect_from:
 
 此前，我曾在智谱AI主导大模型Agent算法研发与落地；在富数科技负责隐私计算与分布式机器学习，助力业务跻身全国前三。更早期在腾讯等企业深耕社交网络、电商推荐及金融算法，亦曾获得出行领域最头部企业算法专家offer。横跨AI大模型、数据安全、电商、金融、社交网络及出行等多行业的交叉背景，使我善于融合跨领域经验，构建创新性解决方案。
 
-# 🔥 近期动态
-- *2026*: &nbsp;🎉🎉 1篇大模型强化学习论文在审！
-- *2026*: &nbsp;🎉🎉 1项发明专利授权！
-- *2025*: &nbsp;🎉🎉 1篇大模型推理论文在审！
-- *2025*: &nbsp;🎉🎉 7项发明专利受理实审！
-- *2024*: &nbsp;🎉🎉 1篇隐私计算核心论文发表！
-- *2024*: &nbsp;🎉🎉 2项发明专利授权！
-- *2023*: &nbsp;🎉🎉 10项发明专利授权！
-- *2022*: &nbsp;🎉🎉 10项发明专利授权！
-- *2021*: &nbsp;🎉🎉 2项发明专利授权！
-- *2020*: &nbsp;🎉🎉 1项发明专利授权！
-- *2017*: &nbsp;🎉🎉 中国优秀硕士论文公开发表！
-- *2016*: &nbsp;🎉🎉 2篇SCI论文发表！
-- *2016*: &nbsp;🎉🎉 1篇EI检索期刊论文发表！
-- *2015*: &nbsp;🎉🎉 1篇SCI论文发表！
-- *2015*: &nbsp;🎉🎉 1篇EI检索会议论文发表！
-- *2015*: &nbsp;🎉🎉 1篇EI检索期刊论文发表！
-- *2014*: &nbsp;🎉🎉 1篇SCI论文发表！
-- *2013*: &nbsp;🎉🎉 1篇中文核心论文发表！
 
+<span class='anchor' id='publications'></span>
 # 📝 学术论文（已发表）
 
 - **Empirical studies on the network of social groups: the case of Tencent QQ**  
@@ -76,6 +58,7 @@ Zhi-Qiang You, Han Xiao-Pu
 Zhi-Qiang You  
 *2017 No.7 Full Text Database of Chinese Excellent Master's Thesis (Information Technology Edition) Published* [[PDF]](pdf/PGT15.pdf)
 
+<span class='anchor' id='publications-review'></span>
 # 📝 学术论文（在审）
 
 - Jing-Yi Xu, Xing-Yu Ren, Zhi-Qiang You(**corresponding author**), Yu-Meng Zhang, Zhou-Peng Shou. **"Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization."** 
@@ -83,6 +66,7 @@ Zhi-Qiang You
 - Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, and Hai-Bo Liu. **"CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning."** arXiv preprint arXiv:2509.06641 (2025).[[PDF]](pdf/icassp26.pdf) 
 
 
+<span class='anchor' id='patents'></span>
 # 📝 发明专利 <span id="patent-count" style="font-size:0.85em;color:#888;"></span>
 
 ## 已授权发明专利
@@ -400,6 +384,7 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 [[PDF]](pdf/基于大语言模型的交易对象推荐方法、装置、设备和介质.pdf)
 
 
+<span class='anchor' id='software'></span>
 # 📝 软著（主导）
 - 2025-11-21：**某基于大模型的智能用户营销内容生成平台**  已提交申请
 - 2025-10-30：**某AI驱动的客服会话处理系统**  登记号：2025SR2531067
@@ -411,6 +396,7 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 - 2021-07-02：**Avatar联邦学习平台软件**  登记号：2021SR0975641
 
 
+<span class='anchor' id='honors'></span>
 # 🎖 荣誉与获奖
 
 ## 代表性荣誉
@@ -428,6 +414,7 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 - (高级职称) 系统架构设计师 ｜ (中级职称) 网络工程师
 - CET-6：572分 ｜ 上海中级口译证书
 
+<span class='anchor' id='blog'></span>
 # 💬 技术专栏
 
 **CSDN技术专栏** — 访问量 **51万+**，粉丝 **3.1万+**，文章 **166篇**，入选 AI / Python / 前沿技术等多个板块精选
