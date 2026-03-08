@@ -408,10 +408,6 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 - 2015年：中国优秀硕士学位论文（前10%）
 - 2012年：首届中国互联网数据平台数据挖掘大赛全国一等奖
 
-## 核心资质
-- (高级职称) 系统架构设计师 ｜ (中级职称) 网络工程师
-- CET-6：572分 ｜ 上海中级口译证书
-
 <span class='anchor' id='blog'></span>
 # 💬 技术专栏
 
