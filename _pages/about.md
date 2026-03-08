@@ -10,9 +10,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-我目前担任某AI大模型应用创新公司的大模型算法总监及AI业务线产研负责人，专注于多模态大模型应用研发、智能体架构设计与强化学习。研究兴趣聚焦于智能体架构、工具使用与规划策略及评估框架，致力于提升系统的可靠性、自主性与任务成功率。
-
-此前，我曾在智谱AI主导大模型Agent算法研发与落地；在富数科技负责隐私计算与分布式机器学习，助力业务跻身全国前三。更早期在腾讯等企业深耕社交网络、电商推荐及金融算法，亦曾获得出行领域最头部企业算法专家offer。横跨AI大模型、数据安全、电商、金融、社交网络及出行等多行业的交叉背景，使我善于融合跨领域经验，构建创新性解决方案。
+我目前担任某AI大模型应用创新公司的大模型算法总监及AI业务线产研负责人，专注于多模态大模型应用研发、智能体架构设计与强化学习。研究兴趣聚焦于智能体架构、工具使用与规划策略及评估框架，致力于提升系统的可靠性、自主性与任务成功率。曾就职于多家互联网大厂、细分赛道头部公司，具备AI大模型、数据安全、电商、金融、社交网络及出行等多行业的交叉背景，善于融合跨领域经验，构建创新性解决方案。
 
 
 <span class='anchor' id='publications'></span>
@@ -61,7 +59,7 @@ Zhi-Qiang You
 <span class='anchor' id='publications-review'></span>
 # 📝 学术论文（在审）
 
-- Jing-Yi Xu, Xing-Yu Ren, Zhi-Qiang You(**corresponding author**), Yu-Meng Zhang, Zhou-Peng Shou. **"Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization."** 
+- Xu, Jingyi, Xingyu Ren, Zhiqiang You(**corresponding author**), Yumeng Zhang, and Zhoupeng Shou. **"Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization."** " arXiv preprint arXiv:2602.15854 (2026).
 
 - Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, and Hai-Bo Liu. **"CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning."** arXiv preprint arXiv:2509.06641 (2025).[[PDF]](pdf/icassp26.pdf) 
 
@@ -70,6 +68,11 @@ Zhi-Qiang You
 # 📝 发明专利 <span id="patent-count" style="font-size:0.85em;color:#888;"></span>
 
 ## 已授权发明专利
+
+- [已授权] **从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质**    
+尤志强,任星宇,许靖怡,张雨萌,王仿,宋健    
+中国发明专利, CN121212162B, 公告日期: 2026.03.06    
+[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf)  
 
 - [已授权] **全匿踪混淆求交数据的共享方法、系统、设备及介质**  
 尤志强, 赵东, 陈立峰  
@@ -197,11 +200,6 @@ Zhi-Qiang You
 [[PDF]](pdf/特征分箱方法、装置、电子设备和计算机可读存储介质.pdf)
 
 ## 申请中的发明专利
-
-- [申请中] **从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质**    
-尤志强,任星宇,许靖怡,张雨萌,王仿,宋健    
-中国发明专利, 申请号 202511768017.6, 申请日期: 2025.11.28    
-[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf)  
 
 - [申请中] **一种基于多模态大模型的工业质检方法、系统和设备**    
 尤志强,任星宇,王仿,宋健   
@@ -386,8 +384,8 @@ World Intellectual Property Organization Patent, WO2024036809A1, 国际申请日
 
 <span class='anchor' id='software'></span>
 # 📝 软著（主导）
-- 2025-11-21：**某基于大模型的智能用户营销内容生成平台**  已提交申请
-- 2025-10-30：**某AI驱动的客服会话处理系统**  登记号：2025SR2531067
+- 2025-11-21：**基于大模型的智能用户洞察与营销内容生成平台（Marketing Flow）**  登记号：2026SR0367860
+- 2025-10-30：**AI驱动的客服知识管理与会话处理系统**  登记号：2025SR2531067
 - 2024-04-26：**纵向Xgboost_NPZ多分类建模软件**  登记号：2024SR0569180 
 - 2023-08-24：**Avatar安全计算平台软件**  登记号：2023SR0975884
 - 2022-11-23：**多方安全计算并行计算引擎与算子软件**  登记号：2022SR1561493
