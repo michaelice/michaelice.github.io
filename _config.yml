@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zhi-Qiang You 个人主页"
-description              : "人工智能交叉领域，目前专注于大模型智能体及多模态大模型的应用探索。"
+description              : "AI业务产研负责人"
 url                      : "https://yuanquan.online"  # 主域名
 baseurl                  : ""  # 子路径（通常为空）
 google_scholar_stats_use_cdn : false
