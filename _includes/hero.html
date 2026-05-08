@@ -1,0 +1,76 @@
+{% if page.author and site.data.authors[page.author] %}
+  {% assign author = site.data.authors[page.author] %}
+{% else %}
+  {% assign author = site.author %}
+{% endif %}
+
+<div class="hero-section lang-en" id="about-me">
+  <div class="hero-content">
+    <div class="hero-intro">
+      <h1 class="hero-name">{{ author.e_name | default: author.name }}{% if author.email %}<a href="mailto:{{ author.email }}" class="hero-name-icon" title="Email"><i class="fas fa-envelope"></i></a>{% endif %}</h1>
+      <p class="hero-subtitle">{{ site.description_en | default: site.description }}</p>
+      <p class="hero-bio">Focused on the research and development of AI Agents and multi-modal products. My core competencies lie in multi-agent architecture design and memory system construction, dedicated to systematically improving the reliability, autonomy, and task success rate of Agents. I have worked for several top-tier internet companies and leading startups, accumulating cross-industry landing experience in AI large models, data security, e-commerce, finance, social networking, and mobility.</p>
+      <div class="hero-links">
+        {% if author.googlescholar %}
+          <a href="{{ author.googlescholar }}" title="Google Scholar"><i class="fas fa-fw fa-graduation-cap"></i></a>
+        {% endif %}
+        {% if author.github %}
+          <a href="https://github.com/{{ author.github }}" title="GitHub"><i class="fab fa-fw fa-github"></i></a>
+        {% endif %}
+        {% if author.linkedin %}
+          <a href="https://www.linkedin.com/in/{{ author.linkedin }}" title="LinkedIn"><i class="fab fa-fw fa-linkedin"></i></a>
+        {% endif %}
+        {% if author.csdn %}
+          <a href="{{ author.csdn }}" title="CSDN" class="csdn-link"><i class="fas fa-fw fa-blog"></i></a>
+        {% endif %}
+      </div>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-circle">
+        <div class="stat-ring">
+          <i class="fas fa-file-alt"></i>
+          <span class="stat-number" data-target="10" data-suffix="+">0</span>
+        </div>
+        <span class="stat-label lang-en">Publications</span>
+        <span class="stat-label lang-zh" style="display:none;">学术论文</span>
+      </div>
+
+      <div class="stat-circle">
+        <div class="stat-ring">
+          <i class="fas fa-lightbulb"></i>
+          <span class="stat-number" data-target="27">0</span>
+        </div>
+        <span class="stat-label lang-en">Patents Granted</span>
+        <span class="stat-label lang-zh" style="display:none;">授权发明专利</span>
+      </div>
+
+      <div class="stat-circle">
+        <div class="stat-ring">
+          <i class="fas fa-laptop-code"></i>
+          <span class="stat-number" data-target="8">0</span>
+        </div>
+        <span class="stat-label lang-en">Software Copyrights</span>
+        <span class="stat-label lang-zh" style="display:none;">软件著作权</span>
+      </div>
+
+      <div class="stat-circle">
+        <div class="stat-ring">
+          <i class="fas fa-award"></i>
+          <span class="stat-number" data-target="10" data-suffix="+">0</span>
+        </div>
+        <span class="stat-label lang-en">National/Industry Honors</span>
+        <span class="stat-label lang-zh" style="display:none;">省部级以上荣誉</span>
+      </div>
+
+      <div class="stat-circle">
+        <div class="stat-ring">
+          <i class="fas fa-eye"></i>
+          <span class="stat-number" data-target="520" data-suffix="K+">0</span>
+        </div>
+        <span class="stat-label lang-en">Blog Visits</span>
+        <span class="stat-label lang-zh" style="display:none;">博客访问量</span>
+      </div>
+    </div>
+  </div>
+</div>

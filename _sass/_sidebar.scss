@@ -66,34 +66,18 @@
 }
 
 /*
-   Author profile and links - Golden Theme
+   Author profile and links
    ========================================================================== */
-
-$accent-gold: #FFCB00;
-$accent-gold-dark: #D4A900;
-$accent-gold-light: #FFE066;
 
 .profile_box {
   @include breakpoint($large) {
     display: block;
     position: relative;
     padding: 20px 15px;
-    background: linear-gradient(180deg, #fefefe 0%, #f8f8f8 100%);
-    border-radius: 16px;
-    border: 1px solid rgba(0,0,0,0.05);
-    box-shadow: 0 8px 30px rgba(0,0,0,0.06);
-    
-    &::before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: 50%;
-      transform: translateX(-50%);
-      width: 50px;
-      height: 3px;
-      background: linear-gradient(90deg, $accent-gold-light, $accent-gold, $accent-gold-dark);
-      border-radius: 0 0 3px 3px;
-    }
+    background: #fff;
+    border-radius: 12px;
+    border: 1px solid #e5e5e5;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
   }
   display: flex;
   justify-content: flex-start;
@@ -101,39 +85,9 @@ $accent-gold-light: #FFE066;
   align-items: center;
 }
 
-/* Avatar golden ring */
 .avatar-ring {
   position: relative;
   display: inline-block;
-  
-  &::before {
-    content: '';
-    position: absolute;
-    top: -4px;
-    left: -4px;
-    right: -4px;
-    bottom: -4px;
-    background: linear-gradient(135deg, $accent-gold-light, $accent-gold, $accent-gold-dark);
-    border-radius: 50%;
-    z-index: 0;
-  }
-  
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background: #fff;
-    border-radius: 50%;
-    z-index: 1;
-  }
-  
-  img {
-    position: relative;
-    z-index: 2;
-  }
 }
 
 .author__avatar {
@@ -153,8 +107,7 @@ $accent-gold-light: #FFE066;
     max-width: 150px;
     min-width: 75px;
     border-radius: 50%;
-    border: 3px solid #fff;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    border: 2px solid #e5e5e5;
     transition: transform 0.4s ease;
 
     &:hover {
@@ -182,7 +135,7 @@ $accent-gold-light: #FFE066;
 .author__name {
   margin: 0;
   font-weight: 700;
-  color: #1a1a1a;
+  color: #1d1d1f;
 
   @include breakpoint($large) {
     margin-top: 12px;
@@ -211,24 +164,17 @@ $accent-gold-light: #FFE066;
   }
 }
 
-/* Title badge - golden style */
 .author__title-badge {
   display: inline-block;
   padding: 5px 14px;
   margin: 8px 0;
   font-size: 0.75em;
   font-weight: 600;
-  color: #1a1a1a;
-  background: linear-gradient(135deg, $accent-gold-light 0%, $accent-gold 100%);
+  color: #3574f0;
+  background: #eef3fe;
   border-radius: 20px;
-  box-shadow: 0 2px 8px rgba(255,203,0,0.35);
   transition: all 0.3s ease;
   letter-spacing: 0.5px;
-  
-  &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 4px 12px rgba(255,203,0,0.5);
-  }
 }
 
 .author__bio {
@@ -241,9 +187,9 @@ $accent-gold-light: #FFE066;
     margin-top: 12px;
     margin-bottom: 18px;
     padding: 10px 12px;
-    background: rgba(255,203,0,0.08);
+    background: #f9f9fb;
     border-radius: 10px;
-    border-left: 3px solid $accent-gold;
+    border-left: 3px solid #3574f0;
     text-align: left;
   }
 }
@@ -351,17 +297,13 @@ $accent-gold-light: #FFE066;
     transition: all 0.25s ease;
 
     &:hover {
-      background: rgba(255,203,0,0.12);
-      color: #1a1a1a;
+      background: #f5f5f7;
+      color: #3574f0;
       transform: translateX(3px);
     }
     
-    i {
-      transition: color 0.25s ease;
-    }
-    
     &:hover i {
-      color: #D4A900;
+      color: #3574f0;
     }
   }
 }
@@ -379,5 +321,177 @@ $accent-gold-light: #FFE066;
   }
   @include breakpoint($large) {
     display: none;
+  }
+}
+
+/* Hero Section -- Stats Dashboard */
+.hero-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  z-index: 10;
+  padding: 3em 2em 2em;
+  background: #fff;
+  border-bottom: 1px solid #f0f0f0;
+}
+
+.hero-content {
+  max-width: 960px;
+  width: 100%;
+}
+
+.hero-intro {
+  margin-bottom: 2.5em;
+}
+
+.hero-name {
+  font-size: 2em !important;
+  margin: 0 0 0.3em 0 !important;
+  color: #1d1d1f;
+  font-weight: 700;
+  border-bottom: none !important;
+  
+  &::after {
+    display: none !important;
+  }
+
+  .hero-name-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+    border-radius: 50%;
+    background: #f5f5f7;
+    color: #888;
+    font-size: 0.45em;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: all 0.25s ease;
+
+    &:hover {
+      background: #3574f0;
+      color: #fff;
+    }
+  }
+}
+
+.hero-subtitle {
+  font-size: 1.1em;
+  color: #3574f0;
+  font-weight: 600;
+  margin-bottom: 0.8em;
+}
+
+.hero-bio {
+  font-size: 0.95em;
+  color: #555;
+  line-height: 1.8;
+  margin-bottom: 1.2em;
+  max-width: 720px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-links {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+
+  a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    background: #f5f5f7;
+    color: #555;
+    font-size: 1.05em;
+    text-decoration: none;
+    transition: all 0.25s ease;
+
+    &:hover {
+      background: #3574f0;
+      color: #fff;
+      transform: translateY(-2px);
+      box-shadow: 0 4px 12px rgba(53, 116, 240, 0.3);
+    }
+  }
+}
+
+/* Stats Grid */
+.stat-grid {
+  display: flex;
+  justify-content: center;
+  gap: 1.5em;
+  flex-wrap: wrap;
+}
+
+.stat-circle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stat-ring {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  border: 2px solid #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  transition: all 0.35s ease;
+  background: #fff;
+
+  i {
+    font-size: 1.1em;
+    color: #3574f0;
+    margin-bottom: 6px;
+  }
+
+  .stat-number {
+    font-family: 'Inter', -apple-system, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #1d1d1f;
+    line-height: 1;
+  }
+
+  &:hover {
+    border-color: #3574f0;
+    box-shadow: 0 4px 20px rgba(53, 116, 240, 0.15);
+    transform: translateY(-3px);
+  }
+}
+
+.stat-label {
+  font-size: 0.82rem;
+  color: #888;
+  margin-top: 0.6em;
+  font-weight: 500;
+}
+
+@media (max-width: 640px) {
+  .stat-grid {
+    gap: 1em;
+  }
+  .stat-ring {
+    width: 100px;
+    height: 100px;
+
+    .stat-number {
+      font-size: 1.5rem;
+    }
+    i {
+      font-size: 0.9em;
+    }
+  }
+  .hero-name {
+    font-size: 1.5em !important;
   }
 }

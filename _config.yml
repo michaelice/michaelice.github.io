@@ -8,6 +8,7 @@
 # Site Settings
 title                    : "Zhi-Qiang You 个人主页"
 description              : "AI业务产研负责人"
+description_en           : "Head of AI Product & Engineering"
 url                      : "https://yuanquan.online"  # 主域名
 baseurl                  : ""  # 子路径（通常为空）
 google_scholar_stats_use_cdn : false
@@ -28,6 +29,7 @@ author:
   # title            : ""
   # bio              : ""
   location         : "杭州, 中国"
+  location_en      : "Hangzhou, China"
   employer         : "AI Startup"
   pubmed           : 
   googlescholar    :  # e.g., "https://scholar.google.com/citations?user=YOUR_ID"
