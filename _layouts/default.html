@@ -31,6 +31,9 @@ layout: compress
       </article>
     </div>
 
+    <!-- Stealthy language switch button -->
+    <button id="lang-switch-btn" style="position:fixed; right:15px; bottom:15px; background:transparent; border:none; color:#ccc; font-size:12px; cursor:pointer; z-index:9999; opacity:0.3; transition:opacity 0.3s;" onmouseover="this.style.opacity=1" onmouseout="this.style.opacity=0.3">中文</button>
+
     {% include scripts.html %}
     <script src="{{ '/assets/js/lang-switch.js' | relative_url }}"></script>
 
