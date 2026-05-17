@@ -62,9 +62,13 @@ Zhi-Qiang You
 <span class='anchor' id='publications-review'></span>
 # 📝 Publications (Under Review)
 
-- Xu, Jingyi, Xingyu Ren, Zhiqiang You(**corresponding author**), Yumeng Zhang, and Zhoupeng Shou. **"Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization."** " arXiv preprint arXiv:2602.15854 (2026).
+- **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**  
+Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou  
+*arXiv preprint arXiv:2602.15854 (2026).*
 
-- Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, and Hai-Bo Liu. **"CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning."** arXiv preprint arXiv:2509.06641 (2025).[[PDF]](pdf/icassp26.pdf) 
+- **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**  
+Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu  
+*arXiv preprint arXiv:2509.06641 (2025).* [[PDF]](pdf/icassp26.pdf) 
 
 </div>
 
@@ -314,9 +318,13 @@ Zhi-Qiang You
 <span class='anchor' id='publications-review-zh'></span>
 # 📝 学术论文（在审）
 
-- Xu, Jingyi, Xingyu Ren, Zhiqiang You(**corresponding author**), Yumeng Zhang, and Zhoupeng Shou. **"Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization."** " arXiv preprint arXiv:2602.15854 (2026).
+- **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**  
+Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou  
+*arXiv preprint arXiv:2602.15854 (2026).*
 
-- Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, and Hai-Bo Liu. **"CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning."** arXiv preprint arXiv:2509.06641 (2025).[[PDF]](pdf/icassp26.pdf) 
+- **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**  
+Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu  
+*arXiv preprint arXiv:2509.06641 (2025).* [[PDF]](pdf/icassp26.pdf) 
 
 
 <span class='anchor' id='patents-zh'></span>
