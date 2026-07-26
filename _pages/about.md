@@ -13,7 +13,7 @@ redirect_from:
 <div class="section-card" markdown="1">
 
 <span class='anchor' id='publications'></span>
-# 📝 Publications (Published)
+# 📝 Publications
 
 - **Empirical studies on the network of social groups: the case of Tencent QQ**  
 Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung  
@@ -54,13 +54,6 @@ Zhi-Qiang You, Han Xiao-Pu
 - **The Analysis, Modeling and Prediction for The Structure of Online Social Network**  
 Zhi-Qiang You  
 *2017 No.7 Full Text Database of Chinese Excellent Master's Thesis (Information Technology Edition) Published* [[PDF]](pdf/PGT15.pdf)
-
-</div>
-
-<div class="section-card" markdown="1">
-
-<span class='anchor' id='publications-review'></span>
-# 📝 Publications (Under Review)
 
 - **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**  
 Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou  
@@ -249,15 +242,6 @@ Chinese Invention Patent, CN116244650B, Announcement Date: 2023.10.03
 
 </div>
 
-<div class="section-card" markdown="1">
-
-<span class='anchor' id='blog'></span>
-# 💬 Tech Blog
-
-**CSDN Tech Column** — **520,000+** visits, **32,000+** followers, **170** articles, selected in multiple premium sections such as AI / Python / Cutting-edge Technologies
-
-</div>
-
 ---
 
 <div style="text-align:center;color:#aaa;padding:30px 0 10px 0;font-size:0.95em;">
@@ -273,7 +257,7 @@ Page updated in 2026
 
 
 <span class='anchor' id='publications-zh'></span>
-# 📝 学术论文（已发表）
+# 📝 学术论文
 
 - **Empirical studies on the network of social groups: the case of Tencent QQ**  
 Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung  
@@ -314,9 +298,6 @@ Zhi-Qiang You, Han Xiao-Pu
 - **The Analysis, Modeling and Prediction for The Structure of Online Social Network**  
 Zhi-Qiang You  
 *2017 No.7 Full Text Database of Chinese Excellent Master's Thesis (Information Technology Edition) Published* [[PDF]](pdf/PGT15.pdf)
-
-<span class='anchor' id='publications-review-zh'></span>
-# 📝 学术论文（在审）
 
 - **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**  
 Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou  
@@ -493,11 +474,6 @@ Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu
 - 2021年：上海市重点行业人才专项奖励；多方安全计算平台首批通过信通院评测（与腾讯、蚂蚁并列）
 - 2015年：中国优秀硕士学位论文（前10%）
 - 2012年：首届中国互联网数据平台数据挖掘大赛全国一等奖
-
-<span class='anchor' id='blog-zh'></span>
-# 💬 技术专栏
-
-**CSDN技术专栏** — 访问量 **52万+**，粉丝 **3.2万+**，文章 **170篇**，入选 AI / Python / 前沿技术等多个板块精选
 
 ---
 
