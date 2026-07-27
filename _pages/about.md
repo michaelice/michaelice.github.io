@@ -13,62 +13,51 @@ redirect_from:
 <div class="section-card" markdown="1">
 
 <span class='anchor' id='publications'></span>
-# 📝 Publications (Published)
+# 📝 Publications
 
-- **Empirical studies on the network of social groups: the case of Tencent QQ**  
-Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung  
-*PloS one 10 (7), e0130538.* [[PDF]](pdf/ESQQ15.pdf) JCR Quartile 1
+- **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
+Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou<br>
+*arXiv preprint arXiv:2602.15854 (2026).*
 
-- **The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model**  
-Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic  
-*Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.* [[PDF]](pdf/REESPI16.pdf) JCR Quartile 2
+- **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**<br>
+Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu<br>
+*arXiv preprint arXiv:2509.06641 (2025).* [[PDF]](pdf/icassp26.pdf)
+
+- **A Secure and Efficient Method of Fully Anonymous Vertical Federated Learning**<br>
+Zhi-Qiang You, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian<br>
+*Information Security Research, 2024, 10(6): 506-512.* [[PDF]](pdf/FAVFL.pdf)
 
 - **Reconstruction of social group networks from friendship networks using a tag-based model**  
 Yuan-Pan Guan, Zhi-Qiang You, Xiao-Pu Han  
-*Physica A, Volume 463, 1 December 2016, Pages 485-492.* [[PDF]](pdf/RSGN16.pdf) JCR Quartile 2
+*Physica A, Volume 463, 1 December 2016, Pages 485-492.* [[PDF]](pdf/RSGN16.pdf)
 
-- **Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering**  
-Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan  
-*Physica A, Volume 399, 1 April 2014, Pages 82-88.* [[PDF]](pdf/WRHT13.pdf) JCR Quartile 2
+- **Queuing Model for News Reports**<br>
+Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan<br>
+*Journal of University of Electronic Science and Technology of China, 2016, 45(2): 295-300.* [[PDF]](pdf/QMNR16.pdf)
+
+- **The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model**<br>
+Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic<br>
+*Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.* [[PDF]](pdf/REESPI16.pdf)
+
+- **Empirical studies on the network of social groups: the case of Tencent QQ**<br>
+Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung<br>
+*PloS one 10 (7), e0130538.* [[PDF]](pdf/ESQQ15.pdf)
 
 - **Modelling temporal patterns of news report**  
 Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan  
-*Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.* [[PDF]](pdf/MTPNR15.pdf) EI
-
-- **Queuing Model for News Reports**  
-Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan  
-*Journal of University of Electronic Science and Technology of China, 2016, 45(2): 295-300.* [[PDF]](pdf/QMNR16.pdf) EI
+*Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.* [[PDF]](pdf/MTPNR15.pdf)
 
 - **Modeling of social group growth based on social networks**  
 Zhi-Qiang You, Yuan-Pan Guan, Han Xiao-Pu, Xiao Fang, Lü Lin-Yuan  
-*Complex Systems and Complexity Science, 2015, 12(2): 72-77.* [[PDF]](pdf/MSGG15.pdf) EI
+*Complex Systems and Complexity Science, 2015, 12(2): 72-77.* [[PDF]](pdf/MSGG15.pdf)
 
-- **A Secure and Efficient Method of Fully Anonymous Vertical Federated Learning**  
-Zhi-Qiang You, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian  
-*Information Security Research, 2024, 10(6): 506-512.* [[PDF]](pdf/FAVFL.pdf) PKU Core
+- **Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering**<br>
+Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan<br>
+*Physica A, Volume 399, 1 April 2014, Pages 82-88.* [[PDF]](pdf/WRHT13.pdf)
 
 - **Correlation Analysis on Pedestrian Flow at Shanghai World Expo**  
 Zhi-Qiang You, Han Xiao-Pu  
-*Journal of Shanghai University of Technology, 2013, 35(4), 313-320.* [[PDF]](pdf/CAPF13.pdf) PKU Core
-
-- **The Analysis, Modeling and Prediction for The Structure of Online Social Network**  
-Zhi-Qiang You  
-*2017 No.7 Full Text Database of Chinese Excellent Master's Thesis (Information Technology Edition) Published* [[PDF]](pdf/PGT15.pdf)
-
-</div>
-
-<div class="section-card" markdown="1">
-
-<span class='anchor' id='publications-review'></span>
-# 📝 Publications (Under Review)
-
-- **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**  
-Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou  
-*arXiv preprint arXiv:2602.15854 (2026).*
-
-- **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**  
-Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu  
-*arXiv preprint arXiv:2509.06641 (2025).* [[PDF]](pdf/icassp26.pdf) 
+*Journal of Shanghai University of Technology, 2013, 35(4), 313-320.* [[PDF]](pdf/CAPF13.pdf)
 
 </div>
 
@@ -238,31 +227,25 @@ Chinese Invention Patent, CN116244650B, Announcement Date: 2023.10.03
 
 ## Representative Honors
 
+- 2026: Top 3 Intelligent Innovation Pioneer Award in the Intelligent Innovation Case Session of the Douyin E-commerce "Zhiyào Xinghe" 618 Service Provider Case Competition
+- 2026: Excellence Award in the Asset & Content Operations Track (1st Place in the Video Category) of the Taotian Platform 2026 Business Manager Cup E-commerce AI Challenge
 - 2025: Awarded Senior System Architect Certificate by MOHRSS, obtained "Senior Engineer" qualification
 - 2024: Nominated for National Cryptography Science and Technology Award
 - 2023: First Prize in the Financial Data Innovation Application Track of the First National Data Merchant Competition
 - 2022: Selected into the Top Ten Benchmark Cases of CAICT "Galaxy", included in the CAICT "Privacy Computing White Paper"
 - 2022: The proposed technology was successfully applied to a leading state-owned enterprise (multi-party secure biometric recognition algorithm, ranked first in performance)
 - 2021: Special Talent Award for Key Industries in Shanghai; Multi-party secure computation platform passed the CAICT assessment in the first batch (tied with Tencent and Ant Group)
+- 2018: Project selected for the Hangzhou Major Science and Technology Innovation Program — Intelligent Government Consultation Service Platform Based on Deep Learning and Knowledge Graphs
 - 2015: Outstanding Master's Thesis in China (Top 10%)
-- 2012: National First Prize in the First China Internet Data Platform Data Mining Competition
-
-</div>
-
-<div class="section-card" markdown="1">
-
-<span class='anchor' id='blog'></span>
-# 💬 Tech Blog
-
-**CSDN Tech Column** — **520,000+** visits, **32,000+** followers, **170** articles, selected in multiple premium sections such as AI / Python / Cutting-edge Technologies
-
-</div>
-
----
-
-<div style="text-align:center;color:#aaa;padding:30px 0 10px 0;font-size:0.95em;">
-Page updated in 2026
-</div>
+- 2014: "Top Ten Challenge Problems" Award at the 10th National Conference on Complex Networks — Information Diffusion Based on Real-World Data, presented by Conference Chair Professor Guanrong Chen
+- 2014: As a core team member, received the CCF–Tencent Rhino-Bird Fund Excellence Award (Top 10%) — Mining High-Influence Users in Large-Scale Online Social Networks
+- 2013: Third Prize in the 10th "Huawei Cup" National Graduate Mathematical Contest in Modeling (Entry No. 10346003)
+- 2013: Contributed to the writing and publication of *Hangzhou Internet Economy Development Report (2012–2013)*, Zhejiang University Press
+- 2012: National First Prize in the First China Internet Data Platform Data Mining Competition, organized by CNNIC, as a core member of Team SIMPLE
+- 2012: Project Lead, Zhejiang Provincial College Student Science and Technology Innovation Program (New Seed Talent Program) — Research on an Early-Warning Model for Value Loss in Social Networks
+- 2011: Network Engineer (Intermediate), National Computer Technology and Software Professional Qualification
+- 2010: Core member of "Green Group Network," a Zhejiang Provincial College Student Science and Technology Innovation Program project, responsible for engineering implementation
+- 2009: Selected for the college Innovation Experimental Class as a core member and received awards in the School of Computer Science Programming Competition and other contests
 
 </div>
 <div class="lang-zh" markdown="1" style="display:none;">
@@ -273,58 +256,51 @@ Page updated in 2026
 
 
 <span class='anchor' id='publications-zh'></span>
-# 📝 学术论文（已发表）
+# 📝 学术论文
 
-- **Empirical studies on the network of social groups: the case of Tencent QQ**  
-Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung  
-*PloS one 10 (7), e0130538.* [[PDF]](pdf/ESQQ15.pdf) JCR Quartile 1
+- **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
+Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou<br>
+*arXiv preprint arXiv:2602.15854 (2026).*
 
-- **The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model**  
-Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic  
-*Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.* [[PDF]](pdf/REESPI16.pdf) JCR Quartile 2
+- **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**<br>
+Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu<br>
+*arXiv preprint arXiv:2509.06641 (2025).* [[PDF]](pdf/icassp26.pdf)
+
+- **A Secure and Efficient Method of Fully Anonymous Vertical Federated Learning**<br>
+Zhi-Qiang You, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian<br>
+*Information Security Research, 2024, 10(6): 506-512.* [[PDF]](pdf/FAVFL.pdf)
 
 - **Reconstruction of social group networks from friendship networks using a tag-based model**  
 Yuan-Pan Guan, Zhi-Qiang You, Xiao-Pu Han  
-*Physica A, Volume 463, 1 December 2016, Pages 485-492.* [[PDF]](pdf/RSGN16.pdf) JCR Quartile 2
+*Physica A, Volume 463, 1 December 2016, Pages 485-492.* [[PDF]](pdf/RSGN16.pdf)
 
-- **Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering**  
-Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan  
-*Physica A, Volume 399, 1 April 2014, Pages 82-88.* [[PDF]](pdf/WRHT13.pdf) JCR Quartile 2
+- **Queuing Model for News Reports**<br>
+Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan<br>
+*Journal of University of Electronic Science and Technology of China, 2016, 45(2): 295-300.* [[PDF]](pdf/QMNR16.pdf)
+
+- **The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model**<br>
+Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic<br>
+*Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.* [[PDF]](pdf/REESPI16.pdf)
+
+- **Empirical studies on the network of social groups: the case of Tencent QQ**<br>
+Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung<br>
+*PloS one 10 (7), e0130538.* [[PDF]](pdf/ESQQ15.pdf)
 
 - **Modelling temporal patterns of news report**  
 Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan  
-*Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.* [[PDF]](pdf/MTPNR15.pdf) EI
-
-- **Queuing Model for News Reports**  
-Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan  
-*Journal of University of Electronic Science and Technology of China, 2016, 45(2): 295-300.* [[PDF]](pdf/QMNR16.pdf) EI
+*Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.* [[PDF]](pdf/MTPNR15.pdf)
 
 - **Modeling of social group growth based on social networks**  
 Zhi-Qiang You, Yuan-Pan Guan, Han Xiao-Pu, Xiao Fang, Lü Lin-Yuan  
-*Complex Systems and Complexity Science, 2015, 12(2): 72-77.* [[PDF]](pdf/MSGG15.pdf) EI
+*Complex Systems and Complexity Science, 2015, 12(2): 72-77.* [[PDF]](pdf/MSGG15.pdf)
 
-- **A Secure and Efficient Method of Fully Anonymous Vertical Federated Learning**  
-Zhi-Qiang You, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian  
-*Information Security Research, 2024, 10(6): 506-512.* [[PDF]](pdf/FAVFL.pdf) PKU Core
+- **Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering**<br>
+Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan<br>
+*Physica A, Volume 399, 1 April 2014, Pages 82-88.* [[PDF]](pdf/WRHT13.pdf)
 
 - **Correlation Analysis on Pedestrian Flow at Shanghai World Expo**  
 Zhi-Qiang You, Han Xiao-Pu  
-*Journal of Shanghai University of Technology, 2013, 35(4), 313-320.* [[PDF]](pdf/CAPF13.pdf) PKU Core
-
-- **The Analysis, Modeling and Prediction for The Structure of Online Social Network**  
-Zhi-Qiang You  
-*2017 No.7 Full Text Database of Chinese Excellent Master's Thesis (Information Technology Edition) Published* [[PDF]](pdf/PGT15.pdf)
-
-<span class='anchor' id='publications-review-zh'></span>
-# 📝 学术论文（在审）
-
-- **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**  
-Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou  
-*arXiv preprint arXiv:2602.15854 (2026).*
-
-- **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**  
-Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu  
-*arXiv preprint arXiv:2509.06641 (2025).* [[PDF]](pdf/icassp26.pdf) 
+*Journal of Shanghai University of Technology, 2013, 35(4), 313-320.* [[PDF]](pdf/CAPF13.pdf)
 
 
 <span class='anchor' id='patents-zh'></span>
@@ -485,24 +461,24 @@ Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu
 
 ## 代表性荣誉
 
+- 2026年：抖音平台“智耀星河”抖音电商618服务商案例大赛，智能创新案例专场“智能创新先锋奖”Top 3
+- 2026年：淘天平台“2026生意管家杯电商AI挑战赛”，素材与内容运营赛道优胜奖（视频组第一）
 - 2025年：获人社部颁发高级系统架构设计师证书，取得"高级工程师"任职资格
 - 2024年：获国家级密码科学技术奖提名
 - 2023年：首届全国数商大赛金融数据创新应用赛道一等奖
 - 2022年：入选中国信通院"星河"十大标杆案例、收录信通院《隐私计算白皮书》
 - 2022年：所提出技术成功应用于某头部国企（多方安全生物识别算法，性能排名第一）
 - 2021年：上海市重点行业人才专项奖励；多方安全计算平台首批通过信通院评测（与腾讯、蚂蚁并列）
+- 2018年：杭州市重大科技创新项目入库（项目名称：基于深度学习和知识图谱的智慧政务咨询服务平台）
 - 2015年：中国优秀硕士学位论文（前10%）
-- 2012年：首届中国互联网数据平台数据挖掘大赛全国一等奖
-
-<span class='anchor' id='blog-zh'></span>
-# 💬 技术专栏
-
-**CSDN技术专栏** — 访问量 **52万+**，粉丝 **3.2万+**，文章 **170篇**，入选 AI / Python / 前沿技术等多个板块精选
-
----
-
-<div style="text-align:center;color:#aaa;padding:30px 0 10px 0;font-size:0.95em;">
-页面更新于 2026年
-</div>
+- 2014年：第十届全国复杂网络大会“十大挑战问题”获奖（获奖课题：基于真实数据的信息传播问题，由大会主席陈关荣教授颁发）
+- 2014年：作为团队核心成员，获CCF–腾讯犀牛鸟基金优秀奖（排名前10%）（获奖课题：大规模在线社交网络高影响力用户挖掘）
+- 2013年：第十届“华为杯”全国研究生数学建模竞赛三等奖（编号：10346003）
+- 2013年：参与编写并出版《杭州市互联网经济发展报告（2012–2013）》（浙江大学出版社）
+- 2012年：首届中国互联网数据平台数据挖掘大赛全国一等奖（由CNNIC主办，作为SIMPLE团队核心成员）
+- 2012年：浙江省大学生科技创新活动计划（新苗人才计划）项目负责人（项目名称：社交网络价值流失预警模型研究）
+- 2011年：专业资质——网络工程师（中级）（国家计算机技术与软件专业技术资格）
+- 2010年：作为核心成员参与浙江省大学生科技创新活动计划（新苗人才计划）“绿团网”，负责项目工程实现
+- 2009年：入选学院创新实验班（核心成员），并在计算机学院程序设计大赛等多个竞赛中获奖
 
 </div>
