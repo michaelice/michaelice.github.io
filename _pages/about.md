@@ -11,7 +11,7 @@ sitemap: false
 <div class="section-card" markdown="1">
 
 <span class='anchor' id='publications'></span>
-# 📝 Publications
+# Publications
 
 - **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
 Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou<br>
@@ -62,7 +62,7 @@ Zhi-Qiang You, Han Xiao-Pu
 <div class="section-card" markdown="1">
 
 <span class='anchor' id='patents'></span>
-# 📝 Patents <span id="patent-count-en" style="font-size:0.85em;color:#888;"></span>
+# Patents <span id="patent-count-en" style="font-size:0.85em;color:#888;"></span>
 
 ## Granted Invention Patents
 
@@ -206,7 +206,7 @@ Chinese Invention Patent, CN116244650B, Announcement Date: 2023.10.03
 <div class="section-card" markdown="1">
 
 <span class='anchor' id='software-en'></span>
-# 📝 Software Copyrights (Lead)
+# Software Copyrights (Lead)
 - 2025-11-21: **Intelligent User Insight and Marketing Content Generation Platform Based on Large Models (Marketing Flow)** Registration No.: 2026SR0367860
 - 2025-10-30: **AI-Driven Customer Service Knowledge Management and Session Processing System** Registration No.: 2025SR2531067
 - 2024-04-26: **Vertical Xgboost_NPZ Multi-classification Modeling Software** Registration No.: 2024SR0569180 
@@ -221,7 +221,7 @@ Chinese Invention Patent, CN116244650B, Announcement Date: 2023.10.03
 <div class="section-card" markdown="1">
 
 <span class='anchor' id='honors'></span>
-# 🎖 Honors & Awards
+# Honors & Awards
 
 ## Representative Honors
 
@@ -254,7 +254,7 @@ Chinese Invention Patent, CN116244650B, Announcement Date: 2023.10.03
 
 
 <span class='anchor' id='publications-zh'></span>
-# 📝 学术论文
+# 学术论文
 
 - **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
 Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou<br>
@@ -302,7 +302,7 @@ Zhi-Qiang You, Han Xiao-Pu
 
 
 <span class='anchor' id='patents-zh'></span>
-# 📝 发明专利 <span id="patent-count" style="font-size:0.85em;color:#888;"></span>
+# 发明专利 <span id="patent-count" style="font-size:0.85em;color:#888;"></span>
 
 ## 已授权发明专利
 
@@ -443,7 +443,7 @@ Zhi-Qiang You, Han Xiao-Pu
 
 
 <span class='anchor' id='software-zh'></span>
-# 📝 软著（主导）
+# 软著（主导）
 - 2025-11-21：**基于大模型的智能用户洞察与营销内容生成平台（Marketing Flow）**  登记号：2026SR0367860
 - 2025-10-30：**AI驱动的客服知识管理与会话处理系统**  登记号：2025SR2531067
 - 2024-04-26：**纵向Xgboost_NPZ多分类建模软件**  登记号：2024SR0569180 
@@ -455,7 +455,7 @@ Zhi-Qiang You, Han Xiao-Pu
 
 
 <span class='anchor' id='honors-zh'></span>
-# 🎖 荣誉与获奖
+# 荣誉与获奖
 
 ## 代表性荣誉
 
