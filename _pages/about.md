@@ -1,11 +1,9 @@
 ---
-permalink: /
+permalink: /profile-content/
 title: ""
 excerpt: ""
-author_profile: true
-redirect_from: 
-  - /about/
-  - /about.html
+author_profile: false
+sitemap: false
 ---
 
 <div class="lang-en" markdown="1">
