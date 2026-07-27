@@ -98,11 +98,26 @@ permalink: /concepts/research-command-center.html
       justify-content: space-between;
       height: 66px;
     }
-    .brand { display: flex; align-items: baseline; gap: 12px; font-size: 18px; font-weight: 650; letter-spacing: -.025em; }
-    .brand-field { color: var(--gray-2); font-weight: 500; }
+    .nav-identity {
+      display: flex;
+      align-items: center;
+      gap: 9px;
+      color: var(--gray-1);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: -.015em;
+    }
+    .nav-identity::before {
+      width: 9px;
+      height: 9px;
+      border-radius: 50%;
+      background: conic-gradient(#4f83df 0 25%, #c45d4e 25% 50%, #d4ac55 50% 75%, #5b9368 75% 100%);
+      content: "";
+    }
     .nav-links { display: flex; align-items: center; gap: 26px; color: var(--gray-1); font-size: 12px; }
     .nav-links a:hover { color: var(--blue); }
     .language {
+      display: none;
       padding: 5px 11px;
       border: 0;
       border-radius: 999px;
@@ -497,7 +512,6 @@ permalink: /concepts/research-command-center.html
     @media (max-width: 680px) {
       .wrap { width: min(var(--max), calc(100% - 28px)); }
       .nav-links a { display: none; }
-      .brand-field { display: none; }
       .hero { min-height: auto; padding: 68px 0 48px; }
       .hero h1 { font-size: clamp(48px, 15vw, 66px); }
       .hero-links { gap: 18px; }
@@ -534,7 +548,7 @@ permalink: /concepts/research-command-center.html
 <body class="warm">
   <nav class="site-nav" aria-label="Primary navigation">
     <div class="nav-inner wrap">
-      <a class="brand" href="#top">Zhi-Qiang You <span class="brand-field"><span data-en>Research</span><span data-zh>研究</span></span></a>
+      <a class="nav-identity" href="#top"><span data-en>AI Research &amp; Engineering</span><span data-zh>AI研究与工程</span></a>
       <div class="nav-links">
         <a href="#publications"><span data-en>Publications</span><span data-zh>学术论文</span></a>
         <a href="#patents"><span data-en>Patents</span><span data-zh>发明专利</span></a>
@@ -553,19 +567,19 @@ permalink: /concepts/research-command-center.html
       <h1 data-zh>尤志强</h1>
       <p class="hero-overline" data-en>Head of AI Product &amp; Engineering</p>
       <p class="hero-overline" data-zh>AI业务产研负责人</p>
-      <p class="hero-copy" data-en>Head of AI Product &amp; Engineering, using privacy computing as a foundation for trustworthy distributed machine learning and distributed computing systems. My AI work spans large language models, agentic systems, multimodal models and reinforcement learning, from research and architecture to production deployment.</p>
-      <p class="hero-copy" data-zh>AI业务产研负责人，以隐私计算为技术基础，构建可信分布式机器学习与分布式计算系统；同时具备大模型、智能体、多模态模型与强化学习领域从研究、架构到生产落地的完整能力。</p>
+      <p class="hero-copy" data-en>Head of AI Product &amp; Engineering at an AI startup, leading an AI applications business line spanning agentic systems, multimodal generation and reinforcement learning. Previously led agentic AI algorithms for a business unit at Zhipu AI, a foundation-model company. I have long worked on AI algorithms and applications, with earlier research and engineering focused on natural language processing, distributed machine learning and foundational infrastructure.</p>
+      <p class="hero-copy" data-zh>现任一家AI初创公司AI产品研发负责人，负责智能体、多模态生成与强化学习方向的AI应用业务线。此前在大模型基座公司智谱担任事业部智能体业务算法负责人。长期从事AI算法及应用研发，早期主要聚焦自然语言处理、分布式机器学习与底层基础设施。</p>
 
       <div class="focus-tags" aria-label="Research focus">
-        <span><span data-en>Privacy Computing</span><span data-zh>隐私计算</span></span>
-        <span><span data-en>Trustworthy Distributed ML</span><span data-zh>可信分布式机器学习</span></span>
-        <span><span data-en>Distributed Computing</span><span data-zh>分布式计算</span></span>
-        <span><span data-en>Large Language Models</span><span data-zh>大模型</span></span>
         <span><span data-en>Agentic AI</span><span data-zh>智能体</span></span>
-        <span><span data-en>Multimodal Models</span><span data-zh>多模态模型</span></span>
+        <span><span data-en>Multimodal Generation</span><span data-zh>多模态生成</span></span>
         <span><span data-en>Reinforcement Learning</span><span data-zh>强化学习</span></span>
-        <span><span data-en>Federated Learning</span><span data-zh>联邦学习</span></span>
-        <span><span data-en>Scalable Learning Systems</span><span data-zh>可扩展学习系统</span></span>
+        <span><span data-en>Large Language Models</span><span data-zh>大模型</span></span>
+        <span><span data-en>AI Applications</span><span data-zh>AI应用</span></span>
+        <span><span data-en>Natural Language Processing</span><span data-zh>自然语言处理</span></span>
+        <span><span data-en>Distributed Machine Learning</span><span data-zh>分布式机器学习</span></span>
+        <span><span data-en>AI Infrastructure</span><span data-zh>AI基础设施</span></span>
+        <span><span data-en>Privacy Computing</span><span data-zh>隐私计算</span></span>
       </div>
 
       <div class="hero-links">
@@ -577,10 +591,10 @@ permalink: /concepts/research-command-center.html
 
   <section class="impact">
     <div class="impact-grid wrap">
-      <div class="impact-item"><strong>12</strong><span data-en>Publications</span><span data-zh>学术论文</span></div>
+      <div class="impact-item"><strong>11</strong><span data-en>Publications</span><span data-zh>学术论文</span></div>
       <div class="impact-item"><strong>27</strong><span data-en>Granted patents</span><span data-zh>授权发明专利</span></div>
       <div class="impact-item"><strong>8</strong><span data-en>Software copyrights</span><span data-zh>软件著作权</span></div>
-      <div class="impact-item"><strong>10+</strong><span data-en>Major honors</span><span data-zh>重要荣誉</span></div>
+      <div class="impact-item"><strong>19+</strong><span data-en>Major honors</span><span data-zh>重要荣誉</span></div>
     </div>
   </section>
 
@@ -593,7 +607,7 @@ permalink: /concepts/research-command-center.html
   </main>
 
   <footer>
-    <div class="footer-inner wrap"><span>Copyright © 2026 Zhi-Qiang You. All rights reserved.</span><div class="footer-links"><a href="mailto:zhiqiang.you@yuanquan.tech">Email</a><a href="/">Current site</a></div></div>
+    <div class="footer-inner wrap"><span>Copyright © 2026 Zhi-Qiang You. All rights reserved.</span></div>
   </footer>
 
   <script>
