@@ -13,8 +13,8 @@ sitemap: false
 <span class='anchor' id='publications'></span>
 # Publications
 
-- **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
-Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou<br>
+- **GOPO: Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
+Jingyi Xu, Xingyu Ren, Yumeng Zhang, Zhoupeng Shou, Zhiqiang You (**corresponding author**)<br>
 *arXiv preprint arXiv:2602.15854 (2026).*
 
 - **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**<br>
@@ -256,8 +256,8 @@ Chinese Invention Patent, CN116244650B, Announcement Date: 2023.10.03
 <span class='anchor' id='publications-zh'></span>
 # 学术论文
 
-- **Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
-Jingyi Xu, Xingyu Ren, Zhiqiang You (**corresponding author**), Yumeng Zhang, Zhoupeng Shou<br>
+- **GOPO: Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
+Jingyi Xu, Xingyu Ren, Yumeng Zhang, Zhoupeng Shou, Zhiqiang You (**corresponding author**)<br>
 *arXiv preprint arXiv:2602.15854 (2026).*
 
 - **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**<br>
