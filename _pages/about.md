@@ -171,6 +171,11 @@ Xi Che, Zhi-Qiang You, Qi Pan
 Chinese Invention Patent, CN109034861B, Announcement Date: 2022.06.07  
 [[PDF]](pdf/基于移动端日志行为数据的用户流失预测方法及装置.pdf)
 
+- [Granted] **Training method, device and storage medium for a fully anonymous federated learning model**<br>
+Lifeng Chen, Yang Bian, Zhi-Qiang You, Zhaokai Wang<br>
+Chinese Invention Patent, Application No. 2022109402531, Application Date: 2022.08.05
+[[Proof]](pdf/全匿联邦学习模型的训练方法、设备和存储介质.png)
+
 - [Granted] **Method and device for evaluating federated learning models**  
 Zhaokai Wang, Yang Bian, Zhi-Qiang You  
 Chinese Invention Patent, CN116541870B, Announcement Date: 2023.09.05  
@@ -410,6 +415,11 @@ Zhi-Qiang You, Han Xiao-Pu
 车曦, 尤志强, 潘琪  
 中国发明专利, CN109034861B, 公告日期: 2022.06.07  
 [[PDF]](pdf/基于移动端日志行为数据的用户流失预测方法及装置.pdf)
+
+- [已授权] **全匿联邦学习模型的训练方法、设备和存储介质**<br>
+陈立峰, 卞阳, 尤志强, 王兆凯<br>
+中国发明专利, 申请号: 2022109402531, 申请日期: 2022.08.05
+[[证明]](pdf/全匿联邦学习模型的训练方法、设备和存储介质.png)
 
 - [已授权] **用于评估联邦学习模型的方法及装置**  
 王兆凯, 卞阳, 尤志强  
