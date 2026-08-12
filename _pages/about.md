@@ -14,47 +14,47 @@ sitemap: false
 # Publications
 
 - **GOPO: Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
-Jingyi Xu, Xingyu Ren, Yumeng Zhang, Zhoupeng Shou, Zhiqiang You (**corresponding author**)<br>
+Jingyi Xu, Xingyu Ren, Yumeng Zhang, Zhoupeng Shou, **Zhiqiang You** (**corresponding author**)<br>
 *arXiv preprint arXiv:2602.15854 (2026).*
 
 - **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**<br>
-Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu<br>
+Zhou-Peng Shou, **Zhi-Qiang You**, Fang Wang, Hai-Bo Liu<br>
 *arXiv preprint arXiv:2509.06641 (2025).* [[PDF]](pdf/icassp26.pdf)
 
 - **A Secure and Efficient Method of Fully Anonymous Vertical Federated Learning**<br>
-Zhi-Qiang You, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian<br>
+**Zhi-Qiang You**, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian<br>
 *Information Security Research, 2024, 10(6): 506-512.* [[PDF]](pdf/FAVFL.pdf)
 
 - **Reconstruction of social group networks from friendship networks using a tag-based model**  
-Yuan-Pan Guan, Zhi-Qiang You, Xiao-Pu Han  
+Yuan-Pan Guan, **Zhi-Qiang You**, Xiao-Pu Han<br>
 *Physica A, Volume 463, 1 December 2016, Pages 485-492.* [[PDF]](pdf/RSGN16.pdf)
 
 - **Queuing Model for News Reports**<br>
-Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan<br>
+**Zhi-Qiang You**, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan<br>
 *Journal of University of Electronic Science and Technology of China, 2016, 45(2): 295-300.* [[PDF]](pdf/QMNR16.pdf)
 
 - **The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model**<br>
-Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic<br>
+**Zhi-Qiang You**, Xiao-Pu Han, Tarik Hadzibeganovic<br>
 *Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.* [[PDF]](pdf/REESPI16.pdf)
 
 - **Empirical studies on the network of social groups: the case of Tencent QQ**<br>
-Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung<br>
+**Zhi-Qiang You**, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung<br>
 *PloS one 10 (7), e0130538.* [[PDF]](pdf/ESQQ15.pdf)
 
 - **Modelling temporal patterns of news report**  
-Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan  
+**Zhi-Qiang You**, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan<br>
 *Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.* [[PDF]](pdf/MTPNR15.pdf)
 
 - **Modeling of social group growth based on social networks**  
-Zhi-Qiang You, Yuan-Pan Guan, Han Xiao-Pu, Xiao Fang, Lü Lin-Yuan  
+**Zhi-Qiang You**, Yuan-Pan Guan, Han Xiao-Pu, Xiao Fang, Lü Lin-Yuan<br>
 *Complex Systems and Complexity Science, 2015, 12(2): 72-77.* [[PDF]](pdf/MSGG15.pdf)
 
 - **Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering**<br>
-Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan<br>
+Zi-Ke Zhang, Lu Yu, Kuan Fang, **Zhi-Qiang You**, Chuang Liu, Hao Liu, Xiao-Yong Yan<br>
 *Physica A, Volume 399, 1 April 2014, Pages 82-88.* [[PDF]](pdf/WRHT13.pdf)
 
 - **Correlation Analysis on Pedestrian Flow at Shanghai World Expo**  
-Zhi-Qiang You, Han Xiao-Pu  
+**Zhi-Qiang You**, Han Xiao-Pu<br>
 *Journal of Shanghai University of Technology, 2013, 35(4), 313-320.* [[PDF]](pdf/CAPF13.pdf)
 
 </div>
@@ -67,144 +67,149 @@ Zhi-Qiang You, Han Xiao-Pu
 ## Granted Invention Patents
 
 - [Granted] **Training method, system, equipment and medium for secure intersection and federated learning model**  
-Zhi-Qiang You, Lifeng Chen  
+**Zhi-Qiang You**, Lifeng Chen<br>
 Chinese Invention Patent, CN115392480B, Application Date: 2026.05.12  
 [[PDF]](pdf/安全求交、联邦学习模型的训练方法及系统、设备及介质.jpg)
 
 - [Granted] **Method, system, device and medium for automatically extracting high-value reply chains of thought from dialogue logs**    
-Zhi-Qiang You, Xingyu Ren, Jingyi Xu, Yumeng Zhang, Fang Wang, Jian Song    
+**Zhi-Qiang You**, Xingyu Ren, Jingyi Xu, Yumeng Zhang, Fang Wang, Jian Song<br>
 Chinese Invention Patent, CN121212162B, Announcement Date: 2026.03.06    
-[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf)  
+[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf) [[Proof]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质-证明.png)
 
 - [Granted] **Sharing method, system, device and medium for fully anonymous obfuscated intersection data**  
-Zhi-Qiang You, Dong Zhao, Lifeng Chen  
+**Zhi-Qiang You**, Dong Zhao, Lifeng Chen<br>
 Chinese Invention Patent, CN118590236B, Announcement Date: 2024.11.01  
 [[PDF]](pdf/全匿踪混淆求交数据的共享方法、系统、设备及介质.pdf)
 
 - [Granted] **Method and device for crowd statistics using federated learning model**  
-Zhi-Qiang You, Yang Bian, Zhaokai Wang, Weiqi Zhang  
+**Zhi-Qiang You**, Yang Bian, Zhaokai Wang, Weiqi Zhang<br>
 Chinese Invention Patent, CN116521952B, Announcement Date: 2023.09.05  
 [[PDF]](pdf/使用联邦学习模型进行人群包统计的方法及装置.pdf)
 
 - [Granted] **Short text question semantic matching method and system**  
-Zhi-Qiang You, Qi Pan  
+**Zhi-Qiang You**, Qi Pan<br>
 Chinese Invention Patent, CN109597994B, Announcement Date: 2023.06.06  
 [[PDF]](pdf/短文本问题语义匹配方法和系统.pdf)
 
 - [Granted] **Multi-party secure computation method, device, system, electronic equipment and storage medium**  
-Zhi-Qiang You, Yang Bian, Dong Zhao    
+**Zhi-Qiang You**, Yang Bian, Dong Zhao<br>
 Chinese Invention Patent, CN116055049B, Announcement Date: 2023.07.04  
 [[PDF]](pdf/多方安全计算方法、装置、系统、电子设备和存储介质.pdf)
 
 - [Granted] **Multi-party secure data rearrangement method, device, electronic equipment and storage medium**  
-Zhi-Qiang You, Yang Bian  
+**Zhi-Qiang You**, Yang Bian<br>
 Chinese Invention Patent, CN115982785B, Announcement Date: 2023.06.30  
 [[PDF]](pdf/多方安全的数据重排方法、装置、电子设备及存储介质.pdf)
 
 - [Granted] **A random grouping method and device, computer program product, and electronic equipment**  
-Zhi-Qiang You, Yang Bian, Zhipeng Tu, Weiqi Zhang  
+**Zhi-Qiang You**, Yang Bian, Zhipeng Tu, Weiqi Zhang<br>
 Chinese Invention Patent, CN116319084B, Announcement Date: 2023.09.29  
 [[PDF]](pdf/一种随机分组的方法及装置、计算机程序产品、电子设备.pdf)
 
 - [Granted] **An information recommendation method and device**  
-Zhi-Qiang You, Yang Bian, Zhaokai Wang  
+**Zhi-Qiang You**, Yang Bian, Zhaokai Wang<br>
 Chinese Invention Patent, CN115795174B, Announcement Date: 2022.04.25  
 [[PDF]](pdf/一种信息推荐方法及装置.pdf)
 
 - [Granted] **Fully encrypted data processing method, device, equipment, and medium**  
-Zhi-Qiang You, Yang Bian, Dong Zhao  
+**Zhi-Qiang You**, Yang Bian, Dong Zhao<br>
 Chinese Invention Patent, CN115587382B, Announcement Date: 2023.04.11  
 [[PDF]](pdf/全密态数据处理方法、装置、设备、介质.pdf)
 
 - [Granted] **Security monitoring method, device, equipment, and medium for privacy computing processes**  
-Zhi-Qiang You, Yang Bian  
+**Zhi-Qiang You**, Yang Bian<br>
 Chinese Invention Patent, CN115664839B, Announcement Date: 2023.04.11  
 [[PDF]](pdf/隐私计算进程的安全监控方法、装置、设备、介质.pdf)
 
 - [Granted] **Prediction method, model generation method and device based on heterogeneous federated learning**  
-Zhi-Qiang You, Yang Bian  
+**Zhi-Qiang You**, Yang Bian<br>
 Chinese Invention Patent, CN114611712B, Announcement Date: 2022.08.26  
 [[PDF]](pdf/基于异构联邦学习的预测方法、模型生成方法及装置.pdf)
 
 - [Granted] **A data median determination method and device**  
-Zhi-Qiang You, Yang Bian, Dong Zhao, Chongbing Zhu  
+**Zhi-Qiang You**, Yang Bian, Dong Zhao, Chongbing Zhu<br>
 Chinese Invention Patent, CN114595479B, Announcement Date: 2022.08.26  
 [[PDF]](pdf/一种数据中位数确定方法及装置.pdf)
 
 - [Granted] **Multi-party secure computation method, electronic equipment and readable storage medium**  
-Zhi-Qiang You, Dong Zhao, Lifeng Chen, Yang Bian  
+**Zhi-Qiang You**, Dong Zhao, Lifeng Chen, Yang Bian<br>
 Chinese Invention Patent, CN114615282B, Announcement Date: 2022.08.23  
 [[PDF]](pdf/多方安全计算方法、电子设备及可读存储介质.pdf)
 
 - [Granted] **A training method and system for vertical federated learning models**  
-Zhi-Qiang You, Yang Bian  
+**Zhi-Qiang You**, Yang Bian<br>
 Chinese Invention Patent, CN114330759B, Announcement Date: 2022.08.02  
 [[PDF]](pdf/一种纵向联邦学习模型的训练方法及系统.pdf)
 
 - [Granted] **Method and device for predicting overdue risk of credit applications**  
-Zhi-Qiang You, Xi Che, Qi Pan  
+**Zhi-Qiang You**, Xi Che, Qi Pan<br>
 Chinese Invention Patent, CN108389125B, Announcement Date: 2022.06.07  
 [[PDF]](pdf/信贷申请的逾期风险预测方法及装置.pdf)
 
 - [Granted] **User relationship identification method, object relationship identification method and device**  
-Zhi-Qiang You, Qi Pan, Xi Che  
+**Zhi-Qiang You**, Qi Pan, Xi Che<br>
 Chinese Invention Patent, CN107392781B, Announcement Date: 2021.11.02  
 [[PDF]](pdf/用户关系的识别方法、对象关系的识别方法及装置.pdf)
 
 - [Granted] **Short text classification method and device**  
-Zhi-Qiang You, Xi Che, Qi Pan  
+**Zhi-Qiang You**, Xi Che, Qi Pan<br>
 Chinese Invention Patent, CN107301225B, Announcement Date: 2021.01.26  
 [[PDF]](pdf/短文本分类方法及装置.pdf)
 
 - [Granted] **Federated learning code generation method, device, electronic equipment and storage medium**  
-Yang Bian, Zhi-Qiang You, Dong Zhao, Chongbing Zhu  
+Yang Bian, **Zhi-Qiang You**, Dong Zhao, Chongbing Zhu<br>
 Chinese Invention Patent, CN114282257B, Announcement Date: 2022.07.15  
 [[PDF]](pdf/联邦学习代码生成方法、装置、电子设备及存储介质.pdf)
 
 - [Granted] **An intelligent semantic processing method**  
-Hongyu Kang, Zhi-Qiang You, Xi Che, Qi Pan  
+Hongyu Kang, **Zhi-Qiang You**, Xi Che, Qi Pan<br>
 Chinese Invention Patent, CN109062895B, Announcement Date: 2022.06.24  
 [[PDF]](pdf/一种智能语义处理方法.pdf)
 
 - [Granted] **User churn prediction method and device based on mobile log behavior data**  
-Xi Che, Zhi-Qiang You, Qi Pan  
+Xi Che, **Zhi-Qiang You**, Qi Pan<br>
 Chinese Invention Patent, CN109034861B, Announcement Date: 2022.06.07  
 [[PDF]](pdf/基于移动端日志行为数据的用户流失预测方法及装置.pdf)
 
 - [Granted] **Training method, device and storage medium for a fully anonymous federated learning model**<br>
-Lifeng Chen, Yang Bian, Zhi-Qiang You, Zhaokai Wang<br>
+Lifeng Chen, Yang Bian, **Zhi-Qiang You**, Zhaokai Wang<br>
 Chinese Invention Patent, Application No. 2022109402531, Application Date: 2022.08.05
 [[Proof]](pdf/全匿联邦学习模型的训练方法、设备和存储介质.png)
 
 - [Granted] **Method and device for evaluating federated learning models**  
-Zhaokai Wang, Yang Bian, Zhi-Qiang You  
+Zhaokai Wang, Yang Bian, **Zhi-Qiang You**<br>
 Chinese Invention Patent, CN116541870B, Announcement Date: 2023.09.05  
 [[PDF]](pdf/用于评估联邦学习模型的方法及装置.pdf)
 
 - [Granted] **A method and system for decoupling calculation engine and platform**  
-Chongbing Zhu, Yang Bian, Dong Zhao, Zhi-Qiang You  
+Chongbing Zhu, Yang Bian, Dong Zhao, **Zhi-Qiang You**<br>
 Chinese Invention Patent, CN114444136B, Announcement Date: 2024.08.30  
 [[PDF]](pdf/一种计算引擎与平台解耦的方法及系统.pdf)
 
 - [Granted] **A data anonymization method, device, electronic equipment and storage medium**  
-Dong Zhao, Yang Bian, Zhi-Qiang You  
+Dong Zhao, Yang Bian, **Zhi-Qiang You**<br>
 Chinese Invention Patent, CN115982779B, Announcement Date: 2023.05.23  
 [[PDF]](pdf/一种数据匿名化方法、装置、电子设备及存储介质.pdf)
 
 - [Granted] **A social relationship prediction method integrating network structure and text information**  
-Zike Zhang, Shuaishuai Xu, Zhi-Qiang You, Ge Zhou, Chuang Liu  
+Zike Zhang, Shuaishuai Xu, **Zhi-Qiang You**, Ge Zhou, Chuang Liu<br>
 Chinese Invention Patent, CN107729569B, Announcement Date: 2020.01.17  
 [[PDF]](pdf/一种融合网络结构和文本信息的社交关系预测方法.pdf)
 
 - [Granted] **A secure multi-party computation method, device, electronic equipment and storage medium**  
-Xiaochao Sun, Lifeng Chen, Yang Bian, Zhi-Qiang You 
+Xiaochao Sun, Lifeng Chen, Yang Bian, **Zhi-Qiang You**<br>
 Chinese Invention Patent, CN114595483B, Announcement Date: 2022.08.02  
 [[PDF]](pdf/一种安全多方计算方法、装置、电子设备及存储介质.pdf)
 
 - [Granted] **Feature binning method, device, electronic equipment and computer-readable storage medium**  
-Lifeng Chen, Tengfei Li, Yang Bian, Yunbo Yang, Zhi-Qiang You  
+Lifeng Chen, Tengfei Li, Yang Bian, Yunbo Yang, **Zhi-Qiang You**<br>
 Chinese Invention Patent, CN116244650B, Announcement Date: 2023.10.03  
 [[PDF]](pdf/特征分箱方法、装置、电子设备和计算机可读存储介质.pdf)
+
+- [Granted] **Biometric feature extraction method and apparatus**<br>
+Qi Wang, Yanming Yang, Pengfei Gao, Yongkai Zhou, Gaolei Zhang, Xiaochao Sun, Dong Zhao, **Zhi-Qiang You**, Raobo Zhang<br>
+Chinese Invention Patent, Application No. 202210978590X, Application Date: 2022.08.16
+[[Proof]](pdf/一种生物特征提取方法及装置.jpg)
 
 </div>
 
@@ -262,47 +267,47 @@ Chinese Invention Patent, CN116244650B, Announcement Date: 2023.10.03
 # 学术论文
 
 - **GOPO: Decoupling Strategy and Execution in Task-Focused Dialogue via Goal-Oriented Preference Optimization**<br>
-Jingyi Xu, Xingyu Ren, Yumeng Zhang, Zhoupeng Shou, Zhiqiang You (**corresponding author**)<br>
+Jingyi Xu, Xingyu Ren, Yumeng Zhang, Zhoupeng Shou, **Zhiqiang You** (**corresponding author**)<br>
 *arXiv preprint arXiv:2602.15854 (2026).*
 
 - **CogGuide: Human-Like Guidance for Zero-Shot Omni-Modal Reasoning**<br>
-Zhou-Peng Shou, Zhi-Qiang You, Fang Wang, Hai-Bo Liu<br>
+Zhou-Peng Shou, **Zhi-Qiang You**, Fang Wang, Hai-Bo Liu<br>
 *arXiv preprint arXiv:2509.06641 (2025).* [[PDF]](pdf/icassp26.pdf)
 
 - **A Secure and Efficient Method of Fully Anonymous Vertical Federated Learning**<br>
-Zhi-Qiang You, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian<br>
+**Zhi-Qiang You**, Li Yue, Jiang Wei, Fang Jing, Lifeng Chen, Yang Bian<br>
 *Information Security Research, 2024, 10(6): 506-512.* [[PDF]](pdf/FAVFL.pdf)
 
 - **Reconstruction of social group networks from friendship networks using a tag-based model**  
-Yuan-Pan Guan, Zhi-Qiang You, Xiao-Pu Han  
+Yuan-Pan Guan, **Zhi-Qiang You**, Xiao-Pu Han<br>
 *Physica A, Volume 463, 1 December 2016, Pages 485-492.* [[PDF]](pdf/RSGN16.pdf)
 
 - **Queuing Model for News Reports**<br>
-Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan<br>
+**Zhi-Qiang You**, Zhu Yan-Yan, Han Xiao-Pu, Lü Lin-Yuan<br>
 *Journal of University of Electronic Science and Technology of China, 2016, 45(2): 295-300.* [[PDF]](pdf/QMNR16.pdf)
 
 - **The role of research efficiency in the evolution of scientific productivity and impact: An agent-based model**<br>
-Zhi-Qiang You, Xiao-Pu Han, Tarik Hadzibeganovic<br>
+**Zhi-Qiang You**, Xiao-Pu Han, Tarik Hadzibeganovic<br>
 *Physics Letters A, Volume 380, Issues 7–8, 22 February 2016, Pages 828-836.* [[PDF]](pdf/REESPI16.pdf)
 
 - **Empirical studies on the network of social groups: the case of Tencent QQ**<br>
-Zhi-Qiang You, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung<br>
+**Zhi-Qiang You**, Xiao-Pu Han, Linyuan Lü, Chi Ho Yeung<br>
 *PloS one 10 (7), e0130538.* [[PDF]](pdf/ESQQ15.pdf)
 
 - **Modelling temporal patterns of news report**  
-Zhi-Qiang You, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan  
+**Zhi-Qiang You**, Zhu Yan-Yan, Han Xiao-Pu, Lü Linyuan<br>
 *Chinese Control Conference (CCC), 2015 34th Chinese, 10.1109/ChiCC.2015.7259829, 1345 - 1350.* [[PDF]](pdf/MTPNR15.pdf)
 
 - **Modeling of social group growth based on social networks**  
-Zhi-Qiang You, Yuan-Pan Guan, Han Xiao-Pu, Xiao Fang, Lü Lin-Yuan  
+**Zhi-Qiang You**, Yuan-Pan Guan, Han Xiao-Pu, Xiao Fang, Lü Lin-Yuan<br>
 *Complex Systems and Complexity Science, 2015, 12(2): 72-77.* [[PDF]](pdf/MSGG15.pdf)
 
 - **Website-oriented recommendation based on heat spreading and tag-aware collaborative filtering**<br>
-Zi-Ke Zhang, Lu Yu, Kuan Fang, Zhi-Qiang You, Chuang Liu, Hao Liu, Xiao-Yong Yan<br>
+Zi-Ke Zhang, Lu Yu, Kuan Fang, **Zhi-Qiang You**, Chuang Liu, Hao Liu, Xiao-Yong Yan<br>
 *Physica A, Volume 399, 1 April 2014, Pages 82-88.* [[PDF]](pdf/WRHT13.pdf)
 
 - **Correlation Analysis on Pedestrian Flow at Shanghai World Expo**  
-Zhi-Qiang You, Han Xiao-Pu  
+**Zhi-Qiang You**, Han Xiao-Pu<br>
 *Journal of Shanghai University of Technology, 2013, 35(4), 313-320.* [[PDF]](pdf/CAPF13.pdf)
 
 
@@ -312,144 +317,149 @@ Zhi-Qiang You, Han Xiao-Pu
 ## 已授权发明专利
 
 - [已授权] **安全求交、联邦学习模型的训练方法及系统、设备及介质**  
-尤志强, 陈立峰  
+**尤志强**, 陈立峰<br>
 中国发明专利, CN115392480B, 申请日期: 2026.05.12  
 [[PDF]](pdf/安全求交、联邦学习模型的训练方法及系统、设备及介质.jpg)
 
 - [已授权] **从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质**    
-尤志强, 任星宇, 许靖怡, 张雨萌, 王仿, 宋健    
+**尤志强**, 任星宇, 许靖怡, 张雨萌, 王仿, 宋健<br>
 中国发明专利, CN121212162B, 公告日期: 2026.03.06    
-[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf)  
+[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf) [[证明]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质-证明.png)
 
 - [已授权] **全匿踪混淆求交数据的共享方法、系统、设备及介质**  
-尤志强, 赵东, 陈立峰  
+**尤志强**, 赵东, 陈立峰<br>
 中国发明专利, CN118590236B, 公告日期: 2024.11.01  
 [[PDF]](pdf/全匿踪混淆求交数据的共享方法、系统、设备及介质.pdf)
 
 - [已授权] **使用联邦学习模型进行人群包统计的方法及装置**  
-尤志强, 卞阳, 王兆凯, 张伟奇  
+**尤志强**, 卞阳, 王兆凯, 张伟奇<br>
 中国发明专利, CN116521952B, 公告日期: 2023.09.05  
 [[PDF]](pdf/使用联邦学习模型进行人群包统计的方法及装置.pdf)
 
 - [已授权] **短文本问题语义匹配方法和系统**  
-尤志强, 潘淇  
+**尤志强**, 潘淇<br>
 中国发明专利, CN109597994B, 公告日期: 2023.06.06  
 [[PDF]](pdf/短文本问题语义匹配方法和系统.pdf)
 
 - [已授权] **多方安全计算方法、装置、系统、电子设备和存储介质**  
-尤志强, 卞阳, 赵东    
+**尤志强**, 卞阳, 赵东<br>
 中国发明专利, CN116055049B, 公告日期: 2023.07.04  
 [[PDF]](pdf/多方安全计算方法、装置、系统、电子设备和存储介质.pdf)
 
 - [已授权] **多方安全的数据重排方法、装置、电子设备及存储介质**  
-尤志强, 卞阳  
+**尤志强**, 卞阳<br>
 中国发明专利, CN115982785B, 公告日期: 2023.06.30  
 [[PDF]](pdf/多方安全的数据重排方法、装置、电子设备及存储介质.pdf)
 
 - [已授权] **一种随机分组的方法及装置、计算机程序产品、电子设备**  
-尤志强, 卞阳, 涂志鹏, 张伟奇  
+**尤志强**, 卞阳, 涂志鹏, 张伟奇<br>
 中国发明专利, CN116319084B, 公告日期: 2023.09.29  
 [[PDF]](pdf/一种随机分组的方法及装置、计算机程序产品、电子设备.pdf)
 
 - [已授权] **一种信息推荐方法及装置**  
-尤志强, 卞阳, 王兆凯  
+**尤志强**, 卞阳, 王兆凯<br>
 中国发明专利, CN115795174B, 公告日期: 2022.04.25  
 [[PDF]](pdf/一种信息推荐方法及装置.pdf)
 
 - [已授权] **全密态数据处理方法、装置、设备、介质**  
-尤志强, 卞阳, 赵东  
+**尤志强**, 卞阳, 赵东<br>
 中国发明专利, CN115587382B, 公告日期: 2023.04.11  
 [[PDF]](pdf/全密态数据处理方法、装置、设备、介质.pdf)
 
 - [已授权] **隐私计算进程的安全监控方法、装置、设备、介质**  
-尤志强, 卞阳  
+**尤志强**, 卞阳<br>
 中国发明专利, CN115664839B, 公告日期: 2023.04.11  
 [[PDF]](pdf/隐私计算进程的安全监控方法、装置、设备、介质.pdf)
 
 - [已授权] **基于异构联邦学习的预测方法、模型生成方法及装置**  
-尤志强, 卞阳  
+**尤志强**, 卞阳<br>
 中国发明专利, CN114611712B, 公告日期: 2022.08.26  
 [[PDF]](pdf/基于异构联邦学习的预测方法、模型生成方法及装置.pdf)
 
 - [已授权] **一种数据中位数确定方法及装置**  
-尤志强, 卞阳, 赵东, 朱崇炳  
+**尤志强**, 卞阳, 赵东, 朱崇炳<br>
 中国发明专利, CN114595479B, 公告日期: 2022.08.26  
 [[PDF]](pdf/一种数据中位数确定方法及装置.pdf)
 
 - [已授权] **多方安全计算方法、电子设备及可读存储介质**  
-尤志强, 赵东, 陈立峰, 卞阳  
+**尤志强**, 赵东, 陈立峰, 卞阳<br>
 中国发明专利, CN114615282B, 公告日期: 2022.08.23  
 [[PDF]](pdf/多方安全计算方法、电子设备及可读存储介质.pdf)
 
 - [已授权] **一种纵向联邦学习模型的训练方法及系统**  
-尤志强, 卞阳  
+**尤志强**, 卞阳<br>
 中国发明专利, CN114330759B, 公告日期: 2022.08.02  
 [[PDF]](pdf/一种纵向联邦学习模型的训练方法及系统.pdf)
 
 - [已授权] **信贷申请的逾期风险预测方法及装置**  
-尤志强, 车曦, 潘琪  
+**尤志强**, 车曦, 潘琪<br>
 中国发明专利, CN108389125B, 公告日期: 2022.06.07  
 [[PDF]](pdf/信贷申请的逾期风险预测方法及装置.pdf)
 
 - [已授权] **用户关系的识别方法、对象关系的识别方法及装置**  
-尤志强, 潘琪, 车曦  
+**尤志强**, 潘琪, 车曦<br>
 中国发明专利, CN107392781B, 公告日期: 2021.11.02  
 [[PDF]](pdf/用户关系的识别方法、对象关系的识别方法及装置.pdf)
 
 - [已授权] **短文本分类方法及装置**  
-尤志强, 车曦, 潘琪  
+**尤志强**, 车曦, 潘琪<br>
 中国发明专利, CN107301225B, 公告日期: 2021.01.26  
 [[PDF]](pdf/短文本分类方法及装置.pdf)
 
 - [已授权] **联邦学习代码生成方法、装置、电子设备及存储介质**  
-卞阳, 尤志强, 赵东, 朱崇炳  
+卞阳, **尤志强**, 赵东, 朱崇炳<br>
 中国发明专利, CN114282257B, 公告日期: 2022.07.15  
 [[PDF]](pdf/联邦学习代码生成方法、装置、电子设备及存储介质.pdf)
 
 - [已授权] **一种智能语义处理方法**  
-康洪雨, 尤志强, 车曦, 潘琪  
+康洪雨, **尤志强**, 车曦, 潘琪<br>
 中国发明专利, CN109062895B, 公告日期: 2022.06.24  
 [[PDF]](pdf/一种智能语义处理方法.pdf)
 
 - [已授权] **基于移动端日志行为数据的用户流失预测方法及装置**  
-车曦, 尤志强, 潘琪  
+车曦, **尤志强**, 潘琪<br>
 中国发明专利, CN109034861B, 公告日期: 2022.06.07  
 [[PDF]](pdf/基于移动端日志行为数据的用户流失预测方法及装置.pdf)
 
 - [已授权] **全匿联邦学习模型的训练方法、设备和存储介质**<br>
-陈立峰, 卞阳, 尤志强, 王兆凯<br>
+陈立峰, 卞阳, **尤志强**, 王兆凯<br>
 中国发明专利, 申请号: 2022109402531, 申请日期: 2022.08.05
 [[证明]](pdf/全匿联邦学习模型的训练方法、设备和存储介质.png)
 
 - [已授权] **用于评估联邦学习模型的方法及装置**  
-王兆凯, 卞阳, 尤志强  
+王兆凯, 卞阳, **尤志强**<br>
 中国发明专利, CN116541870B, 公告日期: 2023.09.05  
 [[PDF]](pdf/用于评估联邦学习模型的方法及装置.pdf)
 
 - [已授权] **一种计算引擎与平台解耦的方法及系统**  
-朱崇炳,卞阳, 赵东, 尤志强  
+朱崇炳,卞阳, 赵东, **尤志强**<br>
 中国发明专利, CN114444136B, 公告日期: 2024.08.30  
 [[PDF]](pdf/一种计算引擎与平台解耦的方法及系统.pdf)
 
 - [已授权] **一种数据匿名化方法、装置、电子设备及存储介质**  
-赵东, 卞阳, 尤志强  
+赵东, 卞阳, **尤志强**<br>
 中国发明专利, CN115982779B, 公告日期: 2023.05.23  
 [[PDF]](pdf/一种数据匿名化方法、装置、电子设备及存储介质.pdf)
 
 - [已授权] **一种融合网络结构和文本信息的社交关系预测方法**  
-张子柯, 许帅帅, 尤志强, 周鸽, 刘闯  
+张子柯, 许帅帅, **尤志强**, 周鸽, 刘闯<br>
 中国发明专利, CN107729569B, 公告日期: 2020.01.17  
 [[PDF]](pdf/一种融合网络结构和文本信息的社交关系预测方法.pdf)
 
 - [已授权] **一种安全多方计算方法、装置、电子设备及存储介质**  
-孙小超, 陈立峰, 卞阳, 尤志强 
+孙小超, 陈立峰, 卞阳, **尤志强**<br>
 中国发明专利, CN114595483B, 公告日期: 2022.08.02  
 [[PDF]](pdf/一种安全多方计算方法、装置、电子设备及存储介质.pdf)
 
 - [已授权] **特征分箱方法、装置、电子设备和计算机可读存储介质**  
-陈立峰, 李腾飞, 卞阳, 杨云波, 尤志强  
+陈立峰, 李腾飞, 卞阳, 杨云波, **尤志强**<br>
 中国发明专利, CN116244650B, 公告日期: 2023.10.03  
 [[PDF]](pdf/特征分箱方法、装置、电子设备和计算机可读存储介质.pdf)
+
+- [已授权] **一种生物特征提取方法及装置**<br>
+王琪, 杨燕明, 高鹏飞, 周雍恺, 张高磊, 孙小超, 赵东, **尤志强**, 张饶波<br>
+中国发明专利, 申请号: 202210978590X, 申请日期: 2022.08.16
+[[证明]](pdf/一种生物特征提取方法及装置.jpg)
 
 
 <span class='anchor' id='software-zh'></span>
