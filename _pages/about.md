@@ -67,14 +67,14 @@ Zi-Ke Zhang, Lu Yu, Kuan Fang, **Zhi-Qiang You**, Chuang Liu, Hao Liu, Xiao-Yong
 ## Granted Invention Patents
 
 - [Granted] **Training method, system, equipment and medium for secure intersection and federated learning model**  
-**Zhi-Qiang You**, Lifeng Chen<br>
-Chinese Invention Patent, CN115392480B, Application Date: 2026.05.12  
-[[PDF]](pdf/安全求交、联邦学习模型的训练方法及系统、设备及介质.jpg)
+**Zhi-Qiang You**, Yang Bian, Lifeng Chen<br>
+Chinese Invention Patent, CN115392480B, Announcement Date: 2026.05.12<br>
+[[PDF]](pdf/安全求交、联邦学习模型的训练方法及系统、设备及介质.pdf)
 
 - [Granted] **Method, system, device and medium for automatically extracting high-value reply chains of thought from dialogue logs**    
 **Zhi-Qiang You**, Xingyu Ren, Jingyi Xu, Yumeng Zhang, Fang Wang, Jian Song<br>
 Chinese Invention Patent, CN121212162B, Announcement Date: 2026.03.06    
-[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf) [[Proof]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质-证明.png)
+[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf)
 
 - [Granted] **Sharing method, system, device and medium for fully anonymous obfuscated intersection data**  
 **Zhi-Qiang You**, Dong Zhao, Lifeng Chen<br>
@@ -173,8 +173,8 @@ Chinese Invention Patent, CN109034861B, Announcement Date: 2022.06.07
 
 - [Granted] **Training method, device and storage medium for a fully anonymous federated learning model**<br>
 Lifeng Chen, Yang Bian, **Zhi-Qiang You**, Zhaokai Wang<br>
-Chinese Invention Patent, Application No. 2022109402531, Application Date: 2022.08.05
-[[Proof]](pdf/全匿联邦学习模型的训练方法、设备和存储介质.png)
+Chinese Invention Patent, CN115438370B, Announcement Date: 2026.07.31
+[[PDF]](pdf/全匿联邦学习模型的训练方法、设备和存储介质.pdf)
 
 - [Granted] **Method and device for evaluating federated learning models**  
 Zhaokai Wang, Yang Bian, **Zhi-Qiang You**<br>
@@ -208,8 +208,8 @@ Chinese Invention Patent, CN116244650B, Announcement Date: 2023.10.03
 
 - [Granted] **Biometric feature extraction method and apparatus**<br>
 Qi Wang, Yanming Yang, Pengfei Gao, Yongkai Zhou, Gaolei Zhang, Xiaochao Sun, Dong Zhao, **Zhi-Qiang You**, Raobo Zhang<br>
-Chinese Invention Patent, Application No. 202210978590X, Application Date: 2022.08.16
-[[Proof]](pdf/一种生物特征提取方法及装置.jpg)
+Chinese Invention Patent, CN115439903B, Announcement Date: 2026.06.09
+[[PDF]](pdf/一种生物特征提取方法及装置.pdf)
 
 </div>
 
@@ -317,14 +317,14 @@ Zi-Ke Zhang, Lu Yu, Kuan Fang, **Zhi-Qiang You**, Chuang Liu, Hao Liu, Xiao-Yong
 ## 已授权发明专利
 
 - [已授权] **安全求交、联邦学习模型的训练方法及系统、设备及介质**  
-**尤志强**, 陈立峰<br>
-中国发明专利, CN115392480B, 申请日期: 2026.05.12  
-[[PDF]](pdf/安全求交、联邦学习模型的训练方法及系统、设备及介质.jpg)
+**尤志强**, 卞阳, 陈立峰<br>
+中国发明专利, CN115392480B, 公告日期: 2026.05.12<br>
+[[PDF]](pdf/安全求交、联邦学习模型的训练方法及系统、设备及介质.pdf)
 
 - [已授权] **从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质**    
 **尤志强**, 任星宇, 许靖怡, 张雨萌, 王仿, 宋健<br>
 中国发明专利, CN121212162B, 公告日期: 2026.03.06    
-[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf) [[证明]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质-证明.png)
+[[PDF]](pdf/从对话日志中自动提取高价值回复思维链的方法、系统、设备及介质.pdf)
 
 - [已授权] **全匿踪混淆求交数据的共享方法、系统、设备及介质**  
 **尤志强**, 赵东, 陈立峰<br>
@@ -423,8 +423,8 @@ Zi-Ke Zhang, Lu Yu, Kuan Fang, **Zhi-Qiang You**, Chuang Liu, Hao Liu, Xiao-Yong
 
 - [已授权] **全匿联邦学习模型的训练方法、设备和存储介质**<br>
 陈立峰, 卞阳, **尤志强**, 王兆凯<br>
-中国发明专利, 申请号: 2022109402531, 申请日期: 2022.08.05
-[[证明]](pdf/全匿联邦学习模型的训练方法、设备和存储介质.png)
+中国发明专利, CN115438370B, 公告日期: 2026.07.31
+[[PDF]](pdf/全匿联邦学习模型的训练方法、设备和存储介质.pdf)
 
 - [已授权] **用于评估联邦学习模型的方法及装置**  
 王兆凯, 卞阳, **尤志强**<br>
@@ -458,8 +458,8 @@ Zi-Ke Zhang, Lu Yu, Kuan Fang, **Zhi-Qiang You**, Chuang Liu, Hao Liu, Xiao-Yong
 
 - [已授权] **一种生物特征提取方法及装置**<br>
 王琪, 杨燕明, 高鹏飞, 周雍恺, 张高磊, 孙小超, 赵东, **尤志强**, 张饶波<br>
-中国发明专利, 申请号: 202210978590X, 申请日期: 2022.08.16
-[[证明]](pdf/一种生物特征提取方法及装置.jpg)
+中国发明专利, CN115439903B, 公告日期: 2026.06.09
+[[PDF]](pdf/一种生物特征提取方法及装置.pdf)
 
 
 <span class='anchor' id='software-zh'></span>
