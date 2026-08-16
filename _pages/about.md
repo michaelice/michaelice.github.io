@@ -66,6 +66,11 @@ Zi-Ke Zhang, Lu Yu, Kuan Fang, **Zhi-Qiang You**, Chuang Liu, Hao Liu, Xiao-Yong
 
 ## Granted Invention Patents
 
+- [Authorization Notice] **Method for filtering datasets from multiple dataset nodes**<br>
+**Zhi-Qiang You**, Zhaokai Wang, Dong Zhao, Lifeng Chen, Xiaochao Sun, Huayu Zhao, Zhang Wei, Hao Du, Yang Bian, Weiqi Zhang<br>
+Chinese Invention Patent Application, 202311595088.1, Authorization Notice Date: 2026.08.03; Certificate pending issuance<br>
+[[Notice]](pdf/从多个数据集节点中筛选数据集的方法-授权通知书.png) [[Patent Record]](pdf/从多个数据集节点中筛选数据集的方法-专利信息.png)
+
 - [Granted] **Training method, system, equipment and medium for secure intersection and federated learning model**  
 **Zhi-Qiang You**, Yang Bian, Lifeng Chen<br>
 Chinese Invention Patent, CN115392480B, Announcement Date: 2026.05.12<br>
@@ -315,6 +320,11 @@ Zi-Ke Zhang, Lu Yu, Kuan Fang, **Zhi-Qiang You**, Chuang Liu, Hao Liu, Xiao-Yong
 # 发明专利 <span id="patent-count" style="font-size:0.85em;color:#888;"></span>
 
 ## 已授权发明专利
+
+- [授权通知] **从多个数据集节点中筛选数据集的方法**<br>
+**尤志强**, 王兆凯, 赵东, 陈立峰, 孙小超, 赵华宇, 卫璋, 杜浩, 卞阳, 张伟奇<br>
+中国发明专利申请, 申请号: 202311595088.1, 授权通知书发文日: 2026.08.03；发明证书待签发<br>
+[[通知书]](pdf/从多个数据集节点中筛选数据集的方法-授权通知书.png) [[专利信息]](pdf/从多个数据集节点中筛选数据集的方法-专利信息.png)
 
 - [已授权] **安全求交、联邦学习模型的训练方法及系统、设备及介质**  
 **尤志强**, 卞阳, 陈立峰<br>
