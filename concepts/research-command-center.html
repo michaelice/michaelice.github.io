@@ -1,6 +1,8 @@
 ---
 layout: null
 permalink: /
+title: "Zhiqiang You (Zach) | 尤志强 | AI Product & Engineering"
+description: "Zhiqiang You (Zhi-Qiang You, 尤志强, Zach) — Head of AI Product & Engineering. Explore research, publications and patents in AI agents, multimodal generation and reinforcement learning."
 redirect_from:
   - /about/
   - /about.html
@@ -11,8 +13,55 @@ redirect_from:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="A minimal research portfolio concept for Zhi-Qiang You (Zach).">
-  <title>Zhi-Qiang You (Zach) · Research and Invention</title>
+  <meta name="description" content="{{ page.description | escape }}">
+  <meta name="author" content="Zhiqiang You (Zhi-Qiang You, 尤志强)">
+  <title>{{ page.title | escape }}</title>
+  <link rel="canonical" href="{{ '/' | absolute_url }}">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="{{ '/' | absolute_url }}">
+  <meta property="og:site_name" content="Zhiqiang You (Zach) · 尤志强">
+  <meta property="og:title" content="{{ page.title | escape }}">
+  <meta property="og:description" content="{{ page.description | escape }}">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{{ page.title | escape }}">
+  <meta name="twitter:description" content="{{ page.description | escape }}">
+  {% if site.google_site_verification %}
+  <meta name="google-site-verification" content="{{ site.google_site_verification | escape }}">
+  {% endif %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "{{ '/' | absolute_url }}#person",
+        "name": "Zhiqiang You",
+        "alternateName": ["Zhi-Qiang You", "尤志强", "Zach"],
+        "url": {{ '/' | absolute_url | jsonify }},
+        "jobTitle": "Head of AI Product & Engineering",
+        "description": "AI product and engineering leader working on AI agents, multimodal generation and reinforcement learning.",
+        "sameAs": [{{ site.author.csdn | jsonify }}]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "{{ '/' | absolute_url }}#website",
+        "url": {{ '/' | absolute_url | jsonify }},
+        "name": "Zhiqiang You (Zach) · 尤志强",
+        "alternateName": "Zhi-Qiang You",
+        "publisher": {"@id": "{{ '/' | absolute_url }}#person"}
+      },
+      {
+        "@type": "ProfilePage",
+        "@id": "{{ '/' | absolute_url }}#profile",
+        "url": {{ '/' | absolute_url | jsonify }},
+        "name": {{ page.title | jsonify }},
+        "inLanguage": ["en", "zh-CN"],
+        "isPartOf": {"@id": "{{ '/' | absolute_url }}#website"},
+        "mainEntity": {"@id": "{{ '/' | absolute_url }}#person"}
+      }
+    ]
+  }
+  </script>
   <style>
     :root {
       --black: #1d1d1f;
@@ -490,8 +539,8 @@ redirect_from:
       <h1 data-zh>尤志强 (Zach)</h1>
       <p class="hero-overline" data-en>Head of AI Product &amp; Engineering</p>
       <p class="hero-overline" data-zh>AI业务产研负责人</p>
-      <p class="hero-copy" data-en>Head of AI Product &amp; Engineering at an AI startup, leading an AI applications business line spanning agentic systems, multimodal generation and reinforcement learning. I have long worked on AI algorithms and applications, with earlier research and engineering focused on natural language processing, distributed machine learning and foundational infrastructure.</p>
-      <p class="hero-copy" data-zh>现任一家AI初创公司AI产品研发负责人，负责智能体、多模态生成与强化学习方向的AI应用业务线。长期从事AI算法及应用研发，早期主要聚焦自然语言处理、分布式机器学习与底层基础设施。</p>
+      <p class="hero-copy" data-en>I'm Zhiqiang You (Zhi-Qiang You, 尤志强), also known as Zach. I lead AI Product &amp; Engineering at an AI startup, with an AI applications business line spanning agentic systems, multimodal generation and reinforcement learning. I have long worked on AI algorithms and applications, with earlier research and engineering focused on natural language processing, distributed machine learning and foundational infrastructure.</p>
+      <p class="hero-copy" data-zh>我是尤志强（Zhiqiang You / Zhi-Qiang You），也叫 Zach。现任一家AI初创公司AI产品研发负责人，负责智能体、多模态生成与强化学习方向的AI应用业务线。长期从事AI算法及应用研发，早期主要聚焦自然语言处理、分布式机器学习与底层基础设施。</p>
 
       <div class="focus-tags" aria-label="Research focus">
         <span><span data-en>Agentic AI</span><span data-zh>智能体</span></span>

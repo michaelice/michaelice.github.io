@@ -4,6 +4,8 @@ title: ""
 excerpt: ""
 author_profile: false
 sitemap: false
+robots: noindex, follow
+canonical_url: https://yuanquan.online/
 ---
 
 <div class="lang-en" markdown="1">

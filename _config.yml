@@ -69,6 +69,10 @@ include:
   - .htaccess
   - _pages
 exclude:
+  - MIGRATION_SUMMARY.md
+  - QUICKSTART.md
+  - run_server.sh
+  - index.html.old
   - docs
   - google_scholar_crawler
   - "*.sublime-project"
