@@ -7,7 +7,9 @@ a:focus-visible, button:focus-visible { outline: 3px solid #77bca8; outline-offs
 .site-nav::after { display: none; }
 .nav-inner { height: 70px; }
 .nav-identity { color: #fff; font-size: 14px; letter-spacing: -.02em; }
-.nav-identity::before { width: 8px; height: 8px; border-radius: 1px; background: #9cdbc6; }
+.nav-identity::before { display: none; }
+.nav-identity { gap: 12px; }
+.nav-logo { display: block; width: 46px; height: 46px; flex: 0 0 46px; border-radius: 50%; }
 .nav-links { color: #bdc8da; font-size: 13px; gap: 30px; }
 .nav-links a:hover { color: #9cdbc6; }
 .language { display: block; color: #dce6f8; background: transparent; border: 1px solid #ffffff30; border-radius: 5px; }
@@ -73,6 +75,7 @@ footer { background: var(--soft); }
   .wrap { width: calc(100% - 40px); }
   .nav-inner { height: 62px; }
   .nav-identity { font-size: 12px; }
+  .nav-logo { width: 40px; height: 40px; flex-basis: 40px; }
   .nav-links { gap: 0; }
   .nav-links a { display: none; }
   .hero h1 { font-size: clamp(64px, 18vw, 88px); }

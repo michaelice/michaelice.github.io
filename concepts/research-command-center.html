@@ -13,6 +13,7 @@ redirect_from:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  {% include site-icons.html %}
   <meta name="description" content="{{ page.description | escape }}">
   <meta name="author" content="Zhiqiang You (Zhi-Qiang You)">
   <title>{{ page.title | escape }}</title>
@@ -524,11 +525,12 @@ redirect_from:
 <body>
   <nav class="site-nav" aria-label="Primary navigation">
     <div class="nav-inner wrap">
-      <a class="nav-identity" href="#top"><span>AI Research &amp; Engineering</span></a>
+      <a class="nav-identity" href="#top" aria-label="Zach — back to top"><img class="nav-logo" src="{{ '/assets/images/branding/zach-logo-256.png' | relative_url }}" alt="Zach logo" width="46" height="46"><span>AI Research &amp; Engineering</span></a>
       <div class="nav-links">
         <a href="#publications"><span>Publications</span></a>
         <a href="#patents"><span>Patents</span></a>
         <a href="#honors"><span>Honors</span></a>
+        <a href="{{ site.author.csdn | escape }}"><span>Blog ↗</span></a>
       </div>
     </div>
   </nav>
@@ -553,6 +555,7 @@ redirect_from:
         <a class="text-link" href="#publications"><span>Publications</span></a>
         <a class="text-link" href="#patents"><span>Patents</span></a>
         <a class="text-link" href="{{ site.author.googlescholar | escape }}"><span>Google Scholar</span></a>
+        <a class="text-link" href="{{ site.author.csdn | escape }}"><span>Technical blog</span></a>
       </div>
       </div>
       <aside class="hero-manifesto" aria-label="AI research and engineering focus">
