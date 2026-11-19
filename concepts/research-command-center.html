@@ -1,8 +1,8 @@
 ---
 layout: null
 permalink: /
-title: "Zhiqiang You (Zach) | 尤志强 | AI Product & Engineering"
-description: "Zhiqiang You (Zhi-Qiang You, 尤志强, Zach) — Head of AI Product & Engineering. Explore research, publications and patents in AI agents, multimodal generation and reinforcement learning."
+title: "Zhiqiang You (Zach) | AI Product & Engineering"
+description: "Zhiqiang You (Zhi-Qiang You, Zach) — Head of AI Product & Engineering. Explore research, publications and patents in AI agents, multimodal generation and reinforcement learning."
 redirect_from:
   - /about/
   - /about.html
@@ -14,12 +14,12 @@ redirect_from:
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="description" content="{{ page.description | escape }}">
-  <meta name="author" content="Zhiqiang You (Zhi-Qiang You, 尤志强)">
+  <meta name="author" content="Zhiqiang You (Zhi-Qiang You)">
   <title>{{ page.title | escape }}</title>
   <link rel="canonical" href="{{ '/' | absolute_url }}">
   <meta property="og:type" content="website">
   <meta property="og:url" content="{{ '/' | absolute_url }}">
-  <meta property="og:site_name" content="Zhiqiang You (Zach) · 尤志强">
+  <meta property="og:site_name" content="Zhiqiang You (Zach)">
   <meta property="og:title" content="{{ page.title | escape }}">
   <meta property="og:description" content="{{ page.description | escape }}">
   <meta name="twitter:card" content="summary">
@@ -36,7 +36,7 @@ redirect_from:
         "@type": "Person",
         "@id": "{{ '/' | absolute_url }}#person",
         "name": "Zhiqiang You",
-        "alternateName": ["Zhi-Qiang You", "尤志强", "Zach"],
+        "alternateName": ["Zhi-Qiang You", "Zach"],
         "url": {{ '/' | absolute_url | jsonify }},
         "jobTitle": "Head of AI Product & Engineering",
         "description": "AI product and engineering leader working on AI agents, multimodal generation and reinforcement learning.",
@@ -46,7 +46,7 @@ redirect_from:
         "@type": "WebSite",
         "@id": "{{ '/' | absolute_url }}#website",
         "url": {{ '/' | absolute_url | jsonify }},
-        "name": "Zhiqiang You (Zach) · 尤志强",
+        "name": "Zhiqiang You (Zach)",
         "alternateName": "Zhi-Qiang You",
         "publisher": {"@id": "{{ '/' | absolute_url }}#person"}
       },
@@ -55,7 +55,7 @@ redirect_from:
         "@id": "{{ '/' | absolute_url }}#profile",
         "url": {{ '/' | absolute_url | jsonify }},
         "name": {{ page.title | jsonify }},
-        "inLanguage": ["en", "zh-CN"],
+        "inLanguage": "en",
         "isPartOf": {"@id": "{{ '/' | absolute_url }}#website"},
         "mainEntity": {"@id": "{{ '/' | absolute_url }}#person"}
       }
@@ -519,63 +519,61 @@ redirect_from:
       .footer-links { margin-top: 15px; }
     }
   </style>
+  <link rel="stylesheet" href="{{ '/assets/css/profile-refresh.css' | relative_url }}">
 </head>
 <body>
   <nav class="site-nav" aria-label="Primary navigation">
     <div class="nav-inner wrap">
-      <a class="nav-identity" href="#top"><span data-en>AI Research &amp; Engineering</span><span data-zh>AI研究与工程</span></a>
+      <a class="nav-identity" href="#top"><span>AI Research &amp; Engineering</span></a>
       <div class="nav-links">
-        <a href="#publications"><span data-en>Publications</span><span data-zh>学术论文</span></a>
-        <a href="#patents"><span data-en>Patents</span><span data-zh>发明专利</span></a>
-        <a href="#honors"><span data-en>Honors</span><span data-zh>荣誉获奖</span></a>
-        <button class="language" id="language-toggle" type="button">中文</button>
+        <a href="#publications"><span>Publications</span></a>
+        <a href="#patents"><span>Patents</span></a>
+        <a href="#honors"><span>Honors</span></a>
       </div>
     </div>
   </nav>
 
   <header class="hero" id="top">
     <div class="hero-inner wrap">
-      <h1 data-en>Zhi-Qiang You (Zach)</h1>
-      <h1 data-zh>尤志强 (Zach)</h1>
-      <p class="hero-overline" data-en>Head of AI Product &amp; Engineering</p>
-      <p class="hero-overline" data-zh>AI业务产研负责人</p>
-      <p class="hero-copy" data-en>I'm Zhiqiang You (Zhi-Qiang You, 尤志强), also known as Zach. I lead AI Product &amp; Engineering at an AI startup, with an AI applications business line spanning agentic systems, multimodal generation and reinforcement learning. I have long worked on AI algorithms and applications, with earlier research and engineering focused on natural language processing, distributed machine learning and foundational infrastructure.</p>
-      <p class="hero-copy" data-zh>我是尤志强（Zhiqiang You / Zhi-Qiang You），也叫 Zach。现任一家AI初创公司AI产品研发负责人，负责智能体、多模态生成与强化学习方向的AI应用业务线。长期从事AI算法及应用研发，早期主要聚焦自然语言处理、分布式机器学习与底层基础设施。</p>
+      <div class="hero-introduction">
+      <h1>Zhi-Qiang<br>You<span class="hero-alias">(Zach)</span></h1>
+
+      <p class="hero-overline">Head of AI Product &amp; Engineering</p>
+
+      <p class="hero-copy">I'm Zhiqiang You (Zhi-Qiang You), also known as Zach. I lead AI Product &amp; Engineering at an AI startup, bringing research in agentic systems, multimodal generation and reinforcement learning into real-world applications.</p>
+
 
       <div class="focus-tags" aria-label="Research focus">
-        <span><span data-en>Agentic AI</span><span data-zh>智能体</span></span>
-        <span><span data-en>Multimodal Generation</span><span data-zh>多模态生成</span></span>
-        <span><span data-en>Reinforcement Learning</span><span data-zh>强化学习</span></span>
-        <span><span data-en>Large Language Models</span><span data-zh>大模型</span></span>
-        <span><span data-en>AI Applications</span><span data-zh>AI应用</span></span>
-        <span><span data-en>Natural Language Processing</span><span data-zh>自然语言处理</span></span>
-        <span><span data-en>Distributed Machine Learning</span><span data-zh>分布式机器学习</span></span>
-        <span><span data-en>AI Infrastructure</span><span data-zh>AI基础设施</span></span>
-        <span><span data-en>Privacy Computing</span><span data-zh>隐私计算</span></span>
+        <span><span>Agentic AI</span></span>
+        <span><span>Multimodal Generation</span></span>
+        <span><span>Reinforcement Learning</span></span>
       </div>
 
       <div class="hero-links">
-        <a class="text-link" href="#publications"><span data-en>View publications</span><span data-zh>查看学术论文</span></a>
-        <a class="text-link" href="#patents"><span data-en>Explore patents</span><span data-zh>查看发明专利</span></a>
-        <a class="text-link" href="{{ site.author.googlescholar | escape }}"><span data-en>Google Scholar</span><span data-zh>谷歌学术</span></a>
+        <a class="text-link" href="#publications"><span>Publications</span></a>
+        <a class="text-link" href="#patents"><span>Patents</span></a>
+        <a class="text-link" href="{{ site.author.googlescholar | escape }}"><span>Google Scholar</span></a>
       </div>
+      </div>
+      <aside class="hero-manifesto" aria-label="AI research and engineering focus">
+        <p class="manifesto-title"><span>Intelligence,<br><em>in practice.</em></span></p>
+        <img class="research-field" src="{{ '/assets/images/research-field.svg' | relative_url }}" alt="" width="600" height="480">
+      </aside>
     </div>
   </header>
 
   <section class="impact">
     <div class="impact-grid wrap">
-      <div class="impact-item"><strong>11</strong><span data-en>Publications</span><span data-zh>学术论文</span></div>
-      <div class="impact-item"><strong>31</strong><span data-en>Granted patents</span><span data-zh>授权发明专利</span></div>
-      <div class="impact-item"><strong>11</strong><span data-en>Software copyrights</span><span data-zh>软件著作权</span></div>
-      <div class="impact-item"><strong>19+</strong><span data-en>Major honors</span><span data-zh>重要荣誉</span></div>
+      <div class="impact-item"><strong>11</strong><span>Publications</span></div>
+      <div class="impact-item"><strong>31</strong><span>Granted patents</span></div>
+      <div class="impact-item"><strong>11</strong><span>Software copyrights</span></div>
+      <div class="impact-item"><strong>19+</strong><span>Major honors</span></div>
     </div>
   </section>
 
   <main class="profile-archive">
     <div class="profile-content wrap">
-      {% assign source_page = site.pages | where: "path", "_pages/about.md" | first %}
-      {% capture source_content %}{{ source_page.content | markdownify }}{% endcapture %}
-      {{ source_content }}
+      {% include research-archive.html %}
     </div>
   </main>
 
@@ -583,23 +581,5 @@ redirect_from:
     <div class="footer-inner wrap"><span>Copyright © 2026 Zhi-Qiang You (Zach). All rights reserved.</span></div>
   </footer>
 
-  <script>
-    const languageToggle = document.getElementById('language-toggle');
-    languageToggle.addEventListener('click', () => {
-      const chinese = document.body.classList.toggle('zh');
-      document.documentElement.lang = chinese ? 'zh-CN' : 'en';
-      languageToggle.textContent = chinese ? 'EN' : '中文';
-      const translatedAnchors = {
-        '#publications': '#publications-zh',
-        '#patents': '#patents-zh',
-        '#honors': '#honors-zh'
-      };
-      document.querySelectorAll('a[href^="#"]').forEach((link) => {
-        const originalHref = link.dataset.originalHref || link.getAttribute('href');
-        link.dataset.originalHref = originalHref;
-        link.setAttribute('href', chinese && translatedAnchors[originalHref] ? translatedAnchors[originalHref] : originalHref);
-      });
-    });
-  </script>
 </body>
 </html>

@@ -1,0 +1,96 @@
+<section class="archive-section" id="publications" aria-labelledby="publications-heading">
+  <header class="archive-heading">
+    <h2 id="publications-heading">Publications</h2>
+    <span class="archive-count">{{ site.data.profile.publications.size }}</span>
+    <a class="archive-scholar" href="{{ site.author.googlescholar | escape }}">Google Scholar ↗</a>
+  </header>
+  <div class="archive-body">
+    {% for paper in site.data.profile.publications %}
+      {% if forloop.index == 4 %}
+      <details class="archive-more">
+        <summary>All {{ site.data.profile.publications.size }} publications <span class="expand-symbol" aria-hidden="true">+</span></summary>
+        <div class="expanded-entries">
+      {% endif %}
+      <article class="paper-entry">
+        <span class="entry-number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span>
+        <div>
+          <h3>{{ paper.title | escape }}</h3>
+          <div class="achievement-badges"><span class="achievement-badge">{{ paper.publication_type | escape }}</span>{% if paper.author_role %}<span class="achievement-badge badge-role">{{ paper.author_role | escape }}</span>{% endif %}</div>
+          <div class="entry-authors">{{ paper.authors | markdownify }}</div>
+          <div class="entry-venue">{{ paper.details | markdownify }}</div>
+        </div>
+      </article>
+      {% if forloop.last %}</div></details>{% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="archive-section" id="patents" aria-labelledby="patents-heading">
+  <header class="archive-heading">
+    <h2 id="patents-heading">Patents</h2>
+    <span class="archive-count">{{ site.data.profile.patents.size }}</span>
+  </header>
+  <div class="archive-body">
+    <div class="patent-grid">
+    {% for patent in site.data.profile.patents %}
+      {% if forloop.index == 5 %}
+      </div>
+      <details class="archive-more">
+        <summary>All {{ site.data.profile.patents.size }} granted patents <span class="expand-symbol" aria-hidden="true">+</span></summary>
+        <div class="patent-grid expanded-entries">
+      {% endif %}
+      <article class="patent-entry">
+        <div class="patent-topline"><span class="entry-number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span><span class="granted-status">Granted invention</span></div>
+        <h3>{{ patent.title | escape }}</h3>
+        <div class="entry-venue">{{ patent.details | markdownify }}</div>
+        <details class="inventor-details"><summary>Inventors</summary><div class="entry-authors">{{ patent.authors | markdownify }}</div></details>
+      </article>
+      {% if forloop.last %}</div></details>{% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="archive-section" id="software-en" aria-labelledby="software-heading">
+  <header class="archive-heading">
+    <h2 id="software-heading">Software<br> Copyrights <span class="heading-qualifier">(Lead)</span></h2>
+    <span class="archive-count">{{ site.data.profile.software.size }}</span>
+  </header>
+  <div class="archive-body">
+    <div class="software-grid">
+    {% for software in site.data.profile.software %}
+      {% if forloop.index == 5 %}
+      </div>
+      <details class="archive-more">
+        <summary>All {{ site.data.profile.software.size }} software copyrights <span class="expand-symbol" aria-hidden="true">+</span></summary>
+        <div class="software-grid expanded-entries">
+      {% endif %}
+      <article class="software-entry">
+        <time datetime="{{ software.date }}">{{ software.date | date: "%b %d, %Y" }}</time>
+        <h3>{{ software.title | escape }}</h3>
+        <span class="registration-number">{{ software.registration | escape }}</span>
+      </article>
+      {% if forloop.last %}</div></details>{% endif %}
+    {% endfor %}
+  </div>
+</section>
+
+<section class="archive-section" id="honors" aria-labelledby="honors-heading">
+  <header class="archive-heading">
+    <h2 id="honors-heading">Honors<br> &amp; Awards</h2>
+    <span class="archive-count">{{ site.data.profile.honors.size }}</span>
+  </header>
+  <div class="archive-body honors-timeline">
+    {% for honor in site.data.profile.honors %}
+      {% if forloop.index == 6 %}
+      <details class="archive-more">
+        <summary>All {{ site.data.profile.honors.size }} honors &amp; awards <span class="expand-symbol" aria-hidden="true">+</span></summary>
+        <div class="expanded-entries">
+      {% endif %}
+      <article class="honor-entry">
+        <time datetime="{{ honor.year }}">{{ honor.year }}</time>
+        <div>{% if honor.recognition %}<div class="achievement-badges honor-badges"><span class="achievement-badge badge-{{ honor.recognition_kind }}">{{ honor.recognition | escape }}</span></div>{% endif %}{{ honor.description | markdownify }}</div>
+      </article>
+      {% if forloop.last %}</div></details>{% endif %}
+    {% endfor %}
+  </div>
+</section>
