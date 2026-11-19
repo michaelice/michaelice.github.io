@@ -40,7 +40,7 @@ redirect_from:
         "url": {{ '/' | absolute_url | jsonify }},
         "jobTitle": "Head of AI Product & Engineering",
         "description": "AI product and engineering leader working on AI agents, multimodal generation and reinforcement learning.",
-        "sameAs": [{{ site.author.csdn | jsonify }}]
+        "sameAs": [{{ site.author.csdn | jsonify }}, {{ site.author.googlescholar | jsonify }}]
       },
       {
         "@type": "WebSite",
@@ -557,6 +557,7 @@ redirect_from:
       <div class="hero-links">
         <a class="text-link" href="#publications"><span data-en>View publications</span><span data-zh>查看学术论文</span></a>
         <a class="text-link" href="#patents"><span data-en>Explore patents</span><span data-zh>查看发明专利</span></a>
+        <a class="text-link" href="{{ site.author.googlescholar | escape }}"><span data-en>Google Scholar</span><span data-zh>谷歌学术</span></a>
       </div>
     </div>
   </header>
