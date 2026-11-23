@@ -285,6 +285,12 @@
   "honors": [
     {
       "year": "2026",
+      "description": "Core team member (ranked second) of DeskClaw: A Human–AI Collaborative Platform for Digital Organization Management and a Productivity Engine — awarded district-level project funding under the 2026 Xihu District \"Qingniao Plan\" (青鸟计划), Hangzhou",
+      "recognition": "District-level project funding",
+      "recognition_kind": "district"
+    },
+    {
+      "year": "2026",
       "description": "Top 3 Intelligent Innovation Pioneer Award in the Intelligent Innovation Case Session of the Douyin E-commerce \"Zhiyào Xinghe\" 618 Service Provider Case Competition",
       "recognition": "Industry award",
       "recognition_kind": "industry"
@@ -303,9 +309,9 @@
     },
     {
       "year": "2024",
-      "description": "Nominated for National Cryptography Science and Technology Award",
-      "recognition": "Award nomination",
-      "recognition_kind": "nomination"
+      "description": "Nominated for the Party and Government Confidential Cryptography Science and Technology Award (党政机要密码科学技术奖)",
+      "recognition": "Major cryptography science & technology award nomination",
+      "recognition_kind": "academic"
     },
     {
       "year": "2023",

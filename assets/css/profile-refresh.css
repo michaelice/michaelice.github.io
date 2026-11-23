@@ -131,7 +131,7 @@ footer { background: var(--soft); }
 .badge-academic { color: #655681; background: #ede8f2; border-color: #d4c9e2; }
 .badge-university { color: #5b6572; background: #e9edf1; border-color: #cdd5de; }
 .badge-professional { color: #5d5c78; background: #eaeaf2; border-color: #cfcfe0; }
-.badge-municipal { color: #526e5e; background: #e8eee5; border-color: #cbd8c5; }
+.badge-municipal, .badge-district { color: #526e5e; background: #e8eee5; border-color: #cbd8c5; }
 .archive-more { margin-top: 22px; }
 .archive-more > summary { display: flex; justify-content: space-between; align-items: center; padding: 16px 0; border-top: 1px solid #b3c7bf; color: #176f60; font-size: 13px; font-weight: 550; cursor: pointer; list-style: none; }
 .archive-more > summary::-webkit-details-marker { display: none; }
