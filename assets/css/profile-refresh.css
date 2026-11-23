@@ -129,7 +129,7 @@ footer { background: var(--soft); }
 .badge-nomination { color: #686273; background: #edeaf0; border-color: #d9d3df; }
 .badge-industry { color: #315c70; background: #e4edf2; border-color: #bed1dd; }
 .badge-academic { color: #655681; background: #ede8f2; border-color: #d4c9e2; }
-.badge-university { color: #5b6572; background: #e9edf1; border-color: #cdd5de; }
+.badge-university, .badge-school { color: #5b6572; background: #e9edf1; border-color: #cdd5de; }
 .badge-professional { color: #5d5c78; background: #eaeaf2; border-color: #cfcfe0; }
 .badge-municipal, .badge-district { color: #526e5e; background: #e8eee5; border-color: #cbd8c5; }
 .archive-more { margin-top: 22px; }
