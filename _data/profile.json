@@ -70,6 +70,13 @@
   ],
   "patents": [
     {
+      "title": "Method for resource recommendation across multiple nodes",
+      "title_zh": "用于在多个节点中进行资源推荐的方法",
+      "authors": "**Zhi-Qiang You**, Dong Zhao, Yunbo Yang, Xiaojuan Cai, Zhaokai Wang, Jifeng Du, Lifeng Chen, Xiaochao Sun, Huayu Zhao, Qian Wei, Hao Du, Yang Bian, Weiqi Zhang",
+      "status": "Notice of grant issued",
+      "details": "Chinese Invention Patent, Publication No.: CN117609621A; Application No.: 202311625862.9; Notice of Grant Date: 2026.11.18"
+    },
+    {
       "title": "Method for filtering datasets from multiple dataset nodes",
       "authors": "**Zhi-Qiang You**, Zhaokai Wang, Dong Zhao, Lifeng Chen, Xiaochao Sun, Huayu Zhao, Qian Wei, Hao Du, Yang Bian, Weiqi Zhang",
       "details": "Chinese Invention Patent, CN117493630B, Announcement Date: 2026.09.29; Application No.: 202311595088.1"

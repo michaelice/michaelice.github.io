@@ -36,11 +36,11 @@
       {% if forloop.index == 5 %}
       </div>
       <details class="archive-more">
-        <summary>All {{ site.data.profile.patents.size }} granted patents <span class="expand-symbol" aria-hidden="true">+</span></summary>
+        <summary>All {{ site.data.profile.patents.size }} patents <span class="expand-symbol" aria-hidden="true">+</span></summary>
         <div class="patent-grid expanded-entries">
       {% endif %}
       <article class="patent-entry">
-        <div class="patent-topline"><span class="entry-number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span><span class="granted-status">Granted invention</span></div>
+        <div class="patent-topline"><span class="entry-number">{% if forloop.index < 10 %}0{% endif %}{{ forloop.index }}</span><span class="granted-status">{{ patent.status | default: "Granted invention" | escape }}</span></div>
         <h3>{{ patent.title | escape }}</h3>
         <div class="entry-venue">{{ patent.details | markdownify }}</div>
         <details class="inventor-details"><summary>Inventors</summary><div class="entry-authors">{{ patent.authors | markdownify }}</div></details>
